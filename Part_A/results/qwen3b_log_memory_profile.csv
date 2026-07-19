@@ -1,0 +1,4 @@
+model,input_file,line_count,input_token_count,kv_seq_len,seq_match,num_layers,layer0_key_shape,layer0_value_shape,gpu,max_memory_gb,result
+Qwen/Qwen2.5-3B-Instruct,data\samples\open_source_logs_2000.txt,50,2571,2571,True,36,"(1, 2, 2571, 128)","(1, 2, 2571, 128)",NVIDIA GeForce RTX 5060 Ti,6.886263847351074,success
+Qwen/Qwen2.5-3B-Instruct,data\samples\open_source_logs_2000.txt,100,5414,5414,True,36,"(1, 2, 5414, 128)","(1, 2, 5414, 128)",NVIDIA GeForce RTX 5060 Ti,10.24677324295044,success
+Qwen/Qwen2.5-3B-Instruct,data\samples\open_source_logs_2000.txt,200,10878,10878,True,36,"(1, 2, 10878, 128)","(1, 2, 10878, 128)",NVIDIA GeForce RTX 5060 Ti,22.96531391143799,success
