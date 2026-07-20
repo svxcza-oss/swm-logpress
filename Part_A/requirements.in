@@ -1,0 +1,51 @@
+﻿# A Track 패키지 의도 목록
+
+이 파일은 실제 고정 버전 파일이 아닙니다.
+
+이 파일은 RunPod/Linux 환경에서 사용할 예정인 패키지 목록과 대략적인 버전 범위를 정리한 문서입니다.
+
+Windows에서 만든 `pip freeze` 결과를 RunPod에 그대로 사용하면 안 됩니다.
+RunPod는 Linux 환경이므로, 실제 고정 버전 파일은 RunPod에서 설치와 검증이 끝난 뒤 생성해야 합니다.
+
+실제 RunPod 고정 파일은 나중에 아래 명령어로 생성합니다.
+
+pip freeze > requirements-runpod-freeze.txt
+
+주의:
+- 이 파일은 lock 파일이 아닙니다.
+- Windows 전용 패키지나 CUDA 빌드 태그는 넣지 않습니다.
+- `+cu128` 같은 CUDA 태그는 여기 적지 않습니다.
+
+## 핵심 딥러닝 / 추론 패키지
+
+torch>=2.6,<2.9
+transformers>=4.50,<5
+accelerate>=1.0,<2
+huggingface_hub>=0.30,<1
+safetensors>=0.4,<1
+sentencepiece>=0.2,<1
+protobuf>=5,<7
+
+## KV cache 압축 / 긴 문맥 실험 패키지
+
+kvpress
+flash-attn>=2,<3
+
+## 양자화 실험 패키지
+
+bitsandbytes>=0.45,<1
+
+## 로그 파싱 / 데이터 처리 패키지
+
+drain3>=0.9,<1
+numpy>=1.26,<3
+pandas>=2.2,<3
+scipy>=1.13,<2
+scikit-learn>=1.5,<2
+statsmodels>=0.14,<1
+
+## 실험 보조 패키지
+
+tqdm>=4.66,<5
+matplotlib>=3.8,<4
+jupyter>=1,<2
