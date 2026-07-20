@@ -15,10 +15,11 @@ Verify whether kvpress actually reduces the `past_key_values` sequence length in
 
 - Model: `Qwen/Qwen2.5-3B-Instruct`
 - Press: `KnormPress(compression_ratio=0.5)`
-- torch version: `2.8.0`
+- torch version: `2.8.0+cu128`
+- torch CUDA version: `12.8`
 - numpy version: `2.4.6`
-- GPU: `N/A`
-- CUDA available: `False`
+- GPU: `NVIDIA GeForce RTX 5060 Ti`
+- CUDA available: `True`
 - Input token count: `48`
 
 ## Input Text
@@ -53,7 +54,7 @@ Verify whether kvpress actually reduces the `past_key_values` sequence length in
 - Before seq_len: `48`
 - After seq_len: `24`
 - Compressed: `True`
-- Max memory allocated GB: `N/A`
+- Max memory allocated GB: `5.786744594573975`
 
 ## Interpretation
 
