@@ -1,22 +1,54 @@
 ﻿# A Track 패키지 의도 목록
-
-이 파일은 실제 고정 버전 파일이 아닙니다.
-
-이 파일은 RunPod/Linux 환경에서 사용할 예정인 패키지 목록과 대략적인 버전 범위를 정리한 문서입니다.
-
-Windows에서 만든 `pip freeze` 결과를 RunPod에 그대로 사용하면 안 됩니다.
-RunPod는 Linux 환경이므로, 실제 고정 버전 파일은 RunPod에서 설치와 검증이 끝난 뒤 생성해야 합니다.
-
-실제 RunPod 고정 파일은 나중에 아래 명령어로 생성합니다.
-
-pip freeze > requirements-runpod-freeze.txt
-
-주의:
-- 이 파일은 lock 파일이 아닙니다.
-- Windows 전용 패키지나 CUDA 빌드 태그는 넣지 않습니다.
-- `+cu128` 같은 CUDA 태그는 여기 적지 않습니다.
-
-## 핵심 딥러닝 / 추론 패키지
+#
+# 이 파일은 실제 고정 버전 파일이 아닙니다.
+# 이 파일은 RunPod/Linux 환경에서 사용할 예정인 패키지 목록과 대략적인 버전 범위를 정리한 문서입니다.
+#
+# Windows에서 만든 pip freeze 결과를 RunPod에 그대로 사용하면 안 됩니다.
+# RunPod는 Linux 환경이므로, 실제 고정 버전 파일은 RunPod에서 설치와 검증이 끝난 뒤 생성해야 합니다.
+#
+# 실제 RunPod 고정 파일은 나중에 아래 명령어로 생성합니다.
+#
+# pip freeze > requirements-runpod-freeze.txt
+#
+# 주의:
+# - 이 파일은 lock 파일이 아닙니다.
+# - Windows 전용 패키지나 CUDA 빌드 태그는 넣지 않습니다.
+# - +cu128 같은 CUDA 태그는 여기 적지 않습니다.
+# - 실제 고정 버전은 RunPod/Linux에서 설치와 검증이 끝난 뒤 requirements-runpod-freeze.txt에 기록합니다.
+#
+# 버전 결정 메모
+#
+# transformers:
+# - transformers는 4.x 계열을 1차 검증 대상으로 둡니다.
+# - 기존 로컬 freeze 기준 transformers==5.2.0 환경에서는 Qwen 3B 로드와 past_key_values 접근을 확인했습니다.
+# - 이후 별도 .venv-tf4 CUDA 환경에서 transformers 4.57.6 + kvpress==0.5.4 조합으로
+#   Qwen 3B kvpress shape 압축 테스트를 수행했습니다.
+# - 테스트 결과는 Part_A/results/kvpress_tf4_shape_result.md에 기록했습니다.
+# - 해당 결과에서 압축 후 layer0 KV seq_len이 압축 전보다 감소하여,
+#   로컬 CUDA tf4 환경 기준 kvpress 압축 호환성을 확인했습니다.
+# - 다만 RunPod/Linux 공식 실험 환경에서는 동일 조합으로 한 번 더 재검증합니다.
+# - transformers 5.x는 내부 cache 구조나 attention 구현이 바뀔 수 있으므로,
+#   RunPod 1차 검증 전까지는 <5로 제한합니다.
+#
+# kvpress:
+# - kvpress는 0.5.4로 고정합니다.
+# - 별도 .venv-tf4 CUDA 환경에서 kvpress==0.5.4를 사용해 shape 압축 테스트를 수행했습니다.
+# - kvpress는 transformers와의 호환성이 중요하므로,
+#   업데이트로 인한 cache 처리 방식 변경을 피하기 위해 의도 목록 단계에서도 버전을 명시합니다.
+#
+# numpy:
+# - numpy는 2.x 계열로 경계를 확정합니다.
+# - 현재 로컬 환경이 numpy 2.x 계열이고, RunPod/Linux 환경도 numpy 2.x 기준으로 맞춥니다.
+# - 따라서 scipy, pandas, scikit-learn, statsmodels도 numpy 2.x와 함께 검증하는 방향으로 둡니다.
+#
+# quantization:
+# - bitsandbytes 기반 8bit/4bit 모델 양자화는 후보 실험으로 유지합니다.
+# - 다만 Windows 로컬에서는 8bit forward가 지나치게 느렸으므로,
+#   공식 양자화 검증은 RunPod/Linux 환경에서 진행합니다.
+#
+# flash-attn:
+# - flash-attn은 Linux/CUDA 환경에서 검증합니다.
+# - Windows 로컬 freeze에는 포함하지 않습니다.
 
 torch>=2.6,<2.9
 transformers>=4.50,<5
@@ -26,25 +58,17 @@ safetensors>=0.4,<1
 sentencepiece>=0.2,<1
 protobuf>=5,<7
 
-## KV cache 압축 / 긴 문맥 실험 패키지
-
-kvpress
+kvpress==0.5.4
 flash-attn>=2,<3
-
-## 양자화 실험 패키지
 
 bitsandbytes>=0.45,<1
 
-## 로그 파싱 / 데이터 처리 패키지
-
 drain3>=0.9,<1
-numpy>=1.26,<3
+numpy>=2,<3
 pandas>=2.2,<3
-scipy>=1.13,<2
+scipy>=1.14,<2
 scikit-learn>=1.5,<2
 statsmodels>=0.14,<1
-
-## 실험 보조 패키지
 
 tqdm>=4.66,<5
 matplotlib>=3.8,<4
