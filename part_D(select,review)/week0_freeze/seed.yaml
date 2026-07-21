@@ -1,0 +1,6 @@
+
+//이숫자는 랜덤값. 그냥 테스트전에 정해놓고 시작하는것. 시드값 고정.
+seed: 42 
+permutation_test : 0
+bootstrap_cluster : 13
+logreg_split : 84
