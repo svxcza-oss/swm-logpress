@@ -18,10 +18,21 @@ inputs = tokenizer(
 
 model.to("cuda")
 inputs.to("cuda")
+model.eval()
 
 with torch.no_grad():
     outputs = model(**inputs)
 
+press = StreamingLLMPress(compression_ratio=0.5)
 
+with torch.no_grad(), press(model):
+    press_outputs = model(**inputs)
+
+
+print("Input tokens: ", inputs["input_ids"].shape[1])
+
+print("Full KV: ")
 print(outputs.past_key_values.layers[0].keys.shape)
-print(outputs.past_key_values.layers[0].values.shape)
+
+print("StreamingLLM KV: ")
+print(press_outputs.past_key_values.layers[0].keys.shape)
