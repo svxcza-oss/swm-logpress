@@ -60,9 +60,9 @@ LogPress는 이를 보존한다.* 보존율 채점기는 이 가설을 검정 �
 
 ## 4. Scoring 로직 (완료분)
 
-### 4.1 보존 판정 기준 (`rule='any'`)
+### 4.1 보존 판정 기준 (`rule='any'`, 한 줄의 토큰이 하나라도 살면 그 줄은 보존된 것으로 침)
 
-cause line 하나는 다수 토큰으로 subword tokenization된다. 프로젝트는 **구성 토큰 중
+cause line 하나는 다수 토큰으로 subword tokenization(한줄이 여러조각으로 쪼개짐)된다. 프로젝트는 **구성 토큰 중
 하나라도 keep mask에서 생존하면 해당 line을 보존**으로 판정한다(`rule='any'`). 아래 코드는
 line 단위 생존/사망으로 축약한 형태이며, 실 파이프라인에서는 token-to-line mapping을 경유해
 이 규칙이 적용된다.
@@ -93,7 +93,7 @@ for i in cause:
         mid_position.append(i)
 ```
 
-### 4.4 Stratified aggregation
+### 4.4 Stratified aggregation(각 층에서 보존율 측정)
 
 scoring 로직은 불변, target stratum만 교체한다.
 
@@ -150,13 +150,16 @@ C의 실제 keep mask·mapping 인계 시 §5의 mock 입력을 교체해 실측
 ## 7. Next steps
 
 1. **Data loading (A)** — 하드코딩된 `cause`·`keep`을 실제 파일 입력으로 전환. 저난도 작업.
-2. **Comparison & verdict (C)** — paired **McNemar test**로 LogPress vs baseline 우열을
-   검정하고, multiple comparison이므로 **BH-FDR**로 보정. hard-case stratum에서 전 baseline
-   대비 유의(p_bh < 0.05) & 효과 방향 일치 시 **Tier-1 PASS**. 개념 부담이 크므로 선행 학습 필요.
-3. **Interface contract with C** — keep mask 포맷·coordinate frame, 공유 token-to-line mapping을
+2. **Interface contract with C** — keep mask 포맷·coordinate frame, 공유 token-to-line mapping을
    문서로 확정. 8주차 산출물 인계 전 완료.
 
 ---
+
+# 층이란 무엇인가?
+* 같은 원인 줄들을 "분류 기준"으로 묶은 그룹
+overall = 100개 전부
+non_error = 그 100개 중 ERROR 아닌 것만 (예: 30개)
+middle = 그 100개 중 중간 위치인 것만 (예: 25개)
 
 ## 부록 A. 용어 해설 (평이한 설명)
 
