@@ -1,0 +1,473 @@
+1133737261 2005.12.04 dn679 Dec 4 15:01:01 dn679/dn679 crond(pam_unix)[30262]: session closed for user root
+1133737261 2005.12.04 dn679 Dec 4 15:01:01 dn679/dn679 crond(pam_unix)[30262]: session opened for user root by (uid=0)
+1133737261 2005.12.04 dn679 Dec 4 15:01:01 dn679/dn679 crond[30263]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 dn680 Dec 4 15:01:01 dn680/dn680 crond(pam_unix)[30259]: session closed for user root
+1133737261 2005.12.04 dn684 Dec 4 15:01:01 dn684/dn684 crond(pam_unix)[30242]: session closed for user root
+1133737261 2005.12.04 dn686 Dec 4 15:01:01 dn686/dn686 crond(pam_unix)[30268]: session closed for user root
+1133737261 2005.12.04 dn686 Dec 4 15:01:01 dn686/dn686 crond(pam_unix)[30268]: session opened for user root by (uid=0)
+1133737261 2005.12.04 dn686 Dec 4 15:01:01 dn686/dn686 crond[30269]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 dn690 Dec 4 15:01:01 dn690/dn690 crond[30265]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 dn696 Dec 4 15:01:01 dn696/dn696 crond(pam_unix)[30408]: session opened for user root by (uid=0)
+1133737261 2005.12.04 dn698 Dec 4 15:01:01 dn698/dn698 crond(pam_unix)[31076]: session opened for user root by (uid=0)
+1133737261 2005.12.04 dn699 Dec 4 15:01:01 dn699/dn699 crond(pam_unix)[30331]: session closed for user root
+1133737261 2005.12.04 dn7 Dec 4 15:01:01 dn7/dn7 crond(pam_unix)[29795]: session opened for user root by (uid=0)
+1133737261 2005.12.04 dn701 Dec 4 15:01:01 dn701/dn701 crond(pam_unix)[31077]: session closed for user root
+1133737261 2005.12.04 dn703 Dec 4 15:01:01 dn703/dn703 crond(pam_unix)[31088]: session opened for user root by (uid=0)
+1133737261 2005.12.04 dn703 Dec 4 15:01:01 dn703/dn703 crond[31089]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 dn704 Dec 4 15:01:01 dn704/dn704 crond(pam_unix)[31087]: session opened for user root by (uid=0)
+1133737261 2005.12.04 dn704 Dec 4 15:01:01 dn704/dn704 crond[31088]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 dn714 Dec 4 15:01:01 dn714/dn714 crond(pam_unix)[31106]: session closed for user root
+1133737261 2005.12.04 dn722 Dec 4 15:01:01 dn722/dn722 crond[31104]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 dn730 Dec 4 15:01:01 dn730/dn730 crond(pam_unix)[31235]: session opened for user root by (uid=0)
+1133737261 2005.12.04 dn730 Dec 4 15:01:01 dn730/dn730 crond[31236]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 dn740 Dec 4 15:01:01 dn740/dn740 crond(pam_unix)[28356]: session closed for user root
+1133737261 2005.12.04 dn754 Dec 4 15:01:01 dn754/dn754 crond(pam_unix)[28333]: session closed for user root
+1133737261 2005.12.04 dn754 Dec 4 15:01:01 dn754/dn754 crond(pam_unix)[28333]: session opened for user root by (uid=0)
+1133737261 2005.12.04 dn754 Dec 4 15:01:01 dn754/dn754 crond[28334]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 dn76 Dec 4 15:01:01 dn76/dn76 crond(pam_unix)[29807]: session closed for user root
+1133737261 2005.12.04 dn762 Dec 4 15:01:01 dn762/dn762 crond(pam_unix)[31294]: session opened for user root by (uid=0)
+1133737261 2005.12.04 dn762 Dec 4 15:01:01 dn762/dn762 crond[31295]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 dn770 Dec 4 15:01:01 dn770/dn770 crond(pam_unix)[31282]: session opened for user root by (uid=0)
+1133737261 2005.12.04 dn770 Dec 4 15:01:01 dn770/dn770 crond[31283]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 dn776 Dec 4 15:01:01 dn776/dn776 crond(pam_unix)[30783]: session opened for user root by (uid=0)
+1133737261 2005.12.04 dn776 Dec 4 15:01:01 dn776/dn776 crond[30784]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 dn782 Dec 4 15:01:01 dn782/dn782 crond(pam_unix)[30723]: session closed for user root
+1133737261 2005.12.04 dn782 Dec 4 15:01:01 dn782/dn782 crond(pam_unix)[30723]: session opened for user root by (uid=0)
+1133737261 2005.12.04 dn785 Dec 4 15:01:01 dn785/dn785 crond(pam_unix)[30713]: session opened for user root by (uid=0)
+1133737261 2005.12.04 dn786 Dec 4 15:01:01 dn786/dn786 crond(pam_unix)[30725]: session closed for user root
+1133737261 2005.12.04 dn786 Dec 4 15:01:01 dn786/dn786 crond(pam_unix)[30725]: session opened for user root by (uid=0)
+1133737261 2005.12.04 dn786 Dec 4 15:01:01 dn786/dn786 crond[30726]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 dn787 Dec 4 15:01:01 dn787/dn787 crond(pam_unix)[30711]: session opened for user root by (uid=0)
+1133737261 2005.12.04 dn79 Dec 4 15:01:01 dn79/dn79 crond(pam_unix)[29805]: session closed for user root
+1133737261 2005.12.04 dn79 Dec 4 15:01:01 dn79/dn79 crond(pam_unix)[29805]: session opened for user root by (uid=0)
+1133737261 2005.12.04 dn79 Dec 4 15:01:01 dn79/dn79 crond[29806]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 dn792 Dec 4 15:01:01 dn792/dn792 crond(pam_unix)[30689]: session closed for user root
+1133737261 2005.12.04 dn792 Dec 4 15:01:01 dn792/dn792 crond(pam_unix)[30689]: session opened for user root by (uid=0)
+1133737261 2005.12.04 dn795 Dec 4 15:01:01 dn795/dn795 crond(pam_unix)[30550]: session closed for user root
+1133737261 2005.12.04 dn796 Dec 4 15:01:01 dn796/dn796 crond(pam_unix)[30545]: session opened for user root by (uid=0)
+1133737261 2005.12.04 dn797 Dec 4 15:01:01 dn797/dn797 crond(pam_unix)[30550]: session closed for user root
+1133737261 2005.12.04 dn8 Dec 4 15:01:01 dn8/dn8 crond(pam_unix)[29789]: session opened for user root by (uid=0)
+1133737261 2005.12.04 dn80 Dec 4 15:01:01 dn80/dn80 crond(pam_unix)[29881]: session opened for user root by (uid=0)
+1133737261 2005.12.04 dn801 Dec 4 15:01:01 dn801/dn801 crond(pam_unix)[28327]: session closed for user root
+1133737261 2005.12.04 dn801 Dec 4 15:01:01 dn801/dn801 crond(pam_unix)[28327]: session opened for user root by (uid=0)
+1133737261 2005.12.04 dn801 Dec 4 15:01:01 dn801/dn801 crond[28328]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 dn809 Dec 4 15:01:01 dn809/dn809 crond[30163]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 dn81 Dec 4 15:01:01 dn81/dn81 crond(pam_unix)[29797]: session opened for user root by (uid=0)
+1133737261 2005.12.04 dn81 Dec 4 15:01:01 dn81/dn81 crond[29798]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 dn810 Dec 4 15:01:01 dn810/dn810 crond(pam_unix)[32546]: session closed for user root
+1133737261 2005.12.04 dn813 Dec 4 15:01:01 dn813/dn813 crond(pam_unix)[30263]: session closed for user root
+1133737261 2005.12.04 dn815 Dec 4 15:01:01 dn815/dn815 crond(pam_unix)[28329]: session opened for user root by (uid=0)
+1133737261 2005.12.04 dn819 Dec 4 15:01:01 dn819/dn819 crond(pam_unix)[28355]: session closed for user root
+1133737261 2005.12.04 dn819 Dec 4 15:01:01 dn819/dn819 crond(pam_unix)[28355]: session opened for user root by (uid=0)
+1133737261 2005.12.04 dn819 Dec 4 15:01:01 dn819/dn819 crond[28356]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 dn820 Dec 4 15:01:01 dn820/dn820 crond(pam_unix)[28354]: session closed for user root
+1133737261 2005.12.04 dn820 Dec 4 15:01:01 dn820/dn820 crond(pam_unix)[28354]: session opened for user root by (uid=0)
+1133737261 2005.12.04 dn821 Dec 4 15:01:01 dn821/dn821 crond(pam_unix)[28338]: session opened for user root by (uid=0)
+1133737261 2005.12.04 dn826 Dec 4 15:01:01 dn826/dn826 crond(pam_unix)[30472]: session opened for user root by (uid=0)
+1133737261 2005.12.04 dn828 Dec 4 15:01:01 dn828/dn828 crond(pam_unix)[30587]: session opened for user root by (uid=0)
+1133737261 2005.12.04 dn83 Dec 4 15:01:01 dn83/dn83 crond(pam_unix)[29808]: session closed for user root
+1133737261 2005.12.04 dn84 Dec 4 15:01:01 dn84/dn84 crond(pam_unix)[29806]: session closed for user root
+1133737261 2005.12.04 dn846 Dec 4 15:01:01 dn846/dn846 crond(pam_unix)[30289]: session opened for user root by (uid=0)
+1133737261 2005.12.04 dn849 Dec 4 15:01:01 dn849/dn849 crond(pam_unix)[30350]: session closed for user root
+1133737261 2005.12.04 dn85 Dec 4 15:01:01 dn85/dn85 crond[29798]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 dn850 Dec 4 15:01:01 dn850/dn850 crond(pam_unix)[30369]: session closed for user root
+1133737261 2005.12.04 dn850 Dec 4 15:01:01 dn850/dn850 crond(pam_unix)[30369]: session opened for user root by (uid=0)
+1133737261 2005.12.04 dn850 Dec 4 15:01:01 dn850/dn850 crond[30370]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 dn856 Dec 4 15:01:01 dn856/dn856 crond(pam_unix)[30277]: session opened for user root by (uid=0)
+1133737261 2005.12.04 dn856 Dec 4 15:01:01 dn856/dn856 crond[30278]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 dn859 Dec 4 15:01:01 dn859/dn859 crond(pam_unix)[30291]: session closed for user root
+1133737261 2005.12.04 dn86 Dec 4 15:01:01 dn86/dn86 crond[29812]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 dn861 Dec 4 15:01:01 dn861/dn861 crond(pam_unix)[30288]: session opened for user root by (uid=0)
+1133737261 2005.12.04 dn862 Dec 4 15:01:01 dn862/dn862 crond(pam_unix)[30337]: session closed for user root
+1133737261 2005.12.04 dn863 Dec 4 15:01:01 dn863/dn863 crond(pam_unix)[30833]: session closed for user root
+1133737261 2005.12.04 dn863 Dec 4 15:01:01 dn863/dn863 crond(pam_unix)[30833]: session opened for user root by (uid=0)
+1133737261 2005.12.04 dn869 Dec 4 15:01:01 dn869/dn869 crond(pam_unix)[30714]: session opened for user root by (uid=0)
+1133737261 2005.12.04 dn870 Dec 4 15:01:01 dn870/dn870 crond(pam_unix)[30712]: session closed for user root
+1133737261 2005.12.04 dn870 Dec 4 15:01:01 dn870/dn870 crond(pam_unix)[30712]: session opened for user root by (uid=0)
+1133737261 2005.12.04 dn870 Dec 4 15:01:01 dn870/dn870 crond[30713]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 dn872 Dec 4 15:01:01 dn872/dn872 crond(pam_unix)[30687]: session closed for user root
+1133737261 2005.12.04 dn875 Dec 4 15:01:01 dn875/dn875 crond(pam_unix)[30720]: session closed for user root
+1133737261 2005.12.04 dn878 Dec 4 15:01:01 dn878/dn878 crond(pam_unix)[31933]: session opened for user root by (uid=0)
+1133737261 2005.12.04 dn878 Dec 4 15:01:01 dn878/dn878 crond[31934]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 dn88 Dec 4 15:01:01 dn88/dn88 crond(pam_unix)[29797]: session closed for user root
+1133737261 2005.12.04 dn881 Dec 4 15:01:01 dn881/dn881 crond(pam_unix)[31984]: session closed for user root
+1133737261 2005.12.04 dn881 Dec 4 15:01:01 dn881/dn881 crond(pam_unix)[31984]: session opened for user root by (uid=0)
+1133737261 2005.12.04 dn883 Dec 4 15:01:01 dn883/dn883 crond(pam_unix)[32076]: session closed for user root
+1133737261 2005.12.04 dn883 Dec 4 15:01:01 dn883/dn883 crond(pam_unix)[32076]: session opened for user root by (uid=0)
+1133737261 2005.12.04 dn884 Dec 4 15:01:01 dn884/dn884 crond(pam_unix)[31994]: session closed for user root
+1133737261 2005.12.04 dn884 Dec 4 15:01:01 dn884/dn884 crond(pam_unix)[31994]: session opened for user root by (uid=0)
+1133737261 2005.12.04 dn884 Dec 4 15:01:01 dn884/dn884 crond[31995]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 dn887 Dec 4 15:01:01 dn887/dn887 crond(pam_unix)[32051]: session closed for user root
+1133737261 2005.12.04 dn887 Dec 4 15:01:01 dn887/dn887 crond(pam_unix)[32051]: session opened for user root by (uid=0)
+1133737261 2005.12.04 dn887 Dec 4 15:01:01 dn887/dn887 crond[32052]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 dn891 Dec 4 15:01:01 dn891/dn891 crond(pam_unix)[1040]: session opened for user root by (uid=0)
+1133737261 2005.12.04 dn897 Dec 4 15:01:01 dn897/dn897 crond(pam_unix)[30509]: session closed for user root
+1133737261 2005.12.04 dn897 Dec 4 15:01:01 dn897/dn897 crond(pam_unix)[30509]: session opened for user root by (uid=0)
+1133737261 2005.12.04 dn897 Dec 4 15:01:01 dn897/dn897 crond[30510]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 dn899 Dec 4 15:01:01 dn899/dn899 crond(pam_unix)[30641]: session opened for user root by (uid=0)
+1133737261 2005.12.04 dn902 Dec 4 15:01:01 dn902/dn902 crond(pam_unix)[30679]: session opened for user root by (uid=0)
+1133737261 2005.12.04 dn909 Dec 4 15:01:01 dn909/dn909 crond[30707]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 dn911 Dec 4 15:01:01 dn911/dn911 crond(pam_unix)[30942]: session closed for user root
+1133737261 2005.12.04 dn911 Dec 4 15:01:01 dn911/dn911 crond(pam_unix)[30942]: session opened for user root by (uid=0)
+1133737261 2005.12.04 dn911 Dec 4 15:01:01 dn911/dn911 crond[30943]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 dn913 Dec 4 15:01:01 dn913/dn913 crond(pam_unix)[30072]: session opened for user root by (uid=0)
+1133737261 2005.12.04 dn915 Dec 4 15:01:01 dn915/dn915 crond(pam_unix)[31349]: session opened for user root by (uid=0)
+1133737261 2005.12.04 dn915 Dec 4 15:01:01 dn915/dn915 crond[31350]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 dn917 Dec 4 15:01:01 dn917/dn917 crond(pam_unix)[31373]: session opened for user root by (uid=0)
+1133737261 2005.12.04 dn918 Dec 4 15:01:01 dn918/dn918 crond(pam_unix)[31235]: session closed for user root
+1133737261 2005.12.04 dn919 Dec 4 15:01:01 dn919/dn919 crond[31225]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 dn92 Dec 4 15:01:01 dn92/dn92 crond(pam_unix)[29808]: session opened for user root by (uid=0)
+1133737261 2005.12.04 dn920 Dec 4 15:01:01 dn920/dn920 crond(pam_unix)[31418]: session closed for user root
+1133737261 2005.12.04 dn920 Dec 4 15:01:01 dn920/dn920 crond(pam_unix)[31418]: session opened for user root by (uid=0)
+1133737261 2005.12.04 dn920 Dec 4 15:01:01 dn920/dn920 crond[31419]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 dn921 Dec 4 15:01:01 dn921/dn921 crond(pam_unix)[31248]: session closed for user root
+1133737261 2005.12.04 dn922 Dec 4 15:01:01 dn922/dn922 crond(pam_unix)[31266]: session closed for user root
+1133737261 2005.12.04 dn923 Dec 4 15:01:01 dn923/dn923 crond(pam_unix)[31258]: session closed for user root
+1133737261 2005.12.04 dn923 Dec 4 15:01:01 dn923/dn923 crond(pam_unix)[31258]: session opened for user root by (uid=0)
+1133737261 2005.12.04 dn928 Dec 4 15:01:01 dn928/dn928 crond(pam_unix)[31266]: session closed for user root
+1133737261 2005.12.04 dn928 Dec 4 15:01:01 dn928/dn928 crond(pam_unix)[31266]: session opened for user root by (uid=0)
+1133737261 2005.12.04 dn929 Dec 4 15:01:01 dn929/dn929 crond(pam_unix)[28339]: session opened for user root by (uid=0)
+1133737261 2005.12.04 dn930 Dec 4 15:01:01 dn930/dn930 crond(pam_unix)[31722]: session opened for user root by (uid=0)
+1133737261 2005.12.04 dn933 Dec 4 15:01:01 dn933/dn933 crond(pam_unix)[850]: session closed for user root
+1133737261 2005.12.04 dn933 Dec 4 15:01:01 dn933/dn933 crond(pam_unix)[850]: session opened for user root by (uid=0)
+1133737261 2005.12.04 dn933 Dec 4 15:01:01 dn933/dn933 crond[851]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 dn935 Dec 4 15:01:01 dn935/dn935 crond(pam_unix)[30430]: session closed for user root
+1133737261 2005.12.04 dn935 Dec 4 15:01:01 dn935/dn935 crond(pam_unix)[30430]: session opened for user root by (uid=0)
+1133737261 2005.12.04 dn935 Dec 4 15:01:01 dn935/dn935 crond[30431]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 dn939 Dec 4 15:01:01 dn939/dn939 crond(pam_unix)[28327]: session opened for user root by (uid=0)
+1133737261 2005.12.04 dn94 Dec 4 15:01:01 dn94/dn94 crond(pam_unix)[29809]: session closed for user root
+1133737261 2005.12.04 dn940 Dec 4 15:01:01 dn940/dn940 crond(pam_unix)[31313]: session closed for user root
+1133737261 2005.12.04 dn946 Dec 4 15:01:01 dn946/dn946 crond(pam_unix)[30304]: session closed for user root
+1133737261 2005.12.04 dn95 Dec 4 15:01:01 dn95/dn95 crond(pam_unix)[28338]: session closed for user root
+1133737261 2005.12.04 dn95 Dec 4 15:01:01 dn95/dn95 crond[28339]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 dn956 Dec 4 15:01:01 dn956/dn956 crond(pam_unix)[30334]: session closed for user root
+1133737261 2005.12.04 dn960 Dec 4 15:01:01 dn960/dn960 crond[30406]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 dn962 Dec 4 15:01:01 dn962/dn962 crond(pam_unix)[28926]: session opened for user root by (uid=0)
+1133737261 2005.12.04 dn962 Dec 4 15:01:01 dn962/dn962 crond[28927]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 dn963 Dec 4 15:01:01 dn963/dn963 crond(pam_unix)[30394]: session closed for user root
+1133737261 2005.12.04 dn966 Dec 4 15:01:01 dn966/dn966 crond(pam_unix)[30405]: session opened for user root by (uid=0)
+1133737261 2005.12.04 dn966 Dec 4 15:01:01 dn966/dn966 crond[30406]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 dn967 Dec 4 15:01:01 dn967/dn967 crond(pam_unix)[30598]: session opened for user root by (uid=0)
+1133737261 2005.12.04 dn967 Dec 4 15:01:01 dn967/dn967 crond[30599]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 dn969 Dec 4 15:01:01 dn969/dn969 crond(pam_unix)[30501]: session opened for user root by (uid=0)
+1133737261 2005.12.04 dn975 Dec 4 15:01:01 dn975/dn975 crond(pam_unix)[811]: session closed for user root
+1133737261 2005.12.04 dn975 Dec 4 15:01:01 dn975/dn975 crond(pam_unix)[811]: session opened for user root by (uid=0)
+1133737261 2005.12.04 dn978 Dec 4 15:01:01 dn978/dn978 crond(pam_unix)[28340]: session opened for user root by (uid=0)
+1133737261 2005.12.04 dn98 Dec 4 15:01:01 dn98/dn98 crond(pam_unix)[29797]: session opened for user root by (uid=0)
+1133737261 2005.12.04 dn981 Dec 4 15:01:01 dn981/dn981 crond(pam_unix)[31047]: session closed for user root
+1133737261 2005.12.04 dn981 Dec 4 15:01:01 dn981/dn981 crond(pam_unix)[31047]: session opened for user root by (uid=0)
+1133737261 2005.12.04 dn981 Dec 4 15:01:01 dn981/dn981 crond[31048]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 dn982 Dec 4 15:01:01 dn982/dn982 crond(pam_unix)[31030]: session opened for user root by (uid=0)
+1133737261 2005.12.04 dn983 Dec 4 15:01:01 dn983/dn983 crond(pam_unix)[29025]: session closed for user root
+1133737261 2005.12.04 dn983 Dec 4 15:01:01 dn983/dn983 crond(pam_unix)[29025]: session opened for user root by (uid=0)
+1133737261 2005.12.04 dn984 Dec 4 15:01:01 dn984/dn984 crond(pam_unix)[28340]: session opened for user root by (uid=0)
+1133737261 2005.12.04 dn985 Dec 4 15:01:01 dn985/dn985 crond(pam_unix)[31034]: session closed for user root
+1133737261 2005.12.04 dn985 Dec 4 15:01:01 dn985/dn985 crond(pam_unix)[31034]: session opened for user root by (uid=0)
+1133737261 2005.12.04 dn986 Dec 4 15:01:01 dn986/dn986 crond(pam_unix)[28340]: session opened for user root by (uid=0)
+1133737261 2005.12.04 dn989 Dec 4 15:01:01 dn989/dn989 crond(pam_unix)[31245]: session opened for user root by (uid=0)
+1133737261 2005.12.04 dn989 Dec 4 15:01:01 dn989/dn989 crond[31246]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 eadmin2 Dec 4 15:01:01 src@eadmin2 crond[28940]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 en104 Dec 4 15:01:01 en104/en104 crond(pam_unix)[28831]: session closed for user root
+1133737261 2005.12.04 en104 Dec 4 15:01:01 en104/en104 crond(pam_unix)[28831]: session opened for user root by (uid=0)
+1133737261 2005.12.04 en104 Dec 4 15:01:01 en104/en104 crond[28832]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 en108 Dec 4 15:01:01 en108/en108 crond(pam_unix)[30903]: session opened for user root by (uid=0)
+1133737261 2005.12.04 en108 Dec 4 15:01:01 en108/en108 crond[30904]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 en110 Dec 4 15:01:01 en110/en110 crond(pam_unix)[30904]: session closed for user root
+1133737261 2005.12.04 en110 Dec 4 15:01:01 en110/en110 crond[30905]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 en111 Dec 4 15:01:01 en111/en111 crond(pam_unix)[30901]: session opened for user root by (uid=0)
+1133737261 2005.12.04 en117 Dec 4 15:01:01 en117/en117 crond(pam_unix)[30905]: session opened for user root by (uid=0)
+1133737261 2005.12.04 en118 Dec 4 15:01:01 en118/en118 crond[30894]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 en120 Dec 4 15:01:01 en120/en120 crond(pam_unix)[30906]: session closed for user root
+1133737261 2005.12.04 en120 Dec 4 15:01:01 en120/en120 crond(pam_unix)[30906]: session opened for user root by (uid=0)
+1133737261 2005.12.04 en120 Dec 4 15:01:01 en120/en120 crond[30907]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 en128 Dec 4 15:01:01 en128/en128 crond(pam_unix)[30904]: session closed for user root
+1133737261 2005.12.04 en128 Dec 4 15:01:01 en128/en128 crond(pam_unix)[30904]: session opened for user root by (uid=0)
+1133737261 2005.12.04 en128 Dec 4 15:01:01 en128/en128 crond[30905]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 en129 Dec 4 15:01:01 en129/en129 crond[30911]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 en13 Dec 4 15:01:01 en13/en13 crond(pam_unix)[31545]: session opened for user root by (uid=0)
+1133737261 2005.12.04 en130 Dec 4 15:01:01 en130/en130 crond(pam_unix)[30905]: session closed for user root
+1133737261 2005.12.04 en130 Dec 4 15:01:01 en130/en130 crond[30906]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 en131 Dec 4 15:01:01 en131/en131 crond[28963]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 en132 Dec 4 15:01:01 en132/en132 crond(pam_unix)[30904]: session opened for user root by (uid=0)
+1133737261 2005.12.04 en133 Dec 4 15:01:01 en133/en133 crond[30907]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 en135 Dec 4 15:01:01 en135/en135 crond[30893]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 en137 Dec 4 15:01:01 en137/en137 crond(pam_unix)[30904]: session closed for user root
+1133737261 2005.12.04 en137 Dec 4 15:01:01 en137/en137 crond(pam_unix)[30904]: session opened for user root by (uid=0)
+1133737261 2005.12.04 en139 Dec 4 15:01:01 en139/en139 crond(pam_unix)[30906]: session opened for user root by (uid=0)
+1133737261 2005.12.04 en14 Dec 4 15:01:01 en14/en14 crond(pam_unix)[31047]: session closed for user root
+1133737261 2005.12.04 en140 Dec 4 15:01:01 en140/en140 crond(pam_unix)[30906]: session closed for user root
+1133737261 2005.12.04 en141 Dec 4 15:01:01 en141/en141 crond(pam_unix)[30905]: session opened for user root by (uid=0)
+1133737261 2005.12.04 en143 Dec 4 15:01:01 en143/en143 crond[30895]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 en145 Dec 4 15:01:01 en145/en145 crond[31546]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 en146 Dec 4 15:01:01 en146/en146 crond(pam_unix)[31243]: session closed for user root
+1133737261 2005.12.04 en146 Dec 4 15:01:01 en146/en146 crond(pam_unix)[31243]: session opened for user root by (uid=0)
+1133737261 2005.12.04 en146 Dec 4 15:01:01 en146/en146 crond[31244]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 en147 Dec 4 15:01:01 en147/en147 crond(pam_unix)[31236]: session opened for user root by (uid=0)
+1133737261 2005.12.04 en147 Dec 4 15:01:01 en147/en147 crond[31237]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 en148 Dec 4 15:01:01 en148/en148 crond(pam_unix)[31228]: session closed for user root
+1133737261 2005.12.04 en15 Dec 4 15:01:01 en15/en15 crond(pam_unix)[31050]: session closed for user root
+1133737261 2005.12.04 en15 Dec 4 15:01:01 en15/en15 crond(pam_unix)[31050]: session opened for user root by (uid=0)
+1133737261 2005.12.04 en15 Dec 4 15:01:01 en15/en15 crond[31051]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 en151 Dec 4 15:01:01 en151/en151 crond(pam_unix)[31241]: session opened for user root by (uid=0)
+1133737261 2005.12.04 en151 Dec 4 15:01:01 en151/en151 crond[31242]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 en153 Dec 4 15:01:01 en153/en153 crond(pam_unix)[31239]: session closed for user root
+1133737261 2005.12.04 en153 Dec 4 15:01:01 en153/en153 crond[31240]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 en156 Dec 4 15:01:01 en156/en156 crond(pam_unix)[27278]: session closed for user root
+1133737261 2005.12.04 en157 Dec 4 15:01:01 en157/en157 crond(pam_unix)[31266]: session opened for user root by (uid=0)
+1133737261 2005.12.04 en161 Dec 4 15:01:01 en161/en161 crond(pam_unix)[31456]: session closed for user root
+1133737261 2005.12.04 en161 Dec 4 15:01:01 en161/en161 crond(pam_unix)[31456]: session opened for user root by (uid=0)
+1133737261 2005.12.04 en161 Dec 4 15:01:01 en161/en161 crond[31457]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 en163 Dec 4 15:01:01 en163/en163 crond(pam_unix)[31192]: session closed for user root
+1133737261 2005.12.04 en163 Dec 4 15:01:01 en163/en163 crond[31193]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 en165 Dec 4 15:01:01 en165/en165 crond(pam_unix)[31206]: session opened for user root by (uid=0)
+1133737261 2005.12.04 en166 Dec 4 15:01:01 en166/en166 crond[31193]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 en170 Dec 4 15:01:01 en170/en170 crond(pam_unix)[31194]: session closed for user root
+1133737261 2005.12.04 en172 Dec 4 15:01:01 en172/en172 crond(pam_unix)[31153]: session closed for user root
+1133737261 2005.12.04 en173 Dec 4 15:01:01 en173/en173 crond(pam_unix)[31194]: session opened for user root by (uid=0)
+1133737261 2005.12.04 en174 Dec 4 15:01:01 en174/en174 crond(pam_unix)[31194]: session opened for user root by (uid=0)
+1133737261 2005.12.04 en175 Dec 4 15:01:01 en175/en175 crond(pam_unix)[31194]: session closed for user root
+1133737261 2005.12.04 en178 Dec 4 15:01:01 en178/en178 crond(pam_unix)[30993]: session closed for user root
+1133737261 2005.12.04 en178 Dec 4 15:01:01 en178/en178 crond(pam_unix)[30993]: session opened for user root by (uid=0)
+1133737261 2005.12.04 en178 Dec 4 15:01:01 en178/en178 crond[30994]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 en180 Dec 4 15:01:01 en180/en180 crond(pam_unix)[30873]: session closed for user root
+1133737261 2005.12.04 en180 Dec 4 15:01:01 en180/en180 crond(pam_unix)[30873]: session opened for user root by (uid=0)
+1133737261 2005.12.04 en180 Dec 4 15:01:01 en180/en180 crond[30874]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 en183 Dec 4 15:01:01 en183/en183 crond(pam_unix)[30954]: session closed for user root
+1133737261 2005.12.04 en190 Dec 4 15:01:01 en190/en190 crond(pam_unix)[25430]: session closed for user root
+1133737261 2005.12.04 en191 Dec 4 15:01:01 en191/en191 crond(pam_unix)[30953]: session opened for user root by (uid=0)
+1133737261 2005.12.04 en192 Dec 4 15:01:01 en192/en192 crond[30955]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 en194 Dec 4 15:01:01 en194/en194 crond[31094]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 en203 Dec 4 15:01:01 en203/en203 crond(pam_unix)[31098]: session opened for user root by (uid=0)
+1133737261 2005.12.04 en203 Dec 4 15:01:01 en203/en203 crond[31099]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 en206 Dec 4 15:01:01 en206/en206 crond[29881]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 en207 Dec 4 15:01:01 en207/en207 crond(pam_unix)[31093]: session opened for user root by (uid=0)
+1133737261 2005.12.04 en209 Dec 4 15:01:01 en209/en209 crond(pam_unix)[31271]: session closed for user root
+1133737261 2005.12.04 en209 Dec 4 15:01:01 en209/en209 crond(pam_unix)[31271]: session opened for user root by (uid=0)
+1133737261 2005.12.04 en209 Dec 4 15:01:01 en209/en209 crond[31272]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 en220 Dec 4 15:01:01 en220/en220 crond[31096]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 en224 Dec 4 15:01:01 en224/en224 crond(pam_unix)[29852]: session opened for user root by (uid=0)
+1133737261 2005.12.04 en225 Dec 4 15:01:01 en225/en225 crond(pam_unix)[31353]: session opened for user root by (uid=0)
+1133737261 2005.12.04 en227 Dec 4 15:01:01 en227/en227 crond[25443]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 en23 Dec 4 15:01:01 en23/en23 crond(pam_unix)[30905]: session closed for user root
+1133737261 2005.12.04 en232 Dec 4 15:01:01 en232/en232 crond(pam_unix)[31142]: session opened for user root by (uid=0)
+1133737261 2005.12.04 en235 Dec 4 15:01:01 en235/en235 crond(pam_unix)[31131]: session opened for user root by (uid=0)
+1133737261 2005.12.04 en24 Dec 4 15:01:01 en24/en24 crond[29007]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 en240 Dec 4 15:01:01 en240/en240 crond(pam_unix)[31145]: session closed for user root
+1133737261 2005.12.04 en244 Dec 4 15:01:01 en244/en244 crond(pam_unix)[31194]: session closed for user root
+1133737261 2005.12.04 en249 Dec 4 15:01:01 en249/en249 crond(pam_unix)[31198]: session opened for user root by (uid=0)
+1133737261 2005.12.04 en255 Dec 4 15:01:01 en255/en255 crond(pam_unix)[31181]: session closed for user root
+1133737261 2005.12.04 en255 Dec 4 15:01:01 en255/en255 crond(pam_unix)[31181]: session opened for user root by (uid=0)
+1133737261 2005.12.04 en255 Dec 4 15:01:01 en255/en255 crond[31182]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 en26 Dec 4 15:01:01 en26/en26 crond(pam_unix)[30906]: session closed for user root
+1133737261 2005.12.04 en26 Dec 4 15:01:01 en26/en26 crond(pam_unix)[30906]: session opened for user root by (uid=0)
+1133737261 2005.12.04 en26 Dec 4 15:01:01 en26/en26 crond[30907]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 en260 Dec 4 15:01:01 en260/en260 crond(pam_unix)[30905]: session closed for user root
+1133737261 2005.12.04 en261 Dec 4 15:01:01 en261/en261 crond(pam_unix)[30904]: session opened for user root by (uid=0)
+1133737261 2005.12.04 en261 Dec 4 15:01:01 en261/en261 crond[30905]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 en264 Dec 4 15:01:01 en264/en264 crond[30903]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 en265 Dec 4 15:01:01 en265/en265 crond[30904]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 en269 Dec 4 15:01:01 en269/en269 crond(pam_unix)[30903]: session opened for user root by (uid=0)
+1133737261 2005.12.04 en270 Dec 4 15:01:01 en270/en270 crond(pam_unix)[30911]: session closed for user root
+1133737261 2005.12.04 en273 Dec 4 15:01:01 en273/en273 crond[30905]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 en278 Dec 4 15:01:01 en278/en278 crond(pam_unix)[30916]: session opened for user root by (uid=0)
+1133737261 2005.12.04 en28 Dec 4 15:01:01 en28/en28 crond(pam_unix)[30896]: session closed for user root
+1133737261 2005.12.04 en28 Dec 4 15:01:01 en28/en28 crond(pam_unix)[30896]: session opened for user root by (uid=0)
+1133737261 2005.12.04 en28 Dec 4 15:01:01 en28/en28 crond[30897]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 en282 Dec 4 15:01:01 en282/en282 crond(pam_unix)[30892]: session closed for user root
+1133737261 2005.12.04 en282 Dec 4 15:01:01 en282/en282 crond[30893]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 en284 Dec 4 15:01:01 en284/en284 crond(pam_unix)[30902]: session closed for user root
+1133737261 2005.12.04 en286 Dec 4 15:01:01 en286/en286 crond(pam_unix)[30905]: session closed for user root
+1133737261 2005.12.04 en288 Dec 4 15:01:01 en288/en288 crond(pam_unix)[30903]: session opened for user root by (uid=0)
+1133737261 2005.12.04 en288 Dec 4 15:01:01 en288/en288 crond[30904]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 en29 Dec 4 15:01:01 en29/en29 crond(pam_unix)[30903]: session opened for user root by (uid=0)
+1133737261 2005.12.04 en290 Dec 4 15:01:01 en290/en290 crond[30575]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 en306 Dec 4 15:01:01 en306/en306 crond(pam_unix)[30891]: session opened for user root by (uid=0)
+1133737261 2005.12.04 en308 Dec 4 15:01:01 en308/en308 crond(pam_unix)[30904]: session opened for user root by (uid=0)
+1133737261 2005.12.04 en31 Dec 4 15:01:01 en31/en31 crond(pam_unix)[30901]: session opened for user root by (uid=0)
+1133737261 2005.12.04 en310 Dec 4 15:01:01 en310/en310 crond(pam_unix)[30905]: session opened for user root by (uid=0)
+1133737261 2005.12.04 en311 Dec 4 15:01:01 en311/en311 crond(pam_unix)[30538]: session closed for user root
+1133737261 2005.12.04 en311 Dec 4 15:01:01 en311/en311 crond(pam_unix)[30538]: session opened for user root by (uid=0)
+1133737261 2005.12.04 en312 Dec 4 15:01:01 en312/en312 crond(pam_unix)[30906]: session closed for user root
+1133737261 2005.12.04 en312 Dec 4 15:01:01 en312/en312 crond[30907]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 en317 Dec 4 15:01:01 en317/en317 crond(pam_unix)[30903]: session opened for user root by (uid=0)
+1133737261 2005.12.04 en322 Dec 4 15:01:01 en322/en322 crond(pam_unix)[30942]: session closed for user root
+1133737261 2005.12.04 en322 Dec 4 15:01:01 en322/en322 crond(pam_unix)[30942]: session opened for user root by (uid=0)
+1133737261 2005.12.04 en322 Dec 4 15:01:01 en322/en322 crond[30943]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 en327 Dec 4 15:01:01 en327/en327 crond[30952]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 en328 Dec 4 15:01:01 en328/en328 crond(pam_unix)[30950]: session closed for user root
+1133737261 2005.12.04 en333 Dec 4 15:01:01 en333/en333 crond(pam_unix)[30944]: session opened for user root by (uid=0)
+1133737261 2005.12.04 en338 Dec 4 15:01:01 en338/en338 crond(pam_unix)[30900]: session closed for user root
+1133737261 2005.12.04 en338 Dec 4 15:01:01 en338/en338 crond(pam_unix)[30900]: session opened for user root by (uid=0)
+1133737261 2005.12.04 en34 Dec 4 15:01:01 en34/en34 crond(pam_unix)[30895]: session opened for user root by (uid=0)
+1133737261 2005.12.04 en34 Dec 4 15:01:01 en34/en34 crond[30896]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 en344 Dec 4 15:01:01 en344/en344 crond[30902]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 en347 Dec 4 15:01:01 en347/en347 crond(pam_unix)[30890]: session closed for user root
+1133737261 2005.12.04 en349 Dec 4 15:01:01 en349/en349 crond(pam_unix)[30885]: session opened for user root by (uid=0)
+1133737261 2005.12.04 en35 Dec 4 15:01:01 en35/en35 crond(pam_unix)[30907]: session closed for user root
+1133737261 2005.12.04 en353 Dec 4 15:01:01 en353/en353 crond(pam_unix)[30900]: session opened for user root by (uid=0)
+1133737261 2005.12.04 en356 Dec 4 15:01:01 en356/en356 crond(pam_unix)[30891]: session opened for user root by (uid=0)
+1133737261 2005.12.04 en357 Dec 4 15:01:01 en357/en357 crond(pam_unix)[30905]: session opened for user root by (uid=0)
+1133737261 2005.12.04 en359 Dec 4 15:01:01 en359/en359 crond(pam_unix)[30909]: session closed for user root
+1133737261 2005.12.04 en359 Dec 4 15:01:01 en359/en359 crond(pam_unix)[30909]: session opened for user root by (uid=0)
+1133737261 2005.12.04 en360 Dec 4 15:01:01 en360/en360 crond[30902]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 en367 Dec 4 15:01:01 en367/en367 crond(pam_unix)[30893]: session closed for user root
+1133737261 2005.12.04 en367 Dec 4 15:01:01 en367/en367 crond(pam_unix)[30893]: session opened for user root by (uid=0)
+1133737261 2005.12.04 en368 Dec 4 15:01:01 en368/en368 crond(pam_unix)[30905]: session opened for user root by (uid=0)
+1133737261 2005.12.04 en377 Dec 4 15:01:01 en377/en377 crond(pam_unix)[31151]: session closed for user root
+1133737261 2005.12.04 en381 Dec 4 15:01:01 en381/en381 crond(pam_unix)[31145]: session closed for user root
+1133737261 2005.12.04 en388 Dec 4 15:01:01 en388/en388 crond(pam_unix)[27998]: session opened for user root by (uid=0)
+1133737261 2005.12.04 en388 Dec 4 15:01:01 en388/en388 crond[27999]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 en39 Dec 4 15:01:01 en39/en39 crond(pam_unix)[30911]: session closed for user root
+1133737261 2005.12.04 en397 Dec 4 15:01:01 en397/en397 crond(pam_unix)[31217]: session opened for user root by (uid=0)
+1133737261 2005.12.04 en399 Dec 4 15:01:01 en399/en399 crond(pam_unix)[31227]: session closed for user root
+1133737261 2005.12.04 en4 Dec 4 15:01:01 en4/en4 crond(pam_unix)[31049]: session opened for user root by (uid=0)
+1133737261 2005.12.04 en4 Dec 4 15:01:01 en4/en4 crond[31050]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 en402 Dec 4 15:01:01 en402/en402 crond(pam_unix)[31215]: session opened for user root by (uid=0)
+1133737261 2005.12.04 en404 Dec 4 15:01:01 en404/en404 crond(pam_unix)[31529]: session closed for user root
+1133737261 2005.12.04 en408 Dec 4 15:01:01 en408/en408 crond(pam_unix)[31505]: session closed for user root
+1133737261 2005.12.04 en408 Dec 4 15:01:01 en408/en408 crond(pam_unix)[31505]: session opened for user root by (uid=0)
+1133737261 2005.12.04 en417 Dec 4 15:01:01 en417/en417 crond[31458]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 en42 Dec 4 15:01:01 en42/en42 crond(pam_unix)[30906]: session opened for user root by (uid=0)
+1133737261 2005.12.04 en42 Dec 4 15:01:01 en42/en42 crond[30907]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 en43 Dec 4 15:01:01 en43/en43 crond[30912]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 en44 Dec 4 15:01:01 en44/en44 crond(pam_unix)[30908]: session closed for user root
+1133737261 2005.12.04 en44 Dec 4 15:01:01 en44/en44 crond[30909]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 en45 Dec 4 15:01:01 en45/en45 crond(pam_unix)[30906]: session opened for user root by (uid=0)
+1133737261 2005.12.04 en45 Dec 4 15:01:01 en45/en45 crond[30907]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 en48 Dec 4 15:01:01 en48/en48 crond(pam_unix)[30908]: session opened for user root by (uid=0)
+1133737261 2005.12.04 en48 Dec 4 15:01:01 en48/en48 crond[30909]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 en5 Dec 4 15:01:01 en5/en5 crond(pam_unix)[31107]: session closed for user root
+1133737261 2005.12.04 en50 Dec 4 15:01:01 en50/en50 crond[30848]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 en52 Dec 4 15:01:01 en52/en52 crond(pam_unix)[30906]: session closed for user root
+1133737261 2005.12.04 en52 Dec 4 15:01:01 en52/en52 crond(pam_unix)[30906]: session opened for user root by (uid=0)
+1133737261 2005.12.04 en52 Dec 4 15:01:01 en52/en52 crond[30907]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 en53 Dec 4 15:01:01 en53/en53 crond[30907]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 en55 Dec 4 15:01:01 en55/en55 crond(pam_unix)[29004]: session opened for user root by (uid=0)
+1133737261 2005.12.04 en56 Dec 4 15:01:01 en56/en56 crond(pam_unix)[30895]: session opened for user root by (uid=0)
+1133737261 2005.12.04 en57 Dec 4 15:01:01 en57/en57 crond(pam_unix)[30905]: session closed for user root
+1133737261 2005.12.04 en59 Dec 4 15:01:01 en59/en59 crond[29007]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 en6 Dec 4 15:01:01 en6/en6 crond[31052]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 en61 Dec 4 15:01:01 en61/en61 crond(pam_unix)[30903]: session opened for user root by (uid=0)
+1133737261 2005.12.04 en61 Dec 4 15:01:01 en61/en61 crond[30904]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 en64 Dec 4 15:01:01 en64/en64 crond[30901]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 en66 Dec 4 15:01:01 en66/en66 crond(pam_unix)[30905]: session opened for user root by (uid=0)
+1133737261 2005.12.04 en68 Dec 4 15:01:01 en68/en68 crond(pam_unix)[30894]: session closed for user root
+1133737261 2005.12.04 en69 Dec 4 15:01:01 en69/en69 crond(pam_unix)[30905]: session opened for user root by (uid=0)
+1133737261 2005.12.04 en70 Dec 4 15:01:01 en70/en70 crond(pam_unix)[30894]: session opened for user root by (uid=0)
+1133737261 2005.12.04 en73 Dec 4 15:01:01 en73/en73 crond[30904]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 en74 Dec 4 15:01:01 en74/en74 crond[28831]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 en76 Dec 4 15:01:01 en76/en76 crond(pam_unix)[30904]: session closed for user root
+1133737261 2005.12.04 en77 Dec 4 15:01:01 en77/en77 crond(pam_unix)[30894]: session opened for user root by (uid=0)
+1133737261 2005.12.04 en79 Dec 4 15:01:01 en79/en79 crond(pam_unix)[30897]: session opened for user root by (uid=0)
+1133737261 2005.12.04 en8 Dec 4 15:01:01 en8/en8 crond(pam_unix)[31047]: session opened for user root by (uid=0)
+1133737261 2005.12.04 en82 Dec 4 15:01:01 en82/en82 crond(pam_unix)[31136]: session closed for user root
+1133737261 2005.12.04 en82 Dec 4 15:01:01 en82/en82 crond(pam_unix)[31136]: session opened for user root by (uid=0)
+1133737261 2005.12.04 en82 Dec 4 15:01:01 en82/en82 crond[31137]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 en85 Dec 4 15:01:01 en85/en85 crond(pam_unix)[31143]: session closed for user root
+1133737261 2005.12.04 en85 Dec 4 15:01:01 en85/en85 crond[31144]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 en88 Dec 4 15:01:01 en88/en88 crond(pam_unix)[31144]: session closed for user root
+1133737261 2005.12.04 en88 Dec 4 15:01:01 en88/en88 crond[31145]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 en90 Dec 4 15:01:01 en90/en90 crond(pam_unix)[31143]: session closed for user root
+1133737261 2005.12.04 en91 Dec 4 15:01:01 en91/en91 crond[31137]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 en92 Dec 4 15:01:01 en92/en92 crond(pam_unix)[31144]: session opened for user root by (uid=0)
+1133737261 2005.12.04 en92 Dec 4 15:01:01 en92/en92 crond[31145]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 en93 Dec 4 15:01:01 en93/en93 crond(pam_unix)[31137]: session closed for user root
+1133737261 2005.12.04 en93 Dec 4 15:01:01 en93/en93 crond(pam_unix)[31137]: session opened for user root by (uid=0)
+1133737261 2005.12.04 en93 Dec 4 15:01:01 en93/en93 crond[31138]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 tbird-admin1 Dec 4 15:01:01 local@tbird-admin1 crond(pam_unix)[25069]: session closed for user root
+1133737261 2005.12.04 tbird-admin1 Dec 4 15:01:01 local@tbird-admin1 crond(pam_unix)[25069]: session opened for user root by (uid=0)
+1133737261 2005.12.04 tbird-admin1 Dec 4 15:01:01 local@tbird-admin1 crond[25070]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 tsqe1 Dec 4 15:01:01 tsqe1/tsqe1 crond(pam_unix)[4289]: session closed for user root
+1133737262 2005.12.04 an135 Dec 4 15:01:02 an135/an135 crond(pam_unix)[29467]: session closed for user root
+1133737262 2005.12.04 an140 Dec 4 15:01:02 an140/an140 crond(pam_unix)[29468]: session closed for user root
+1133737262 2005.12.04 an149 Dec 4 15:01:02 an149/an149 crond(pam_unix)[29461]: session closed for user root
+1133737262 2005.12.04 an157 Dec 4 15:01:02 an157/an157 crond(pam_unix)[29482]: session closed for user root
+1133737262 2005.12.04 an163 Dec 4 15:01:02 an163/an163 crond(pam_unix)[29467]: session closed for user root
+1133737262 2005.12.04 an181 Dec 4 15:01:02 an181/an181 crond(pam_unix)[29530]: session closed for user root
+1133737262 2005.12.04 an198 Dec 4 15:01:02 an198/an198 crond(pam_unix)[29586]: session closed for user root
+1133737262 2005.12.04 an206 Dec 4 15:01:02 an206/an206 Server Administrator: Instrumentation Service EventID: 1052 Temperature sensor returned to a normal value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: Non-Critical (Warning) Temperature sensor value (in Degrees Celsius): 11.0
+1133737262 2005.12.04 an206 Dec 4 15:01:02 an206/an206 snmpd[8110]: Got trap from peer on fd 13
+1133737262 2005.12.04 an224 Dec 4 15:01:02 an224/an224 crond(pam_unix)[29490]: session closed for user root
+1133737262 2005.12.04 an228 Dec 4 15:01:02 an228/an228 crond(pam_unix)[29475]: session closed for user root
+1133737262 2005.12.04 an240 Dec 4 15:01:02 an240/an240 crond(pam_unix)[29473]: session closed for user root
+1133737262 2005.12.04 an254 Dec 4 15:01:02 an254/an254 crond(pam_unix)[29455]: session closed for user root
+1133737263 2005.12.04 bn270 Dec 4 15:01:03 bn270/bn270 Server Administrator: Instrumentation Service EventID: 1053 Temperature sensor detected a warning value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: OK (Normal) Temperature sensor value (in Degrees Celsius): 10.0
+1133737263 2005.12.04 bn270 Dec 4 15:01:03 bn270/bn270 snmpd[7984]: Got trap from peer on fd 13
+1133737264 2005.12.04 bn201 Dec 4 15:01:04 bn201/bn201 Server Administrator: Instrumentation Service EventID: 1053 Temperature sensor detected a warning value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: OK (Normal) Temperature sensor value (in Degrees Celsius): 10.0
+1133737264 2005.12.04 bn201 Dec 4 15:01:04 bn201/bn201 snmpd[8015]: Got trap from peer on fd 13
+1133737265 2005.12.04 an503 Dec 4 15:01:05 an503/an503 Server Administrator: Instrumentation Service EventID: 1052 Temperature sensor returned to a normal value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: Non-Critical (Warning) Temperature sensor value (in Degrees Celsius): 11.0
+1133737265 2005.12.04 an503 Dec 4 15:01:05 an503/an503 snmpd[8044]: Got trap from peer on fd 13
+1133737265 2005.12.04 bn215 Dec 4 15:01:05 bn215/bn215 Server Administrator: Instrumentation Service EventID: 1053 Temperature sensor detected a warning value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: OK (Normal) Temperature sensor value (in Degrees Celsius): 10.0
+1133737265 2005.12.04 bn215 Dec 4 15:01:05 bn215/bn215 snmpd[7941]: Got trap from peer on fd 13
+1133737266 2005.12.04 dn709 Dec 4 15:01:06 dn709/dn709 ntpd[2277]: synchronized to 10.100.24.250, stratum 3
+1133737268 2005.12.04 tbird-sm1 Dec 4 15:01:08 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1831]: ********************** NEW SWEEP ********************
+1133737269 2005.12.04 dn678 Dec 4 15:01:09 dn678/dn678 ntpd[2281]: synchronized to 10.100.26.250, stratum 3
+1133737270 2005.12.04 bn171 Dec 4 15:01:10 bn171/bn171 Server Administrator: Instrumentation Service EventID: 1053 Temperature sensor detected a warning value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: OK (Normal) Temperature sensor value (in Degrees Celsius): 10.0
+1133737270 2005.12.04 bn171 Dec 4 15:01:10 bn171/bn171 snmpd[7944]: Got trap from peer on fd 13
+1133737272 2005.12.04 tbird-sm1 Dec 4 15:01:12 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1455]: No topology change
+1133737272 2005.12.04 tbird-sm1 Dec 4 15:01:12 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1482]: No configuration change required
+1133737273 2005.12.04 bn244 Dec 4 15:01:13 bn244/bn244 Server Administrator: Instrumentation Service EventID: 1052 Temperature sensor returned to a normal value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: Non-Critical (Warning) Temperature sensor value (in Degrees Celsius): 11.0
+1133737273 2005.12.04 bn244 Dec 4 15:01:13 bn244/bn244 snmpd[7831]: Got trap from peer on fd 13
+1133737274 2005.12.04 bn283 Dec 4 15:01:14 bn283/bn283 Server Administrator: Instrumentation Service EventID: 1052 Temperature sensor returned to a normal value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: Non-Critical (Warning) Temperature sensor value (in Degrees Celsius): 11.0
+1133737274 2005.12.04 bn283 Dec 4 15:01:14 bn283/bn283 snmpd[8956]: Got trap from peer on fd 13
+1133737275 2005.12.04 bn275 Dec 4 15:01:15 bn275/bn275 Server Administrator: Instrumentation Service EventID: 1053 Temperature sensor detected a warning value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: OK (Normal) Temperature sensor value (in Degrees Celsius): 10.0
+1133737275 2005.12.04 bn275 Dec 4 15:01:15 bn275/bn275 snmpd[7931]: Got trap from peer on fd 13
+1133737282 2005.12.04 tbird-sm1 Dec 4 15:01:22 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1831]: ********************** NEW SWEEP ********************
+1133737284 2005.12.04 bn269 Dec 4 15:01:24 bn269/bn269 Server Administrator: Instrumentation Service EventID: 1052 Temperature sensor returned to a normal value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: Non-Critical (Warning) Temperature sensor value (in Degrees Celsius): 11.0
+1133737284 2005.12.04 bn269 Dec 4 15:01:24 bn269/bn269 snmpd[7985]: Got trap from peer on fd 13
+1133737285 2005.12.04 bn286 Dec 4 15:01:25 bn286/bn286 Server Administrator: Instrumentation Service EventID: 1052 Temperature sensor returned to a normal value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: Non-Critical (Warning) Temperature sensor value (in Degrees Celsius): 11.0
+1133737285 2005.12.04 bn286 Dec 4 15:01:25 bn286/bn286 snmpd[7999]: Got trap from peer on fd 13
+1133737286 2005.12.04 tbird-sm1 Dec 4 15:01:26 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1455]: No topology change
+1133737286 2005.12.04 tbird-sm1 Dec 4 15:01:26 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1482]: No configuration change required
+1133737287 2005.12.04 bn201 Dec 4 15:01:27 bn201/bn201 Server Administrator: Instrumentation Service EventID: 1052 Temperature sensor returned to a normal value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: Non-Critical (Warning) Temperature sensor value (in Degrees Celsius): 11.0
+1133737287 2005.12.04 bn201 Dec 4 15:01:27 bn201/bn201 snmpd[8015]: Got trap from peer on fd 13
+1133737288 2005.12.04 bn215 Dec 4 15:01:28 bn215/bn215 Server Administrator: Instrumentation Service EventID: 1052 Temperature sensor returned to a normal value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: Non-Critical (Warning) Temperature sensor value (in Degrees Celsius): 11.0
+1133737288 2005.12.04 bn215 Dec 4 15:01:28 bn215/bn215 snmpd[7941]: Got trap from peer on fd 13
+1133737289 2005.12.04 an503 Dec 4 15:01:29 an503/an503 Server Administrator: Instrumentation Service EventID: 1053 Temperature sensor detected a warning value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: OK (Normal) Temperature sensor value (in Degrees Celsius): 10.0
+1133737289 2005.12.04 an503 Dec 4 15:01:29 an503/an503 snmpd[8044]: Got trap from peer on fd 13
+1133737290 2005.12.04 dn991 Dec 4 15:01:30 dn991/dn991 ntpd[2290]: synchronized to 10.100.26.250, stratum 3
+1133737290 2005.12.04 eadmin1 Dec 4 15:01:30 src@eadmin1 sendmail[10005]: unable to qualify my own domain name (eadmin1) -- using short name
+1133737291 2005.12.04 dn651 Dec 4 15:01:31 dn651/dn651 ntpd[2270]: synchronized to 10.100.24.250, stratum 3
+1133737291 2005.12.04 eadmin1 Dec 4 15:01:31 src@eadmin1 crond(pam_unix)[6928]: session closed for user root
+1133737291 2005.12.04 eadmin1 Dec 4 15:01:31 src@eadmin1 sendmail[10005]: jB4M1UdZ010005: from=root, size=628342, class=0, nrcpts=1, msgid=<200512042201.jB4M1UdZ010005@eadmin1>, relay=#7#@localhost
+1133737291 2005.12.04 eadmin1 Dec 4 15:01:31 src@eadmin1 sendmail[10005]: jB4M1UdZ010005: to=root, ctladdr=root (0/0), delay=00:00:01, xdelay=00:00:00, mailer=relay, pri=658342, relay=[127.0.0.1] [127.0.0.1], dsn=4.0.0, stat=Deferred: Connection refused by [127.0.0.1]
+1133737293 2005.12.04 dn364 Dec 4 15:01:33 dn364/dn364 ntpd[2287]: synchronized to 10.100.28.250, stratum 3
+1133737293 2005.12.04 dn525 Dec 4 15:01:33 dn525/dn525 ntpd[2270]: synchronized to 10.100.26.250, stratum 3
+1133737294 2005.12.04 aadmin1 Dec 4 15:01:34 src@aadmin1 sendmail[759]: unable to qualify my own domain name (aadmin1) -- using short name
+1133737294 2005.12.04 badmin1 Dec 4 15:01:34 src@badmin1 sendmail[21095]: unable to qualify my own domain name (badmin1) -- using short name
+1133737294 2005.12.04 dadmin1 Dec 4 15:01:34 src@dadmin1 sendmail[914]: unable to qualify my own domain name (dadmin1) -- using short name
+1133737294 2005.12.04 dn832 Dec 4 15:01:34 dn832/dn832 ntpd[2283]: synchronized to 10.100.26.250, stratum 3
+1133737296 2005.12.04 aadmin1 Dec 4 15:01:36 src@aadmin1 crond(pam_unix)[30151]: session closed for user root
+1133737296 2005.12.04 aadmin1 Dec 4 15:01:36 src@aadmin1 sendmail[759]: jB4M1YI7000759: from=root, size=1598476, class=0, nrcpts=1, msgid=<200512042201.jB4M1YI7000759@aadmin1>, relay=#7#@localhost
+1133737296 2005.12.04 aadmin1 Dec 4 15:01:36 src@aadmin1 sendmail[759]: jB4M1YI7000759: to=root, ctladdr=root (0/0), delay=00:00:02, xdelay=00:00:00, mailer=relay, pri=1628476, relay=[127.0.0.1] [127.0.0.1], dsn=4.0.0, stat=Deferred: Connection refused by [127.0.0.1]
+1133737296 2005.12.04 badmin1 Dec 4 15:01:36 src@badmin1 crond(pam_unix)[18017]: session closed for user root
+1133737296 2005.12.04 badmin1 Dec 4 15:01:36 src@badmin1 sendmail[21095]: jB4M1YYV021095: from=root, size=1593175, class=0, nrcpts=1, msgid=<200512042201.jB4M1YYV021095@badmin1>, relay=#7#@localhost
+1133737296 2005.12.04 badmin1 Dec 4 15:01:36 src@badmin1 sendmail[21095]: jB4M1YYV021095: to=root, ctladdr=root (0/0), delay=00:00:02, xdelay=00:00:00, mailer=relay, pri=1623175, relay=[127.0.0.1] [127.0.0.1], dsn=4.0.0, stat=Deferred: Connection refused by [127.0.0.1]
+1133737296 2005.12.04 dadmin1 Dec 4 15:01:36 src@dadmin1 crond(pam_unix)[30306]: session closed for user root
+1133737296 2005.12.04 dadmin1 Dec 4 15:01:36 src@dadmin1 sendmail[914]: jB4M1YuR000914: from=root, size=1597080, class=0, nrcpts=1, msgid=<200512042201.jB4M1YuR000914@dadmin1>, relay=#7#@localhost
+1133737296 2005.12.04 dadmin1 Dec 4 15:01:36 src@dadmin1 sendmail[914]: jB4M1YuR000914: to=root, ctladdr=root (0/0), delay=00:00:02, xdelay=00:00:00, mailer=relay, pri=1627080, relay=[127.0.0.1] [127.0.0.1], dsn=4.0.0, stat=Deferred: Connection refused by [127.0.0.1]
+1133737296 2005.12.04 tbird-sm1 Dec 4 15:01:36 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1831]: ********************** NEW SWEEP ********************
+1133737299 2005.12.04 dn451 Dec 4 15:01:39 dn451/dn451 ntpd[2286]: synchronized to 10.100.28.250, stratum 3
+1133737299 2005.12.04 dn711 Dec 4 15:01:39 dn711/dn711 ntpd[2286]: synchronized to 10.100.28.250, stratum 3
+1133737299 2005.12.04 dn877 Dec 4 15:01:39 dn877/dn877 ntpd[2286]: synchronized to 10.100.28.250, stratum 3
+1133737300 2005.12.04 tbird-sm1 Dec 4 15:01:40 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1455]: No topology change
+1133737300 2005.12.04 tbird-sm1 Dec 4 15:01:40 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1482]: No configuration change required
+1133737301 2005.12.04 dn7 Dec 4 15:01:41 dn7/dn7 ntpd[2288]: synchronized to 10.100.26.250, stratum 3
+1133737304 2005.12.04 dn711 Dec 4 15:01:44 dn711/dn711 ntpd[2286]: synchronized to 10.100.30.250, stratum 3
+1133737305 2005.12.04 dn603 Dec 4 15:01:45 dn603/dn603 ntpd[2287]: synchronized to 10.100.26.250, stratum 3
+1133737309 2005.12.04 an206 Dec 4 15:01:49 an206/an206 Server Administrator: Instrumentation Service EventID: 1053 Temperature sensor detected a warning value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: OK (Normal) Temperature sensor value (in Degrees Celsius): 10.0
+1133737309 2005.12.04 an206 Dec 4 15:01:49 an206/an206 snmpd[8110]: Got trap from peer on fd 13
+1133737309 2005.12.04 dn846 Dec 4 15:01:49 dn846/dn846 ntpd[2285]: synchronized to 10.100.28.250, stratum 3
+1133737310 2005.12.04 tbird-sm1 Dec 4 15:01:50 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1831]: ********************** NEW SWEEP ********************
+1133737314 2005.12.04 dn489 Dec 4 15:01:54 dn489/dn489 ntpd[2269]: synchronized to 10.100.28.250, stratum 3
+1133737314 2005.12.04 tbird-sm1 Dec 4 15:01:54 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1455]: No topology change
+1133737314 2005.12.04 tbird-sm1 Dec 4 15:01:54 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1482]: No configuration change required
+1133737317 2005.12.04 bn190 Dec 4 15:01:57 bn190/bn190 Server Administrator: Instrumentation Service EventID: 1053 Temperature sensor detected a warning value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: OK (Normal) Temperature sensor value (in Degrees Celsius): 10.0
+1133737317 2005.12.04 bn190 Dec 4 15:01:57 bn190/bn190 snmpd[7941]: Got trap from peer on fd 13
+1133737318 2005.12.04 dn211 Dec 4 15:01:58 dn211/dn211 ntpd[2275]: synchronized to 10.100.28.250, stratum 3
+1133737320 2005.12.04 bn283 Dec 4 15:02:00 bn283/bn283 Server Administrator: Instrumentation Service EventID: 1053 Temperature sensor detected a warning value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: OK (Normal) Temperature sensor value (in Degrees Celsius): 10.0
+1133737320 2005.12.04 bn283 Dec 4 15:02:00 bn283/bn283 snmpd[8956]: Got trap from peer on fd 13
+1133737321 2005.12.04 bn275 Dec 4 15:02:01 bn275/bn275 Server Administrator: Instrumentation Service EventID: 1052 Temperature sensor returned to a normal value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: Non-Critical (Warning) Temperature sensor value (in Degrees Celsius): 11.0
+1133737321 2005.12.04 bn275 Dec 4 15:02:01 bn275/bn275 snmpd[7931]: Got trap from peer on fd 13
+1133737321 2005.12.04 dn263 Dec 4 15:02:01 dn263/dn263 ntpd[2283]: synchronized to 10.100.26.250, stratum 3
+1133737324 2005.12.04 tbird-sm1 Dec 4 15:02:04 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1831]: ********************** NEW SWEEP ********************

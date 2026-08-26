@@ -1,0 +1,422 @@
+1133739355 2005.12.04 tbird-sm1 Dec 4 15:35:55 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1455]: No topology change
+1133739355 2005.12.04 tbird-sm1 Dec 4 15:35:55 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1482]: No configuration change required
+1133739356 2005.12.04 bn283 Dec 4 15:35:56 bn283/bn283 Server Administrator: Instrumentation Service EventID: 1053 Temperature sensor detected a warning value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: OK (Normal) Temperature sensor value (in Degrees Celsius): 10.0
+1133739356 2005.12.04 bn283 Dec 4 15:35:56 bn283/bn283 snmpd[8956]: Got trap from peer on fd 13
+1133739365 2005.12.04 tbird-sm1 Dec 4 15:36:05 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1831]: ********************** NEW SWEEP ********************
+1133739366 2005.12.04 bn269 Dec 4 15:36:06 bn269/bn269 Server Administrator: Instrumentation Service EventID: 1052 Temperature sensor returned to a normal value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: Non-Critical (Warning) Temperature sensor value (in Degrees Celsius): 11.0
+1133739366 2005.12.04 bn269 Dec 4 15:36:06 bn269/bn269 snmpd[7985]: Got trap from peer on fd 13
+1133739366 2005.12.04 dn239 Dec 4 15:36:06 dn239/dn239 ntpd[2286]: synchronized to 10.100.30.250, stratum 3
+1133739369 2005.12.04 tbird-sm1 Dec 4 15:36:09 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1455]: No topology change
+1133739369 2005.12.04 tbird-sm1 Dec 4 15:36:09 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1482]: No configuration change required
+1133739372 2005.12.04 dn714 Dec 4 15:36:12 dn714/dn714 ntpd[2277]: synchronized to 10.100.24.250, stratum 3
+1133739379 2005.12.04 bn283 Dec 4 15:36:19 bn283/bn283 Server Administrator: Instrumentation Service EventID: 1052 Temperature sensor returned to a normal value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: Non-Critical (Warning) Temperature sensor value (in Degrees Celsius): 11.0
+1133739379 2005.12.04 bn283 Dec 4 15:36:19 bn283/bn283 snmpd[8956]: Got trap from peer on fd 13
+1133739379 2005.12.04 tbird-sm1 Dec 4 15:36:19 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1831]: ********************** NEW SWEEP ********************
+1133739380 2005.12.04 bn275 Dec 4 15:36:20 bn275/bn275 Server Administrator: Instrumentation Service EventID: 1052 Temperature sensor returned to a normal value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: Non-Critical (Warning) Temperature sensor value (in Degrees Celsius): 11.0
+1133739380 2005.12.04 bn275 Dec 4 15:36:20 bn275/bn275 snmpd[7931]: Got trap from peer on fd 13
+1133739381 2005.12.04 dn765 Dec 4 15:36:21 dn765/dn765 ntpd[2289]: synchronized to 10.100.26.250, stratum 3
+1133739383 2005.12.04 tbird-sm1 Dec 4 15:36:23 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1455]: No topology change
+1133739383 2005.12.04 tbird-sm1 Dec 4 15:36:23 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1482]: No configuration change required
+1133739389 2005.12.04 bn269 Dec 4 15:36:29 bn269/bn269 Server Administrator: Instrumentation Service EventID: 1053 Temperature sensor detected a warning value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: OK (Normal) Temperature sensor value (in Degrees Celsius): 10.0
+1133739389 2005.12.04 bn269 Dec 4 15:36:29 bn269/bn269 snmpd[7985]: Got trap from peer on fd 13
+1133739393 2005.12.04 dadmin2 Dec 4 15:36:33 src@dadmin2 ntpd[28625]: synchronized to 10.100.16.251, stratum 2
+1133739393 2005.12.04 tbird-sm1 Dec 4 15:36:33 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1831]: ********************** NEW SWEEP ********************
+1133739394 2005.12.04 dn614 Dec 4 15:36:34 dn614/dn614 ntpd[2288]: synchronized to 10.100.26.250, stratum 3
+1133739397 2005.12.04 dn634 Dec 4 15:36:37 dn634/dn634 ntpd[2290]: synchronized to 10.100.24.250, stratum 3
+1133739397 2005.12.04 tbird-sm1 Dec 4 15:36:37 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1455]: No topology change
+1133739397 2005.12.04 tbird-sm1 Dec 4 15:36:37 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1482]: No configuration change required
+1133739399 2005.12.04 bn171 Dec 4 15:36:39 bn171/bn171 Server Administrator: Instrumentation Service EventID: 1053 Temperature sensor detected a warning value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: OK (Normal) Temperature sensor value (in Degrees Celsius): 10.0
+1133739399 2005.12.04 bn171 Dec 4 15:36:39 bn171/bn171 snmpd[7944]: Got trap from peer on fd 13
+1133739400 2005.12.04 dn776 Dec 4 15:36:40 dn776/dn776 ntpd[2271]: synchronized to 10.100.30.250, stratum 3
+1133739401 2005.12.04 dn208 Dec 4 15:36:41 dn208/dn208 ntpd[2260]: synchronized to 10.100.24.250, stratum 3
+1133739401 2005.12.04 dn851 Dec 4 15:36:41 dn851/dn851 ntpd[2285]: synchronized to 10.100.28.250, stratum 3
+1133739402 2005.12.04 bn235 Dec 4 15:36:42 bn235/bn235 Server Administrator: Instrumentation Service EventID: 1053 Temperature sensor detected a warning value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: OK (Normal) Temperature sensor value (in Degrees Celsius): 10.0
+1133739402 2005.12.04 bn235 Dec 4 15:36:42 bn235/bn235 snmpd[7943]: Got trap from peer on fd 13
+1133739403 2005.12.04 dn4 Dec 4 15:36:43 dn4/dn4 ntpd[2282]: synchronized to 10.100.26.250, stratum 3
+1133739407 2005.12.04 tbird-sm1 Dec 4 15:36:47 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1831]: ********************** NEW SWEEP ********************
+1133739409 2005.12.04 bn40 Dec 4 15:36:49 bn40/bn40 ntpd[2282]: synchronized to 10.100.14.250, stratum 3
+1133739409 2005.12.04 dn588 Dec 4 15:36:49 dn588/dn588 ntpd[2277]: synchronized to 10.100.30.250, stratum 3
+1133739409 2005.12.04 dn644 Dec 4 15:36:49 dn644/dn644 ntpd[2272]: synchronized to 10.100.24.250, stratum 3
+1133739411 2005.12.04 tbird-sm1 Dec 4 15:36:51 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1455]: No topology change
+1133739411 2005.12.04 tbird-sm1 Dec 4 15:36:51 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1482]: No configuration change required
+1133739416 2005.12.04 #1# Dec 4 15:36:56 #1#/#1# kernel: klogd 1.4.1, log source = /proc/kmsg started.
+1133739416 2005.12.04 #1# Dec 4 15:36:56 #1#/#1# logger: Install: apply updates
+1133739416 2005.12.04 #1# Dec 4 15:36:56 #1#/#1# logger: Kickstart Install: Reducing mingetty count ...
+1133739416 2005.12.04 #1# Dec 4 15:36:56 #1#/#1# logger: Kickstart: Configure sysctl parameters
+1133739416 2005.12.04 #1# Dec 4 15:36:56 #1#/#1# logger: Kickstart: setup authorization schema
+1133739416 2005.12.04 #1# Dec 4 15:36:56 #1#/#1# logger: Kickstart: setup soft links and NFS mounts
+1133739416 2005.12.04 #1# Dec 4 15:36:56 #1#/#1# syslog: klogd startup succeeded
+1133739416 2005.12.04 #1# Dec 4 15:36:56 #1#/#1# syslog: syslogd startup succeeded
+1133739416 2005.12.04 #1# Dec 4 15:36:56 #1#/#1# syslogd 1.4.1: restart.
+1133739416 2005.12.04 #1# Dec 4 15:36:56 #1#/#1# userhelper[14660]: pam_timestamp: updated timestamp file `/var/run/sudo/root/unknown'
+1133739416 2005.12.04 #1# Dec 4 15:36:56 #1#/#1# userhelper[14661]: running '/usr/sbin/up2date-config' with root privileges on behalf of 'root'
+1133739418 2005.12.04 #1# Dec 4 15:36:58 #1#/#1# kernel: audit(1133735819.232:0): avc: denied { write } for pid=14596 comm=minilogd name=log dev=ram0 ino=199 scontext=user_u:system_r:syslogd_t tcontext=user_u:object_r:file_t tclass=sock_file
+1133739418 2005.12.04 #1# Dec 4 15:36:58 #1#/#1# logger: Kickstart Install: CAP tarball
+1133739418 2005.12.04 #1# Dec 4 15:36:58 #1#/#1# syslog: klogd shutdown failed
+1133739419 2005.12.04 bn248 Dec 4 15:36:59 bn248/bn248 Server Administrator: Instrumentation Service EventID: 1052 Temperature sensor returned to a normal value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: Non-Critical (Warning) Temperature sensor value (in Degrees Celsius): 11.0
+1133739419 2005.12.04 bn248 Dec 4 15:36:59 bn248/bn248 snmpd[7942]: Got trap from peer on fd 13
+1133739421 2005.12.04 tbird-sm1 Dec 4 15:37:01 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1831]: ********************** NEW SWEEP ********************
+1133739425 2005.12.04 bn235 Dec 4 15:37:05 bn235/bn235 Server Administrator: Instrumentation Service EventID: 1052 Temperature sensor returned to a normal value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: Non-Critical (Warning) Temperature sensor value (in Degrees Celsius): 11.0
+1133739425 2005.12.04 bn235 Dec 4 15:37:05 bn235/bn235 snmpd[7943]: Got trap from peer on fd 13
+1133739425 2005.12.04 tbird-sm1 Dec 4 15:37:05 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1455]: No topology change
+1133739425 2005.12.04 tbird-sm1 Dec 4 15:37:05 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1482]: No configuration change required
+1133739427 2005.12.04 dn747 Dec 4 15:37:07 dn747/dn747 ntpd[2286]: synchronized to 10.100.24.250, stratum 3
+1133739430 2005.12.04 dn962 Dec 4 15:37:10 dn962/dn962 ntpd[2274]: synchronized to 10.100.24.250, stratum 3
+1133739435 2005.12.04 bn269 Dec 4 15:37:15 bn269/bn269 Server Administrator: Instrumentation Service EventID: 1052 Temperature sensor returned to a normal value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: Non-Critical (Warning) Temperature sensor value (in Degrees Celsius): 11.0
+1133739435 2005.12.04 bn269 Dec 4 15:37:15 bn269/bn269 snmpd[7985]: Got trap from peer on fd 13
+1133739435 2005.12.04 tbird-sm1 Dec 4 15:37:15 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1831]: ********************** NEW SWEEP ********************
+1133739439 2005.12.04 tbird-sm1 Dec 4 15:37:19 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1455]: No topology change
+1133739439 2005.12.04 tbird-sm1 Dec 4 15:37:19 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1482]: No configuration change required
+1133739442 2005.12.04 dn702 Dec 4 15:37:22 dn702/dn702 ntpd[2288]: synchronized to 10.100.28.250, stratum 3
+1133739443 2005.12.04 bn248 Dec 4 15:37:23 bn248/bn248 Server Administrator: Instrumentation Service EventID: 1053 Temperature sensor detected a warning value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: OK (Normal) Temperature sensor value (in Degrees Celsius): 10.0
+1133739443 2005.12.04 bn248 Dec 4 15:37:23 bn248/bn248 snmpd[7942]: Got trap from peer on fd 13
+1133739445 2005.12.04 bn171 Dec 4 15:37:25 bn171/bn171 Server Administrator: Instrumentation Service EventID: 1052 Temperature sensor returned to a normal value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: Non-Critical (Warning) Temperature sensor value (in Degrees Celsius): 11.0
+1133739445 2005.12.04 bn171 Dec 4 15:37:25 bn171/bn171 snmpd[7944]: Got trap from peer on fd 13
+1133739447 2005.12.04 dn309 Dec 4 15:37:27 dn309/dn309 ntpd[2288]: synchronized to 10.100.30.250, stratum 3
+1133739449 2005.12.04 tbird-sm1 Dec 4 15:37:29 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1831]: ********************** NEW SWEEP ********************
+1133739452 2005.12.04 dn566 Dec 4 15:37:32 dn566/dn566 ntpd[2284]: synchronized to 10.100.28.250, stratum 3
+1133739453 2005.12.04 tbird-sm1 Dec 4 15:37:33 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1455]: No topology change
+1133739453 2005.12.04 tbird-sm1 Dec 4 15:37:33 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1482]: No configuration change required
+1133739455 2005.12.04 dn651 Dec 4 15:37:35 dn651/dn651 ntpd[2270]: synchronized to 10.100.30.250, stratum 3
+1133739458 2005.12.04 #1# Dec 4 15:37:38 #1#/#1# logger: Kickstart Install: SNL COE Legal Banner
+1133739458 2005.12.04 #1# Dec 4 15:37:38 #1#/#1# logger: Kickstart Install: setup CAP sysconfig file
+1133739459 2005.12.04 bn286 Dec 4 15:37:39 bn286/bn286 Server Administrator: Instrumentation Service EventID: 1053 Temperature sensor detected a warning value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: OK (Normal) Temperature sensor value (in Degrees Celsius): 10.0
+1133739459 2005.12.04 bn286 Dec 4 15:37:39 bn286/bn286 snmpd[7999]: Got trap from peer on fd 13
+1133739461 2005.12.04 #1# Dec 4 15:37:41 #1#/#1# logger: Kickstart Install: OSCAR modules RPMS
+1133739461 2005.12.04 dn452 Dec 4 15:37:41 dn452/dn452 ntpd[2285]: synchronized to 10.100.28.250, stratum 3
+1133739461 2005.12.04 dn672 Dec 4 15:37:41 dn672/dn672 ntpd[2260]: synchronized to 10.100.24.250, stratum 3
+1133739463 2005.12.04 tbird-sm1 Dec 4 15:37:43 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1831]: ********************** NEW SWEEP ********************
+1133739466 2005.12.04 bn248 Dec 4 15:37:46 bn248/bn248 Server Administrator: Instrumentation Service EventID: 1052 Temperature sensor returned to a normal value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: Non-Critical (Warning) Temperature sensor value (in Degrees Celsius): 11.0
+1133739466 2005.12.04 bn248 Dec 4 15:37:46 bn248/bn248 snmpd[7942]: Got trap from peer on fd 13
+1133739467 2005.12.04 tbird-sm1 Dec 4 15:37:47 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1455]: No topology change
+1133739467 2005.12.04 tbird-sm1 Dec 4 15:37:47 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1482]: No configuration change required
+1133739468 2005.12.04 #1# Dec 4 15:37:48 #1#/#1# logger: Kickstart Install: SISUITE Client RPMS
+1133739468 2005.12.04 bn171 Dec 4 15:37:48 bn171/bn171 Server Administrator: Instrumentation Service EventID: 1053 Temperature sensor detected a warning value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: OK (Normal) Temperature sensor value (in Degrees Celsius): 10.0
+1133739468 2005.12.04 bn171 Dec 4 15:37:48 bn171/bn171 snmpd[7944]: Got trap from peer on fd 13
+1133739471 2005.12.04 bn235 Dec 4 15:37:51 bn235/bn235 Server Administrator: Instrumentation Service EventID: 1053 Temperature sensor detected a warning value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: OK (Normal) Temperature sensor value (in Degrees Celsius): 10.0
+1133739471 2005.12.04 bn235 Dec 4 15:37:51 bn235/bn235 snmpd[7943]: Got trap from peer on fd 13
+1133739471 2005.12.04 dn738 Dec 4 15:37:51 dn738/dn738 ntpd[2275]: synchronized to 10.100.30.250, stratum 3
+1133739474 2005.12.04 #1# Dec 4 15:37:54 #1#/#1# logger: Kickstart Install: pdsh + ssh packages
+1133739476 2005.12.04 bn278 Dec 4 15:37:56 bn278/bn278 Server Administrator: Instrumentation Service EventID: 1053 Temperature sensor detected a warning value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: OK (Normal) Temperature sensor value (in Degrees Celsius): 10.0
+1133739476 2005.12.04 bn278 Dec 4 15:37:56 bn278/bn278 snmpd[7939]: Got trap from peer on fd 13
+1133739477 2005.12.04 dn30 Dec 4 15:37:57 dn30/dn30 ntpd[2286]: synchronized to 10.100.28.250, stratum 3
+1133739477 2005.12.04 tbird-sm1 Dec 4 15:37:57 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1831]: ********************** NEW SWEEP ********************
+1133739478 2005.12.04 #1# Dec 4 15:37:58 #1#/#1# logger: Kickstart Install: oneSIS RPM
+1133739479 2005.12.04 dn324 Dec 4 15:37:59 dn324/dn324 ntpd[2286]: synchronized to 10.100.26.250, stratum 3
+1133739481 2005.12.04 tbird-sm1 Dec 4 15:38:01 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1455]: No topology change
+1133739481 2005.12.04 tbird-sm1 Dec 4 15:38:01 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1482]: No configuration change required
+1133739482 2005.12.04 #1# Dec 4 15:38:02 #1#/#1# logger: Kickstart Install: SUN JDK Package
+1133739482 2005.12.04 bn286 Dec 4 15:38:02 bn286/bn286 Server Administrator: Instrumentation Service EventID: 1052 Temperature sensor returned to a normal value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: Non-Critical (Warning) Temperature sensor value (in Degrees Celsius): 11.0
+1133739482 2005.12.04 bn286 Dec 4 15:38:02 bn286/bn286 snmpd[7999]: Got trap from peer on fd 13
+1133739482 2005.12.04 dn704 Dec 4 15:38:02 dn704/dn704 ntpd[2286]: synchronized to 10.100.30.250, stratum 3
+1133739487 2005.12.04 dn704 Dec 4 15:38:07 dn704/dn704 ntpd[2286]: synchronized to 10.100.26.250, stratum 3
+1133739487 2005.12.04 dn881 Dec 4 15:38:07 dn881/dn881 ntpd[2278]: synchronized to 10.100.24.250, stratum 3
+1133739491 2005.12.04 bn171 Dec 4 15:38:11 bn171/bn171 Server Administrator: Instrumentation Service EventID: 1052 Temperature sensor returned to a normal value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: Non-Critical (Warning) Temperature sensor value (in Degrees Celsius): 11.0
+1133739491 2005.12.04 bn171 Dec 4 15:38:11 bn171/bn171 snmpd[7944]: Got trap from peer on fd 13
+1133739491 2005.12.04 dn782 Dec 4 15:38:11 dn782/dn782 ntpd[2281]: synchronized to 10.100.28.250, stratum 3
+1133739491 2005.12.04 tbird-sm1 Dec 4 15:38:11 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1831]: ********************** NEW SWEEP ********************
+1133739492 2005.12.04 dn472 Dec 4 15:38:12 dn472/dn472 ntpd[2285]: synchronized to 10.100.30.250, stratum 3
+1133739492 2005.12.04 dn833 Dec 4 15:38:12 dn833/dn833 ntpd[2289]: synchronized to 10.100.30.250, stratum 3
+1133739495 2005.12.04 dn691 Dec 4 15:38:15 dn691/dn691 ntpd[2271]: synchronized to 10.100.28.250, stratum 3
+1133739495 2005.12.04 tbird-sm1 Dec 4 15:38:15 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1455]: No topology change
+1133739495 2005.12.04 tbird-sm1 Dec 4 15:38:15 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1482]: No configuration change required
+1133739496 2005.12.04 aadmin1 Dec 4 15:38:16 src@aadmin1 sshd(pam_unix)[13471]: session opened for user root by (uid=0)
+1133739496 2005.12.04 aadmin1 Dec 4 15:38:16 src@aadmin1 sshd[13469]: Accepted publickey for root from ::ffff:10.100.4.251 port 35558 ssh2
+1133739496 2005.12.04 aadmin1 Dec 4 15:38:16 src@aadmin1 xinetd[18274]: START: rsync pid=13466 from=10.100.4.251
+1133739496 2005.12.04 aadmin1 Dec 4 15:38:16 src@aadmin1 xinetd[18274]: START: rsync pid=13467 from=10.100.4.251
+1133739496 2005.12.04 aadmin1 Dec 4 15:38:16 src@aadmin1 xinetd[18274]: START: rsync pid=13468 from=10.100.4.251
+1133739496 2005.12.04 #1# Dec 4 15:38:16 #1#/#1# logger: Kickstart Install: Torque Mom and Maui speconf Tree
+1133739496 2005.12.04 #1# Dec 4 15:38:16 #1#/#1# logger: Kickstart: configure services
+1133739497 2005.12.04 #1# Dec 4 15:38:17 #1#/#1# logger: Kickstart Install: Prepare speconf_sync to work
+1133739497 2005.12.04 #1# Dec 4 15:38:17 #1#/#1# logger: Kickstart: setup firstboot
+1133739497 2005.12.04 #1# Dec 4 15:38:17 #1#/#1# logger: Kickstart: setup firstboot for ganglia client software
+1133739497 2005.12.04 #1# Dec 4 15:38:17 #1#/#1# userhelper[14865]: pam_timestamp: updated timestamp file `/var/run/sudo/root/console'
+1133739497 2005.12.04 #1# Dec 4 15:38:17 #1#/#1# userhelper[14866]: running '/usr/sbin/up2date --nox -i ganglia-gmond' with root privileges on behalf of 'root'
+1133739499 2005.12.04 bn278 Dec 4 15:38:19 bn278/bn278 Server Administrator: Instrumentation Service EventID: 1052 Temperature sensor returned to a normal value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: Non-Critical (Warning) Temperature sensor value (in Degrees Celsius): 11.0
+1133739499 2005.12.04 bn278 Dec 4 15:38:19 bn278/bn278 snmpd[7939]: Got trap from peer on fd 13
+1133739500 2005.12.04 #1# Dec 4 15:38:20 #1#/#1# gmond: gmond startup succeeded
+1133739501 2005.12.04 #1# Dec 4 15:38:21 #1#/#1# gmond: gmond shutdown succeeded
+1133739501 2005.12.04 #1# Dec 4 15:38:21 #1#/#1# logger: Kickstart Install: Setup to become a Tbird login
+1133739501 2005.12.04 #1# Dec 4 15:38:21 #1#/#1# logger: Kickstart Install: tbird kernel package
+1133739501 2005.12.04 #1# Dec 4 15:38:21 #1#/#1# logger: Kickstart: setup firstboot for tbird panasas env
+1133739505 2005.12.04 tbird-sm1 Dec 4 15:38:25 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1831]: ********************** NEW SWEEP ********************
+1133739506 2005.12.04 dn769 Dec 4 15:38:26 dn769/dn769 ntpd[2283]: synchronized to 10.100.28.250, stratum 3
+1133739509 2005.12.04 tbird-sm1 Dec 4 15:38:29 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1455]: No topology change
+1133739509 2005.12.04 tbird-sm1 Dec 4 15:38:29 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1482]: No configuration change required
+1133739510 2005.12.04 dn1013 Dec 4 15:38:30 dn1013/dn1013 ntpd[2280]: synchronized to 10.100.26.250, stratum 3
+1133739512 2005.12.04 bn248 Dec 4 15:38:32 bn248/bn248 Server Administrator: Instrumentation Service EventID: 1053 Temperature sensor detected a warning value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: OK (Normal) Temperature sensor value (in Degrees Celsius): 10.0
+1133739512 2005.12.04 bn248 Dec 4 15:38:32 bn248/bn248 snmpd[7942]: Got trap from peer on fd 13
+1133739518 2005.12.04 bn235 Dec 4 15:38:38 bn235/bn235 Server Administrator: Instrumentation Service EventID: 1052 Temperature sensor returned to a normal value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: Non-Critical (Warning) Temperature sensor value (in Degrees Celsius): 11.0
+1133739518 2005.12.04 bn235 Dec 4 15:38:38 bn235/bn235 snmpd[7943]: Got trap from peer on fd 13
+1133739519 2005.12.04 dn245 Dec 4 15:38:39 dn245/dn245 ntpd[2289]: synchronized to 10.100.30.250, stratum 3
+1133739519 2005.12.04 tbird-sm1 Dec 4 15:38:39 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1831]: ********************** NEW SWEEP ********************
+1133739521 2005.12.04 bn438 Dec 4 15:38:41 bn438/bn438 ntpd[2289]: synchronized to 10.100.10.250, stratum 3
+1133739522 2005.12.04 dn280 Dec 4 15:38:42 dn280/dn280 ntpd[2286]: synchronized to 10.100.24.250, stratum 3
+1133739523 2005.12.04 dn773 Dec 4 15:38:43 dn773/dn773 ntpd[2283]: synchronized to 10.100.30.250, stratum 3
+1133739523 2005.12.04 tbird-sm1 Dec 4 15:38:43 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1455]: No topology change
+1133739523 2005.12.04 tbird-sm1 Dec 4 15:38:43 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1482]: No configuration change required
+1133739528 2005.12.04 #1# Dec 4 15:38:48 #1#/#1# kernel: audit(1133735928.599:0): avc: denied { read write } for pid=19257 comm=ntpdate name=tty dev=ram0 ino=46 scontext=user_u:system_r:ntpd_t tcontext=system_u:object_r:file_t tclass=chr_file
+1133739528 2005.12.04 #1# Dec 4 15:38:48 #1#/#1# logger: setup NTP client
+1133739528 2005.12.04 #1# Dec 4 15:38:48 #1#/#1# ntpd: ntpd shutdown failed
+1133739529 2005.12.04 #1# Dec 4 15:38:49 #1#/#1# kernel: audit(1133735928.708:0): avc: denied { read } for pid=19257 comm=ntpdate path=/tmp/product/.buildstamp dev=ramfs ino=731 scontext=user_u:system_r:ntpd_t tcontext=system_u:object_r:ramfs_t tclass=file
+1133739529 2005.12.04 #1# Dec 4 15:38:49 #1#/#1# kernel: audit(1133735928.825:0): avc: denied { read } for pid=19257 comm=ntpdate path=/tmp/biosdev (deleted) dev=ramfs ino=954 scontext=user_u:system_r:ntpd_t tcontext=user_u:object_r:ramfs_t tclass=blk_file
+1133739529 2005.12.04 #1# Dec 4 15:38:49 #1#/#1# kernel: audit(1133735928.941:0): avc: denied { read } for pid=19257 comm=ntpdate path=/.buildstamp dev=ram0 ino=125 scontext=user_u:system_r:ntpd_t tcontext=system_u:object_r:file_t tclass=file
+1133739529 2005.12.04 #1# Dec 4 15:38:49 #1#/#1# kernel: audit(1133735929.050:0): avc: denied { append } for pid=19257 comm=ntpdate path=/tmp/anaconda.log dev=ramfs ino=390 scontext=user_u:system_r:ntpd_t tcontext=system_u:object_r:ramfs_t tclass=file
+1133739529 2005.12.04 #1# Dec 4 15:38:49 #1#/#1# kernel: audit(1133735929.164:0): avc: denied { read write } for pid=19257 comm=ntpdate path=socket:[683] dev=sockfs ino=683 scontext=user_u:system_r:ntpd_t tcontext=user_u:system_r:unconfined_t tclass=udp_socket
+1133739529 2005.12.04 #1# Dec 4 15:38:49 #1#/#1# kernel: audit(1133735929.284:0): avc: denied { search } for pid=19257 comm=ntpdate name=dev dev=ram0 ino=30 scontext=user_u:system_r:ntpd_t tcontext=system_u:object_r:file_t tclass=dir
+1133739529 2005.12.04 #1# Dec 4 15:38:49 #1#/#1# kernel: audit(1133735929.387:0): avc: denied { write } for pid=19257 comm=ntpdate name=log dev=ram0 ino=199 scontext=user_u:system_r:ntpd_t tcontext=user_u:object_r:file_t tclass=sock_file
+1133739529 2005.12.04 #1# Dec 4 15:38:49 #1#/#1# kernel: audit(1133735929.408:0): avc: denied { getattr } for pid=19265 comm=ntpd path=/dev/null dev=ram0 ino=40 scontext=user_u:system_r:ntpd_t tcontext=system_u:object_r:file_t tclass=chr_file
+1133739529 2005.12.04 #1# Dec 4 15:38:49 #1#/#1# ntpd: succeeded
+1133739529 2005.12.04 #1# Dec 4 15:38:49 #1#/#1# ntpd: ntpd startup succeeded
+1133739529 2005.12.04 #1# Dec 4 15:38:49 #1#/#1# ntpd[19265]: Listening on interface eth0, 10.100.4.251#123
+1133739529 2005.12.04 #1# Dec 4 15:38:49 #1#/#1# ntpd[19265]: Listening on interface lo, 127.0.0.1#123
+1133739529 2005.12.04 #1# Dec 4 15:38:49 #1#/#1# ntpd[19265]: Listening on interface wildcard, 0.0.0.0#123
+1133739529 2005.12.04 #1# Dec 4 15:38:49 #1#/#1# ntpd[19265]: configure: keyword "authenticate" unknown, line ignored
+1133739529 2005.12.04 #1# Dec 4 15:38:49 #1#/#1# ntpd[19265]: frequency initialized 0.000 PPM from /var/lib/ntp/drift
+1133739529 2005.12.04 #1# Dec 4 15:38:49 #1#/#1# ntpd[19265]: kernel time sync status 0040
+1133739529 2005.12.04 #1# Dec 4 15:38:49 #1#/#1# ntpd[19265]: ntpd #2#@1.1190-r Mon Oct 11 09:15:58 EDT 2004 (1)
+1133739529 2005.12.04 #1# Dec 4 15:38:49 #1#/#1# ntpd[19265]: precision = 1.000 usec
+1133739529 2005.12.04 #1# Dec 4 15:38:49 #1#/#1# ntpdate[19257]: step time server 10.100.0.250 offset -0.357910 sec
+1133739531 2005.12.04 bn215 Dec 4 15:38:51 bn215/bn215 Server Administrator: Instrumentation Service EventID: 1053 Temperature sensor detected a warning value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: OK (Normal) Temperature sensor value (in Degrees Celsius): 10.0
+1133739531 2005.12.04 bn215 Dec 4 15:38:51 bn215/bn215 snmpd[7941]: Got trap from peer on fd 13
+1133739531 2005.12.04 dn652 Dec 4 15:38:51 dn652/dn652 ntpd[2274]: synchronized to 10.100.26.250, stratum 3
+1133739532 2005.12.04 #1# Dec 4 15:38:52 #1#/#1# logger: Kickstart Install: Dell OMSA Package
+1133739532 2005.12.04 #1# Dec 4 15:38:52 #1#/#1# userhelper[19275]: pam_timestamp: updated timestamp file `/var/run/sudo/root/console'
+1133739532 2005.12.04 #1# Dec 4 15:38:52 #1#/#1# userhelper[19276]: running '/usr/sbin/up2date --nox -i netsnmp' with root privileges on behalf of 'root'
+1133739533 2005.12.04 #1# Dec 4 15:38:53 #1#/#1# userhelper[19277]: pam_timestamp: updated timestamp file `/var/run/sudo/root/console'
+1133739533 2005.12.04 #1# Dec 4 15:38:53 #1#/#1# userhelper[19278]: running '/usr/sbin/up2date --nox -i -f kernel-devel' with root privileges on behalf of 'root'
+1133739533 2005.12.04 tbird-sm1 Dec 4 15:38:53 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1831]: ********************** NEW SWEEP ********************
+1133739534 2005.12.04 bn182 Dec 4 15:38:54 bn182/bn182 ntpd[2062]: synchronized to 10.100.10.250, stratum 3
+1133739537 2005.12.04 tbird-sm1 Dec 4 15:38:57 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1455]: No topology change
+1133739537 2005.12.04 tbird-sm1 Dec 4 15:38:57 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1482]: No configuration change required
+1133739538 2005.12.04 dn392 Dec 4 15:38:58 dn392/dn392 ntpd[2270]: synchronized to 10.100.24.250, stratum 3
+1133739539 2005.12.04 dn305 Dec 4 15:38:59 dn305/dn305 ntpd[2288]: synchronized to 10.100.26.250, stratum 3
+1133739540 2005.12.04 dn792 Dec 4 15:39:00 dn792/dn792 ntpd[2287]: synchronized to 10.100.28.250, stratum 3
+1133739541 2005.12.04 dn695 Dec 4 15:39:01 dn695/dn695 ntpd[2284]: synchronized to 10.100.28.250, stratum 3
+1133739545 2005.12.04 bn278 Dec 4 15:39:05 bn278/bn278 Server Administrator: Instrumentation Service EventID: 1053 Temperature sensor detected a warning value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: OK (Normal) Temperature sensor value (in Degrees Celsius): 10.0
+1133739545 2005.12.04 bn278 Dec 4 15:39:05 bn278/bn278 snmpd[7939]: Got trap from peer on fd 13
+1133739547 2005.12.04 #1# Dec 4 15:39:07 #1#/#1# logger: Kickstart Install: Dell BIOS CONF Package
+1133739547 2005.12.04 #1# Dec 4 15:39:07 #1#/#1# logger: Kickstart: setup the cisco (topspin) ib stack
+1133739547 2005.12.04 tbird-sm1 Dec 4 15:39:07 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1831]: ********************** NEW SWEEP ********************
+1133739548 2005.12.04 bn551 Dec 4 15:39:08 bn551/bn551 ntpd[2282]: synchronized to 10.100.14.250, stratum 3
+1133739548 2005.12.04 dn660 Dec 4 15:39:08 dn660/dn660 ntpd[2273]: synchronized to 10.100.28.250, stratum 3
+1133739551 2005.12.04 dn691 Dec 4 15:39:11 dn691/dn691 ntpd[2271]: synchronized to 10.100.30.250, stratum 3
+1133739551 2005.12.04 tbird-sm1 Dec 4 15:39:11 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1455]: No topology change
+1133739551 2005.12.04 tbird-sm1 Dec 4 15:39:11 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1482]: No configuration change required
+1133739553 2005.12.04 bn270 Dec 4 15:39:13 bn270/bn270 Server Administrator: Instrumentation Service EventID: 1052 Temperature sensor returned to a normal value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: Non-Critical (Warning) Temperature sensor value (in Degrees Celsius): 11.0
+1133739553 2005.12.04 bn270 Dec 4 15:39:13 bn270/bn270 snmpd[7984]: Got trap from peer on fd 13
+1133739555 2005.12.04 bn215 Dec 4 15:39:15 bn215/bn215 Server Administrator: Instrumentation Service EventID: 1052 Temperature sensor returned to a normal value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: Non-Critical (Warning) Temperature sensor value (in Degrees Celsius): 11.0
+1133739555 2005.12.04 bn215 Dec 4 15:39:15 bn215/bn215 snmpd[7941]: Got trap from peer on fd 13
+1133739557 2005.12.04 dn989 Dec 4 15:39:17 dn989/dn989 ntpd[2287]: synchronized to 10.100.26.250, stratum 3
+1133739560 2005.12.04 #1# Dec 4 15:39:20 #1#/#1# logger: Kickstart Install: TBIRD Dell FIRMWARE Update Module
+1133739560 2005.12.04 #1# Dec 4 15:39:20 #1#/#1# logger: Kickstart/Yast Install: Finished installation on localhost.localdomain
+1133739561 2005.12.04 #1# Dec 4 15:39:21 #1#/#1# exiting on signal 15
+1133739561 2005.12.04 bn190 Dec 4 15:39:21 bn190/bn190 Server Administrator: Instrumentation Service EventID: 1052 Temperature sensor returned to a normal value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: Non-Critical (Warning) Temperature sensor value (in Degrees Celsius): 11.0
+1133739561 2005.12.04 bn190 Dec 4 15:39:21 bn190/bn190 snmpd[7941]: Got trap from peer on fd 13
+1133739561 2005.12.04 tbird-sm1 Dec 4 15:39:21 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1831]: ********************** NEW SWEEP ********************
+1133739565 2005.12.04 bn275 Dec 4 15:39:25 bn275/bn275 Server Administrator: Instrumentation Service EventID: 1053 Temperature sensor detected a warning value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: OK (Normal) Temperature sensor value (in Degrees Celsius): 10.0
+1133739565 2005.12.04 bn275 Dec 4 15:39:25 bn275/bn275 snmpd[7931]: Got trap from peer on fd 13
+1133739565 2005.12.04 tbird-sm1 Dec 4 15:39:25 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1455]: No topology change
+1133739565 2005.12.04 tbird-sm1 Dec 4 15:39:25 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1482]: No configuration change required
+1133739569 2005.12.04 bn278 Dec 4 15:39:29 bn278/bn278 Server Administrator: Instrumentation Service EventID: 1052 Temperature sensor returned to a normal value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: Non-Critical (Warning) Temperature sensor value (in Degrees Celsius): 11.0
+1133739569 2005.12.04 bn278 Dec 4 15:39:29 bn278/bn278 snmpd[7939]: Got trap from peer on fd 13
+1133739575 2005.12.04 tbird-sm1 Dec 4 15:39:35 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1831]: ********************** NEW SWEEP ********************
+1133739579 2005.12.04 tbird-sm1 Dec 4 15:39:39 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1455]: No topology change
+1133739579 2005.12.04 tbird-sm1 Dec 4 15:39:39 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1482]: No configuration change required
+1133739587 2005.12.04 bn283 Dec 4 15:39:47 bn283/bn283 Server Administrator: Instrumentation Service EventID: 1053 Temperature sensor detected a warning value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: OK (Normal) Temperature sensor value (in Degrees Celsius): 10.0
+1133739587 2005.12.04 bn283 Dec 4 15:39:47 bn283/bn283 snmpd[8956]: Got trap from peer on fd 13
+1133739589 2005.12.04 tbird-sm1 Dec 4 15:39:49 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1831]: ********************** NEW SWEEP ********************
+1133739593 2005.12.04 tbird-sm1 Dec 4 15:39:53 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1455]: No topology change
+1133739593 2005.12.04 tbird-sm1 Dec 4 15:39:53 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1482]: No configuration change required
+1133739594 2005.12.04 dn736 Dec 4 15:39:54 dn736/dn736 ntpd[2286]: synchronized to 10.100.28.250, stratum 3
+1133739596 2005.12.04 dn842 Dec 4 15:39:56 dn842/dn842 ntpd[2285]: synchronized to 10.100.28.250, stratum 3
+1133739597 2005.12.04 bn286 Dec 4 15:39:57 bn286/bn286 Server Administrator: Instrumentation Service EventID: 1053 Temperature sensor detected a warning value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: OK (Normal) Temperature sensor value (in Degrees Celsius): 10.0
+1133739597 2005.12.04 bn286 Dec 4 15:39:57 bn286/bn286 snmpd[7999]: Got trap from peer on fd 13
+1133739599 2005.12.04 dn472 Dec 4 15:39:59 dn472/dn472 ntpd[2285]: synchronized to 10.100.26.250, stratum 3
+1133739600 2005.12.04 dn892 Dec 4 15:40:00 dn892/dn892 ntpd[2287]: synchronized to 10.100.30.250, stratum 3
+1133739601 2005.12.04 aadmin1 Dec 4 15:40:01 src@aadmin1 crond(pam_unix)[13516]: session opened for user root by (uid=0)
+1133739601 2005.12.04 aadmin1 Dec 4 15:40:01 src@aadmin1 crond[13517]: (root) CMD (/projects/tbird/temps/get_temps a)
+1133739601 2005.12.04 badmin1 Dec 4 15:40:01 src@badmin1 crond(pam_unix)[30357]: session opened for user root by (uid=0)
+1133739601 2005.12.04 badmin1 Dec 4 15:40:01 src@badmin1 crond[30358]: (root) CMD (/projects/tbird/temps/get_temps b)
+1133739601 2005.12.04 cadmin1 Dec 4 15:40:01 src@cadmin1 crond(pam_unix)[29492]: session opened for user root by (uid=0)
+1133739601 2005.12.04 dadmin1 Dec 4 15:40:01 src@dadmin1 crond(pam_unix)[10196]: session opened for user root by (uid=0)
+1133739601 2005.12.04 dadmin1 Dec 4 15:40:01 src@dadmin1 crond[10197]: (root) CMD (/projects/tbird/temps/get_temps d)
+1133739601 2005.12.04 eadmin1 Dec 4 15:40:01 src@eadmin1 crond(pam_unix)[19262]: session opened for user root by (uid=0)
+1133739601 2005.12.04 eadmin1 Dec 4 15:40:01 src@eadmin1 crond[19263]: (root) CMD (/projects/tbird/temps/get_temps e)
+1133739603 2005.12.04 bn495 Dec 4 15:40:03 bn495/bn495 ntpd[2287]: synchronized to 10.100.14.250, stratum 3
+1133739603 2005.12.04 dn627 Dec 4 15:40:03 dn627/dn627 ntpd[2289]: synchronized to 10.100.26.250, stratum 3
+1133739603 2005.12.04 tbird-sm1 Dec 4 15:40:03 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1831]: ********************** NEW SWEEP ********************
+1133739607 2005.12.04 dn699 Dec 4 15:40:07 dn699/dn699 ntpd[2283]: synchronized to 10.100.24.250, stratum 3
+1133739608 2005.12.04 bn190 Dec 4 15:40:08 bn190/bn190 Server Administrator: Instrumentation Service EventID: 1053 Temperature sensor detected a warning value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: OK (Normal) Temperature sensor value (in Degrees Celsius): 10.0
+1133739608 2005.12.04 bn190 Dec 4 15:40:08 bn190/bn190 snmpd[7941]: Got trap from peer on fd 13
+1133739608 2005.12.04 tbird-sm1 Dec 4 15:40:08 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1455]: No topology change
+1133739608 2005.12.04 tbird-sm1 Dec 4 15:40:08 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1482]: No configuration change required
+1133739609 2005.12.04 dn784 Dec 4 15:40:09 dn784/dn784 ntpd[2286]: synchronized to 10.100.28.250, stratum 3
+1133739610 2005.12.04 bn283 Dec 4 15:40:10 bn283/bn283 Server Administrator: Instrumentation Service EventID: 1052 Temperature sensor returned to a normal value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: Non-Critical (Warning) Temperature sensor value (in Degrees Celsius): 11.0
+1133739610 2005.12.04 bn283 Dec 4 15:40:10 bn283/bn283 snmpd[8956]: Got trap from peer on fd 13
+1133739611 2005.12.04 bn275 Dec 4 15:40:11 bn275/bn275 Server Administrator: Instrumentation Service EventID: 1052 Temperature sensor returned to a normal value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: Non-Critical (Warning) Temperature sensor value (in Degrees Celsius): 11.0
+1133739611 2005.12.04 bn275 Dec 4 15:40:11 bn275/bn275 snmpd[7931]: Got trap from peer on fd 13
+1133739611 2005.12.04 dn83 Dec 4 15:40:11 dn83/dn83 ntpd[2286]: synchronized to 10.100.28.250, stratum 3
+1133739617 2005.12.04 aadmin1 Dec 4 15:40:17 src@aadmin1 in.tftpd[18013]: tftp: client does not accept options
+1133739618 2005.12.04 tbird-sm1 Dec 4 15:40:18 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1831]: ********************** NEW SWEEP ********************
+1133739621 2005.12.04 bn286 Dec 4 15:40:21 bn286/bn286 Server Administrator: Instrumentation Service EventID: 1052 Temperature sensor returned to a normal value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: Non-Critical (Warning) Temperature sensor value (in Degrees Celsius): 11.0
+1133739621 2005.12.04 bn286 Dec 4 15:40:21 bn286/bn286 snmpd[7999]: Got trap from peer on fd 13
+1133739622 2005.12.04 bn438 Dec 4 15:40:22 bn438/bn438 ntpd[2289]: synchronized to 10.100.12.250, stratum 3
+1133739623 2005.12.04 tbird-sm1 Dec 4 15:40:23 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1455]: No topology change
+1133739623 2005.12.04 tbird-sm1 Dec 4 15:40:23 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1482]: No configuration change required
+1133739624 2005.12.04 bn201 Dec 4 15:40:24 bn201/bn201 Server Administrator: Instrumentation Service EventID: 1053 Temperature sensor detected a warning value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: OK (Normal) Temperature sensor value (in Degrees Celsius): 10.0
+1133739624 2005.12.04 bn201 Dec 4 15:40:24 bn201/bn201 snmpd[8015]: Got trap from peer on fd 13
+1133739624 2005.12.04 bn215 Dec 4 15:40:24 bn215/bn215 Server Administrator: Instrumentation Service EventID: 1053 Temperature sensor detected a warning value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: OK (Normal) Temperature sensor value (in Degrees Celsius): 10.0
+1133739624 2005.12.04 bn215 Dec 4 15:40:24 bn215/bn215 snmpd[7941]: Got trap from peer on fd 13
+1133739628 2005.12.04 bn248 Dec 4 15:40:28 bn248/bn248 Server Administrator: Instrumentation Service EventID: 1052 Temperature sensor returned to a normal value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: Non-Critical (Warning) Temperature sensor value (in Degrees Celsius): 11.0
+1133739628 2005.12.04 bn248 Dec 4 15:40:28 bn248/bn248 snmpd[7942]: Got trap from peer on fd 13
+1133739629 2005.12.04 dn736 Dec 4 15:40:29 dn736/dn736 ntpd[2286]: synchronized to 10.100.30.250, stratum 3
+1133739630 2005.12.04 eadmin1 Dec 4 15:40:30 src@eadmin1 sendmail[22338]: My unqualified host name (eadmin1) unknown; sleeping for retry
+1133739631 2005.12.04 bn190 Dec 4 15:40:31 bn190/bn190 Server Administrator: Instrumentation Service EventID: 1052 Temperature sensor returned to a normal value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: Non-Critical (Warning) Temperature sensor value (in Degrees Celsius): 11.0
+1133739631 2005.12.04 bn190 Dec 4 15:40:31 bn190/bn190 snmpd[7941]: Got trap from peer on fd 13
+1133739633 2005.12.04 aadmin1 Dec 4 15:40:33 src@aadmin1 sendmail[16592]: My unqualified host name (aadmin1) unknown; sleeping for retry
+1133739633 2005.12.04 tbird-sm1 Dec 4 15:40:33 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1831]: ********************** NEW SWEEP ********************
+1133739634 2005.12.04 badmin1 Dec 4 15:40:34 src@badmin1 sendmail[966]: My unqualified host name (badmin1) unknown; sleeping for retry
+1133739634 2005.12.04 bn275 Dec 4 15:40:34 bn275/bn275 Server Administrator: Instrumentation Service EventID: 1053 Temperature sensor detected a warning value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: OK (Normal) Temperature sensor value (in Degrees Celsius): 10.0
+1133739634 2005.12.04 bn275 Dec 4 15:40:34 bn275/bn275 snmpd[7931]: Got trap from peer on fd 13
+1133739635 2005.12.04 dadmin1 Dec 4 15:40:35 src@dadmin1 sendmail[13272]: My unqualified host name (dadmin1) unknown; sleeping for retry
+1133739637 2005.12.04 tbird-sm1 Dec 4 15:40:37 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1455]: No topology change
+1133739637 2005.12.04 tbird-sm1 Dec 4 15:40:37 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1482]: No configuration change required
+1133739640 2005.12.04 dn703 Dec 4 15:40:40 dn703/dn703 ntpd[2289]: synchronized to 10.100.30.250, stratum 3
+1133739641 2005.12.04 dn855 Dec 4 15:40:41 dn855/dn855 ntpd[2276]: synchronized to 10.100.30.250, stratum 3
+1133739647 2005.12.04 bn201 Dec 4 15:40:47 bn201/bn201 Server Administrator: Instrumentation Service EventID: 1052 Temperature sensor returned to a normal value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: Non-Critical (Warning) Temperature sensor value (in Degrees Celsius): 11.0
+1133739647 2005.12.04 bn201 Dec 4 15:40:47 bn201/bn201 snmpd[8015]: Got trap from peer on fd 13
+1133739647 2005.12.04 bn215 Dec 4 15:40:47 bn215/bn215 Server Administrator: Instrumentation Service EventID: 1052 Temperature sensor returned to a normal value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: Non-Critical (Warning) Temperature sensor value (in Degrees Celsius): 11.0
+1133739647 2005.12.04 bn215 Dec 4 15:40:47 bn215/bn215 snmpd[7941]: Got trap from peer on fd 13
+1133739647 2005.12.04 tbird-sm1 Dec 4 15:40:47 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1831]: ********************** NEW SWEEP ********************
+1133739651 2005.12.04 bn248 Dec 4 15:40:51 bn248/bn248 Server Administrator: Instrumentation Service EventID: 1053 Temperature sensor detected a warning value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: OK (Normal) Temperature sensor value (in Degrees Celsius): 10.0
+1133739651 2005.12.04 bn248 Dec 4 15:40:51 bn248/bn248 snmpd[7942]: Got trap from peer on fd 13
+1133739651 2005.12.04 dn718 Dec 4 15:40:51 dn718/dn718 ntpd[2275]: synchronized to 10.100.28.250, stratum 3
+1133739651 2005.12.04 tbird-sm1 Dec 4 15:40:51 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1455]: No topology change
+1133739651 2005.12.04 tbird-sm1 Dec 4 15:40:51 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1482]: No configuration change required
+1133739652 2005.12.04 dn785 Dec 4 15:40:52 dn785/dn785 ntpd[2274]: synchronized to 10.100.24.250, stratum 3
+1133739658 2005.12.04 bn275 Dec 4 15:40:58 bn275/bn275 Server Administrator: Instrumentation Service EventID: 1052 Temperature sensor returned to a normal value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: Non-Critical (Warning) Temperature sensor value (in Degrees Celsius): 11.0
+1133739658 2005.12.04 bn275 Dec 4 15:40:58 bn275/bn275 snmpd[7931]: Got trap from peer on fd 13
+1133739661 2005.12.04 tbird-sm1 Dec 4 15:41:01 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1831]: ********************** NEW SWEEP ********************
+1133739665 2005.12.04 tbird-sm1 Dec 4 15:41:05 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1455]: No topology change
+1133739665 2005.12.04 tbird-sm1 Dec 4 15:41:05 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1482]: No configuration change required
+1133739669 2005.12.04 bn270 Dec 4 15:41:09 bn270/bn270 Server Administrator: Instrumentation Service EventID: 1053 Temperature sensor detected a warning value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: OK (Normal) Temperature sensor value (in Degrees Celsius): 10.0
+1133739669 2005.12.04 bn270 Dec 4 15:41:09 bn270/bn270 snmpd[7984]: Got trap from peer on fd 13
+1133739670 2005.12.04 an235 Dec 4 15:41:10 an235/an235 Server Administrator: Instrumentation Service EventID: 1052 Temperature sensor returned to a normal value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: Non-Critical (Warning) Temperature sensor value (in Degrees Celsius): 11.0
+1133739670 2005.12.04 an235 Dec 4 15:41:10 an235/an235 snmpd[8012]: Got trap from peer on fd 13
+1133739673 2005.12.04 an205 Dec 4 15:41:13 an205/an205 Server Administrator: Instrumentation Service EventID: 1052 Temperature sensor returned to a normal value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: Non-Critical (Warning) Temperature sensor value (in Degrees Celsius): 11.0
+1133739673 2005.12.04 an205 Dec 4 15:41:13 an205/an205 snmpd[8100]: Got trap from peer on fd 13
+1133739675 2005.12.04 tbird-sm1 Dec 4 15:41:15 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1831]: ********************** NEW SWEEP ********************
+1133739679 2005.12.04 tbird-sm1 Dec 4 15:41:19 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1455]: No topology change
+1133739679 2005.12.04 tbird-sm1 Dec 4 15:41:19 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1482]: No configuration change required
+1133739680 2005.12.04 bn37 Dec 4 15:41:20 bn37/bn37 kernel: UDP: short packet: From 10.100.10.110:32771 48/16 to #112#:8649
+1133739686 2005.12.04 badmin3 Dec 4 15:41:26 src@badmin3 ntpd[4986]: synchronized to 10.100.24.251, stratum 2
+1133739689 2005.12.04 tbird-sm1 Dec 4 15:41:29 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1831]: ********************** NEW SWEEP ********************
+1133739690 2005.12.04 eadmin1 Dec 4 15:41:30 src@eadmin1 sendmail[22338]: unable to qualify my own domain name (eadmin1) -- using short name
+1133739691 2005.12.04 eadmin1 Dec 4 15:41:31 src@eadmin1 crond(pam_unix)[19262]: session closed for user root
+1133739691 2005.12.04 eadmin1 Dec 4 15:41:31 src@eadmin1 sendmail[22338]: jB4MfUCt022338: from=root, size=628342, class=0, nrcpts=1, msgid=<200512042241.jB4MfUCt022338@eadmin1>, relay=#7#@localhost
+1133739691 2005.12.04 eadmin1 Dec 4 15:41:31 src@eadmin1 sendmail[22338]: jB4MfUCt022338: to=root, ctladdr=root (0/0), delay=00:00:01, xdelay=00:00:00, mailer=relay, pri=658342, relay=[127.0.0.1] [127.0.0.1], dsn=4.0.0, stat=Deferred: Connection refused by [127.0.0.1]
+1133739692 2005.12.04 bn270 Dec 4 15:41:32 bn270/bn270 Server Administrator: Instrumentation Service EventID: 1052 Temperature sensor returned to a normal value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: Non-Critical (Warning) Temperature sensor value (in Degrees Celsius): 11.0
+1133739692 2005.12.04 bn270 Dec 4 15:41:32 bn270/bn270 snmpd[7984]: Got trap from peer on fd 13
+1133739693 2005.12.04 aadmin1 Dec 4 15:41:33 src@aadmin1 sendmail[16592]: unable to qualify my own domain name (aadmin1) -- using short name
+1133739693 2005.12.04 an235 Dec 4 15:41:33 an235/an235 Server Administrator: Instrumentation Service EventID: 1053 Temperature sensor detected a warning value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: OK (Normal) Temperature sensor value (in Degrees Celsius): 10.0
+1133739693 2005.12.04 an235 Dec 4 15:41:33 an235/an235 snmpd[8012]: Got trap from peer on fd 13
+1133739693 2005.12.04 tbird-sm1 Dec 4 15:41:33 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1455]: No topology change
+1133739693 2005.12.04 tbird-sm1 Dec 4 15:41:33 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1482]: No configuration change required
+1133739694 2005.12.04 badmin1 Dec 4 15:41:34 src@badmin1 sendmail[966]: unable to qualify my own domain name (badmin1) -- using short name
+1133739694 2005.12.04 bn215 Dec 4 15:41:34 bn215/bn215 Server Administrator: Instrumentation Service EventID: 1053 Temperature sensor detected a warning value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: OK (Normal) Temperature sensor value (in Degrees Celsius): 10.0
+1133739694 2005.12.04 bn215 Dec 4 15:41:34 bn215/bn215 snmpd[7941]: Got trap from peer on fd 13
+1133739695 2005.12.04 aadmin1 Dec 4 15:41:35 src@aadmin1 crond(pam_unix)[13516]: session closed for user root
+1133739695 2005.12.04 aadmin1 Dec 4 15:41:35 src@aadmin1 sendmail[16592]: jB4MfX25016592: from=root, size=1597296, class=0, nrcpts=1, msgid=<200512042241.jB4MfX25016592@aadmin1>, relay=#7#@localhost
+1133739695 2005.12.04 aadmin1 Dec 4 15:41:35 src@aadmin1 sendmail[16592]: jB4MfX25016592: to=root, ctladdr=root (0/0), delay=00:00:02, xdelay=00:00:00, mailer=relay, pri=1627296, relay=[127.0.0.1] [127.0.0.1], dsn=4.0.0, stat=Deferred: Connection refused by [127.0.0.1]
+1133739695 2005.12.04 dadmin1 Dec 4 15:41:35 src@dadmin1 sendmail[13272]: unable to qualify my own domain name (dadmin1) -- using short name
+1133739696 2005.12.04 an205 Dec 4 15:41:36 an205/an205 Server Administrator: Instrumentation Service EventID: 1053 Temperature sensor detected a warning value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: OK (Normal) Temperature sensor value (in Degrees Celsius): 10.0
+1133739696 2005.12.04 an205 Dec 4 15:41:36 an205/an205 snmpd[8100]: Got trap from peer on fd 13
+1133739696 2005.12.04 badmin1 Dec 4 15:41:36 src@badmin1 crond(pam_unix)[30357]: session closed for user root
+1133739696 2005.12.04 badmin1 Dec 4 15:41:36 src@badmin1 sendmail[966]: jB4MfYFh000966: from=root, size=1593175, class=0, nrcpts=1, msgid=<200512042241.jB4MfYFh000966@badmin1>, relay=#7#@localhost
+1133739696 2005.12.04 badmin1 Dec 4 15:41:36 src@badmin1 sendmail[966]: jB4MfYFh000966: to=root, ctladdr=root (0/0), delay=00:00:02, xdelay=00:00:00, mailer=relay, pri=1623175, relay=[127.0.0.1] [127.0.0.1], dsn=4.0.0, stat=Deferred: Connection refused by [127.0.0.1]
+1133739697 2005.12.04 dadmin1 Dec 4 15:41:37 src@dadmin1 crond(pam_unix)[10196]: session closed for user root
+1133739697 2005.12.04 dadmin1 Dec 4 15:41:37 src@dadmin1 sendmail[13272]: jB4MfZFA013272: from=root, size=1597080, class=0, nrcpts=1, msgid=<200512042241.jB4MfZFA013272@dadmin1>, relay=#7#@localhost
+1133739697 2005.12.04 dadmin1 Dec 4 15:41:37 src@dadmin1 sendmail[13272]: jB4MfZFA013272: to=root, ctladdr=root (0/0), delay=00:00:02, xdelay=00:00:00, mailer=relay, pri=1627080, relay=[127.0.0.1] [127.0.0.1], dsn=4.0.0, stat=Deferred: Connection refused by [127.0.0.1]
+1133739698 2005.12.04 bn248 Dec 4 15:41:38 bn248/bn248 Server Administrator: Instrumentation Service EventID: 1052 Temperature sensor returned to a normal value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: Non-Critical (Warning) Temperature sensor value (in Degrees Celsius): 11.0
+1133739698 2005.12.04 bn248 Dec 4 15:41:38 bn248/bn248 snmpd[7942]: Got trap from peer on fd 13
+1133739703 2005.12.04 tbird-sm1 Dec 4 15:41:43 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1831]: ********************** NEW SWEEP ********************
+1133739704 2005.12.04 bn275 Dec 4 15:41:44 bn275/bn275 Server Administrator: Instrumentation Service EventID: 1053 Temperature sensor detected a warning value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: OK (Normal) Temperature sensor value (in Degrees Celsius): 10.0
+1133739704 2005.12.04 bn275 Dec 4 15:41:44 bn275/bn275 snmpd[7931]: Got trap from peer on fd 13
+1133739704 2005.12.04 dn671 Dec 4 15:41:44 dn671/dn671 ntpd[2278]: synchronized to 10.100.24.250, stratum 3
+1133739707 2005.12.04 tbird-sm1 Dec 4 15:41:47 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1455]: No topology change
+1133739707 2005.12.04 tbird-sm1 Dec 4 15:41:47 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1482]: No configuration change required
+1133739708 2005.12.04 dn171 Dec 4 15:41:48 dn171/dn171 ntpd[2271]: synchronized to 10.100.30.250, stratum 3
+1133739710 2005.12.04 dn769 Dec 4 15:41:50 dn769/dn769 ntpd[2283]: synchronized to 10.100.24.250, stratum 3
+1133739715 2005.12.04 dn171 Dec 4 15:41:55 dn171/dn171 ntpd[2271]: synchronized to 10.100.24.250, stratum 3
+1133739717 2005.12.04 dn481 Dec 4 15:41:57 dn481/dn481 ntpd[2286]: synchronized to 10.100.26.250, stratum 3
+1133739717 2005.12.04 tbird-sm1 Dec 4 15:41:57 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1831]: ********************** NEW SWEEP ********************
+1133739719 2005.12.04 an205 Dec 4 15:41:59 an205/an205 Server Administrator: Instrumentation Service EventID: 1052 Temperature sensor returned to a normal value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: Non-Critical (Warning) Temperature sensor value (in Degrees Celsius): 11.0
+1133739719 2005.12.04 an205 Dec 4 15:41:59 an205/an205 snmpd[8100]: Got trap from peer on fd 13
+1133739721 2005.12.04 bn248 Dec 4 15:42:01 bn248/bn248 Server Administrator: Instrumentation Service EventID: 1053 Temperature sensor detected a warning value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: OK (Normal) Temperature sensor value (in Degrees Celsius): 10.0
+1133739721 2005.12.04 bn248 Dec 4 15:42:01 bn248/bn248 snmpd[7942]: Got trap from peer on fd 13
+1133739721 2005.12.04 tbird-sm1 Dec 4 15:42:01 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1455]: No topology change
+1133739721 2005.12.04 tbird-sm1 Dec 4 15:42:01 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1482]: No configuration change required
+1133739726 2005.12.04 bn283 Dec 4 15:42:06 bn283/bn283 Server Administrator: Instrumentation Service EventID: 1053 Temperature sensor detected a warning value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: OK (Normal) Temperature sensor value (in Degrees Celsius): 10.0
+1133739726 2005.12.04 bn283 Dec 4 15:42:06 bn283/bn283 snmpd[8956]: Got trap from peer on fd 13
+1133739726 2005.12.04 dn769 Dec 4 15:42:06 dn769/dn769 ntpd[2283]: synchronized to 10.100.26.250, stratum 3
+1133739727 2005.12.04 bn275 Dec 4 15:42:07 bn275/bn275 Server Administrator: Instrumentation Service EventID: 1052 Temperature sensor returned to a normal value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: Non-Critical (Warning) Temperature sensor value (in Degrees Celsius): 11.0
+1133739727 2005.12.04 bn275 Dec 4 15:42:07 bn275/bn275 snmpd[7931]: Got trap from peer on fd 13
+1133739731 2005.12.04 tbird-sm1 Dec 4 15:42:11 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1831]: ********************** NEW SWEEP ********************
+1133739734 2005.12.04 aadmin1 Dec 4 15:42:14 src@aadmin1 dhcpd: DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1
+1133739734 2005.12.04 aadmin1 Dec 4 15:42:14 src@aadmin1 dhcpd: DHCPOFFER on 10.100.4.251 to 00:11:43:e3:ba:c3 via eth1
+1133739734 2005.12.04 aadmin2 Dec 4 15:42:14 src@aadmin2 dhcpd: DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1: network A_net: no free leases
+1133739734 2005.12.04 aadmin3 Dec 4 15:42:14 src@aadmin3 dhcpd: DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1: network A_net: no free leases
+1133739734 2005.12.04 aadmin4 Dec 4 15:42:14 src@aadmin4 dhcpd: DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1: network A_net: no free leases
+1133739735 2005.12.04 tbird-sm1 Dec 4 15:42:15 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1455]: No topology change
+1133739735 2005.12.04 tbird-sm1 Dec 4 15:42:15 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1482]: No configuration change required
+1133739736 2005.12.04 aadmin1 Dec 4 15:42:16 src@aadmin1 dhcpd: DHCPACK on 10.100.4.251 to 00:11:43:e3:ba:c3 via eth1
+1133739736 2005.12.04 aadmin1 Dec 4 15:42:16 src@aadmin1 dhcpd: DHCPREQUEST for 10.100.4.251 (10.100.0.250) from 00:11:43:e3:ba:c3 via eth1
+1133739736 2005.12.04 aadmin1 Dec 4 15:42:16 src@aadmin1 xinetd[18274]: START: tftp pid=16593 from=10.100.4.251
+1133739736 2005.12.04 aadmin2 Dec 4 15:42:16 src@aadmin2 dhcpd: DHCPREQUEST for 10.100.4.251 (10.100.0.250) from 00:11:43:e3:ba:c3 via eth1: unknown lease 10.100.4.251.
+1133739736 2005.12.04 aadmin3 Dec 4 15:42:16 src@aadmin3 dhcpd: DHCPREQUEST for 10.100.4.251 (10.100.0.250) from 00:11:43:e3:ba:c3 via eth1: unknown lease 10.100.4.251.
+1133739736 2005.12.04 aadmin4 Dec 4 15:42:16 src@aadmin4 dhcpd: DHCPREQUEST for 10.100.4.251 (10.100.0.250) from 00:11:43:e3:ba:c3 via eth1: unknown lease 10.100.4.251.
+1133739740 2005.12.04 bn215 Dec 4 15:42:20 bn215/bn215 Server Administrator: Instrumentation Service EventID: 1052 Temperature sensor returned to a normal value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: Non-Critical (Warning) Temperature sensor value (in Degrees Celsius): 11.0
+1133739740 2005.12.04 bn215 Dec 4 15:42:20 bn215/bn215 snmpd[7941]: Got trap from peer on fd 13
+1133739740 2005.12.04 dn309 Dec 4 15:42:20 dn309/dn309 ntpd[2288]: synchronized to 10.100.24.250, stratum 3
+1133739742 2005.12.04 an205 Dec 4 15:42:22 an205/an205 Server Administrator: Instrumentation Service EventID: 1053 Temperature sensor detected a warning value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: OK (Normal) Temperature sensor value (in Degrees Celsius): 10.0
+1133739742 2005.12.04 an205 Dec 4 15:42:22 an205/an205 snmpd[8100]: Got trap from peer on fd 13
+1133739744 2005.12.04 dn484 Dec 4 15:42:24 dn484/dn484 ntpd[2285]: synchronized to 10.100.26.250, stratum 3
+1133739745 2005.12.04 tbird-sm1 Dec 4 15:42:25 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1831]: ********************** NEW SWEEP ********************
+1133739749 2005.12.04 bn283 Dec 4 15:42:29 bn283/bn283 Server Administrator: Instrumentation Service EventID: 1052 Temperature sensor returned to a normal value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: Non-Critical (Warning) Temperature sensor value (in Degrees Celsius): 11.0
+1133739749 2005.12.04 bn283 Dec 4 15:42:29 bn283/bn283 snmpd[8956]: Got trap from peer on fd 13
+1133739749 2005.12.04 tbird-sm1 Dec 4 15:42:29 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1455]: No topology change
+1133739749 2005.12.04 tbird-sm1 Dec 4 15:42:29 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1482]: No configuration change required
+1133739751 2005.12.04 dn654 Dec 4 15:42:31 dn654/dn654 ntpd[2272]: synchronized to 10.100.28.250, stratum 3
+1133739751 2005.12.04 dn654 Dec 4 15:42:31 dn654/dn654 ntpd[2272]: synchronized to 10.100.30.250, stratum 3
+1133739753 2005.12.04 dn630 Dec 4 15:42:33 dn630/dn630 ntpd[2288]: synchronized to 10.100.24.250, stratum 3
+1133739754 2005.12.04 dn786 Dec 4 15:42:34 dn786/dn786 ntpd[2284]: synchronized to 10.100.30.250, stratum 3
+1133739755 2005.12.04 dn460 Dec 4 15:42:35 dn460/dn460 ntpd[2275]: synchronized to 10.100.26.250, stratum 3
+1133739758 2005.12.04 aadmin1 Dec 4 15:42:38 src@aadmin1 dhcpd: DHCPACK on 10.100.4.251 to 00:11:43:e3:ba:c3 via eth1
+1133739758 2005.12.04 aadmin1 Dec 4 15:42:38 src@aadmin1 dhcpd: DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1
+1133739758 2005.12.04 aadmin1 Dec 4 15:42:38 src@aadmin1 dhcpd: DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1
+1133739758 2005.12.04 aadmin1 Dec 4 15:42:38 src@aadmin1 dhcpd: DHCPOFFER on 10.100.4.251 to 00:11:43:e3:ba:c3 via eth1
+1133739758 2005.12.04 aadmin1 Dec 4 15:42:38 src@aadmin1 dhcpd: DHCPOFFER on 10.100.4.251 to 00:11:43:e3:ba:c3 via eth1
+1133739758 2005.12.04 aadmin1 Dec 4 15:42:38 src@aadmin1 dhcpd: DHCPREQUEST for 10.100.4.251 (10.100.0.250) from 00:11:43:e3:ba:c3 via eth1
+1133739758 2005.12.04 aadmin2 Dec 4 15:42:38 src@aadmin2 dhcpd: DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1: network A_net: no free leases
+1133739758 2005.12.04 aadmin2 Dec 4 15:42:38 src@aadmin2 dhcpd: DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1: network A_net: no free leases
+1133739758 2005.12.04 aadmin2 Dec 4 15:42:38 src@aadmin2 dhcpd: DHCPREQUEST for 10.100.4.251 (10.100.0.250) from 00:11:43:e3:ba:c3 via eth1: unknown lease 10.100.4.251.
+1133739758 2005.12.04 aadmin3 Dec 4 15:42:38 src@aadmin3 dhcpd: DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1: network A_net: no free leases
+1133739758 2005.12.04 aadmin3 Dec 4 15:42:38 src@aadmin3 dhcpd: DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1: network A_net: no free leases
+1133739758 2005.12.04 aadmin3 Dec 4 15:42:38 src@aadmin3 dhcpd: DHCPREQUEST for 10.100.4.251 (10.100.0.250) from 00:11:43:e3:ba:c3 via eth1: unknown lease 10.100.4.251.
+1133739758 2005.12.04 aadmin4 Dec 4 15:42:38 src@aadmin4 dhcpd: DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1: network A_net: no free leases
+1133739758 2005.12.04 aadmin4 Dec 4 15:42:38 src@aadmin4 dhcpd: DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1: network A_net: no free leases
+1133739758 2005.12.04 aadmin4 Dec 4 15:42:38 src@aadmin4 dhcpd: DHCPREQUEST for 10.100.4.251 (10.100.0.250) from 00:11:43:e3:ba:c3 via eth1: unknown lease 10.100.4.251.
+1133739759 2005.12.04 aadmin1 Dec 4 15:42:39 src@aadmin1 dhcpd: DHCPACK on 10.100.4.251 to 00:11:43:e3:ba:c3 via eth1
+1133739759 2005.12.04 aadmin1 Dec 4 15:42:39 src@aadmin1 dhcpd: DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1
+1133739759 2005.12.04 aadmin1 Dec 4 15:42:39 src@aadmin1 dhcpd: DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1
+1133739759 2005.12.04 aadmin1 Dec 4 15:42:39 src@aadmin1 dhcpd: DHCPOFFER on 10.100.4.251 to 00:11:43:e3:ba:c3 via eth1
+1133739759 2005.12.04 aadmin1 Dec 4 15:42:39 src@aadmin1 dhcpd: DHCPOFFER on 10.100.4.251 to 00:11:43:e3:ba:c3 via eth1
+1133739759 2005.12.04 aadmin1 Dec 4 15:42:39 src@aadmin1 dhcpd: DHCPREQUEST for 10.100.4.251 (10.100.0.250) from 00:11:43:e3:ba:c3 via eth1
+1133739759 2005.12.04 aadmin2 Dec 4 15:42:39 src@aadmin2 dhcpd: DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1: network A_net: no free leases
+1133739759 2005.12.04 aadmin2 Dec 4 15:42:39 src@aadmin2 dhcpd: DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1: network A_net: no free leases
+1133739759 2005.12.04 aadmin2 Dec 4 15:42:39 src@aadmin2 dhcpd: DHCPREQUEST for 10.100.4.251 (10.100.0.250) from 00:11:43:e3:ba:c3 via eth1: unknown lease 10.100.4.251.
+1133739759 2005.12.04 aadmin3 Dec 4 15:42:39 src@aadmin3 dhcpd: DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1: network A_net: no free leases
+1133739759 2005.12.04 aadmin3 Dec 4 15:42:39 src@aadmin3 dhcpd: DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1: network A_net: no free leases
+1133739759 2005.12.04 aadmin3 Dec 4 15:42:39 src@aadmin3 dhcpd: DHCPREQUEST for 10.100.4.251 (10.100.0.250) from 00:11:43:e3:ba:c3 via eth1: unknown lease 10.100.4.251.
+1133739759 2005.12.04 aadmin4 Dec 4 15:42:39 src@aadmin4 dhcpd: DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1: network A_net: no free leases
