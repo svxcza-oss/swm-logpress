@@ -31,12 +31,19 @@ class TrackingSnapKVPress (SnapKVPress):
         values = values.gather(2, indices).contiguous() 
         return keys, values 
 
-model = AutoModelForCausalLM.from_pretrained("Qwen/Qwen2.5-3B-Instruct") 
+model = AutoModelForCausalLM.from_pretrained(
+    "Qwen/Qwen2.5-3B-Instruct",
+    torch_dtype=torch.float16
+    ) 
 
 tokenizer = AutoTokenizer.from_pretrained("Qwen/Qwen2.5-3B-Instruct") 
 
-log_path = Path(
-    r"C:\Users\qkral\OneDrive\바탕 화면\박민규\swm-project\Part_A\week6\thunderbird\chunks\window_314927_chunk13.txt"
+log_path = (
+    Path(__file__).resolve().parents[2]
+    / "week6"
+    / "thunderbird"
+    / "subchunks"
+    / "window_314927_chunk13_sub3.txt"
 )
 logs = log_path.read_text(encoding="utf-8") 
 lines = logs.splitlines(keepends=True) 
@@ -62,7 +69,7 @@ for line_no, line in enumerate(lines):
     cursor += len(line) 
     line_end = cursor 
      
-    print("line ", line_no, "(", line_start, ",", line_end, ")") 
+    # print("line ", line_no, "(", line_start, ",", line_end, ")") 
     line_spans.append([line_start, line_end]) 
      
 print(line_spans[:3]) 
@@ -95,7 +102,6 @@ for i in compression:
         press_outputs = model(**inputs) 
          
     num_layers = len(press_outputs.past_key_values.layers) 
-    print("[압축률: ", compression_ratio, "]") 
      
     original_tokens = inputs["input_ids"].shape[1] 
     compressed_tokens = press_outputs.past_key_values.layers[0].keys.shape[2] 
@@ -170,4 +176,4 @@ for i in compression:
         f"PARTIAL={partial_count}, " 
         f"DROP={drop_count}" 
     ) 
-        
+
