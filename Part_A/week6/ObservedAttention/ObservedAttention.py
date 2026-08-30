@@ -5,6 +5,8 @@ import torch
 
 class TrackingObservedAttentionPress(ObservedAttentionPress):
     def compress(self, module, hidden_states, keys, values, attentions, kwargs):
+        if self.compression_ratio == 0:
+            return keys, values
         
         scores = self.score(
             module,
@@ -36,11 +38,16 @@ model_name = "Qwen/Qwen2.5-3B-Instruct"
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 model = AutoModelForCausalLM.from_pretrained(
     model_name,
-    attn_implementation="eager"
+    attn_implementation="eager",
+    dtype=torch.float16
     )
 
-log_path = Path(
-    r"C:\Users**\qkral\OneDrive\바탕 화면\박민규\swm-project\Part_A\week6\thunderbird\c**hunks\window_314927_chunk13.txt"
+log_path = (
+    Path(__file__).resolve().parents[2]
+    / "week6"
+    / "thunderbird"
+    / "subchunks"
+    / "window_314927_chunk13_sub3.txt"
 )
 logs = log_path.read_text(encoding="utf-8")
 lines = logs.splitlines(keepends=True)
@@ -48,7 +55,7 @@ cursor = 0
 
 inputs = tokenizer(
     logs,
-    return_tensors="pt"
+    return_tensors="pt",
     return_offsets_mapping=True
     )
 offset_mapping = inputs.pop("offset_mapping")
@@ -64,7 +71,7 @@ for line_no, line in enumerate(lines):
     cursor += len(line)
     line_end = cursor
     
-    print(f"line: {line_no} ({line_start}, {line_end})")
+    # print(f"line: {line_no} ({line_start}, {line_end})")
     
     line_spans.append([line_start, line_end])
 
@@ -80,8 +87,8 @@ for token_no, token in enumerate(offset_mapping[0]):
         
     token_to_line.append(line_chk)
     
-print(len(token_to_line))
-print(token_to_line[:20])
+# print(len(token_to_line))
+# print(token_to_line[:20])
 
 
 compression = [0.5, 0.7, 0.9]
@@ -104,11 +111,60 @@ for compression_ratio in compression:
     print(f"압축 후 KV 토큰 수: {compressed_tokens}")
     
     target_layer = 0
+
+    layer_indices = press.layers[target_layer][0]
+
+    kept_tokens = set(layer_indices.reshape(-1).tolist())
+
+    line_total = [0] * len(lines)
+    line_kept = [0] * len(lines)
+
+    for token_idx, line_idx in enumerate(token_to_line):
+        line_total[line_idx] += 1
+
+        if token_idx in kept_tokens:
+            line_kept[line_idx] += 1
+
+    print(f"압축률: {compression_ratio}")
+    print(f"기준 레이어: {target_layer}")
+    print(f"생존 unique token 수: {len(kept_tokens)}")
+    print("=" * 80)
+
+    keep_count= 0
+    partial_count = 0
+    drop_count = 0
+
+    for line_no, line in enumerate(lines):
+
+        total = line_total[line_no]
+        kept = line_kept[line_no]
+
+        if total == 0:
+            status = "NO_TOKEN"
+
+        elif kept == 0:
+            status = "DROP"
+            drop_count += 1
+
+        elif kept == total:
+            status = "KEEP"
+            keep_count += 1
+
+        else:
+            status = "PARTIAL"
+            partial_count += 1
+
+        print(
+            f"Line {line_no:02d} | "
+            f"{status:7s} | "
+            f"{kept}/{total} | "
+            f"{line.strip()}"
+        )
+
+    print("-" * 80)
+    print(
+        f"KEEP={keep_count}, "
+        f"PARTIAL={partial_count}, "
+        f"DROP={drop_count}"
+    )
     
-    
-    
-    print(outputs.past_key_values.layers[0].keys.shape)
-    
-    
-    print(press.layers[0].shape)
-    print(press.layers[0])
