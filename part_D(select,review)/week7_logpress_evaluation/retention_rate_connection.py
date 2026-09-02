@@ -94,7 +94,7 @@ if _lp is None:
 for n, v in {"logpress": logpress, **baseline}.items():
     print(f"  {n:20s}: {sum(v)}/{len(v)} 보존")
 print(f"  strata: overall={len(overall)} non_error={len(non_error)} middle={len(middle)}")
-# ↓↓↓ 이 아래에 네 metric_KPI 셀들 그대로 ↓↓↓
+# ↓↓↓ 이 아래에 metric_KPI 셀들 그대로 ↓↓↓
 
 
 
