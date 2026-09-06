@@ -12,77 +12,6 @@ INPUT_FIELDS = [
     "content"
 ]
 
-
-def tokenizer_log(text, spans, tokenizer):
-    encoded = tokenizer(
-        text,
-        return_tensors="pt",
-        return_offsets_mapping=True,
-        add_special_tokens=False
-    )
-
-    input_ids = encoded["input_ids"][0]
-    attention_mask = encoded["attention_mask"][0]
-    offsets = encoded["offset_mapping"][0].tolist()
-
-    token_map = []
-
-    for token_idx, (token_start, token_end) in enumerate(offsets):
-        token_info = {
-            "token_idx": token_idx,
-            "token_id": int(input_ids[token_idx]),
-            "token": tokenizer.convert_ids_to_tokens(
-                int(input_ids[token_idx])
-            ),
-            "start": token_start,
-            "end": token_end,
-            "line_id": None,
-            "row_idx": None,
-            "field": None
-        }
-
-        # 문자 범위가 없는 토큰은 매핑하지 않음
-        if token_start == token_end:
-            token_map.append(token_info)
-            continue
-
-        # 토큰 범위와 필드값 범위를 비교
-        for span in spans:
-            overlap_start = max(
-                token_start,
-                span["start"]
-            )
-
-            overlap_end = min(
-                token_end,
-                span["end"]
-            )
-
-            if overlap_start < overlap_end:
-                token_info["line_id"] = span["line_id"]
-                token_info["row_idx"] = span["row_idx"]
-                token_info["field"] = span["field"]
-                break
-
-        token_map.append(token_info)
-
-    for token_idx, token_info in enumerate(token_map):
-        start = token_info["start"]
-        end = token_info["end"]
-
-        if token_info["line_id"] is None and text[start:end] == " \n":
-            if token_idx > 0:
-                previous = token_map[token_idx - 1]
-                token_info["line_id"] = previous["line_id"]
-                token_info["row_idx"] = previous["row_idx"]
-
-    return {
-        "input_ids": input_ids.tolist(),
-        "attention_mask": attention_mask.tolist(),
-        "token_map": token_map
-    }
-
-
 def main():
     tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
 
@@ -176,6 +105,78 @@ def main():
                 print(token_info)
 
     print(f"\n저장 완료: {output_path}")
+
+
+def tokenizer_log(text, spans, tokenizer):
+    encoded = tokenizer(
+        text,
+        return_tensors="pt",
+        return_offsets_mapping=True,
+        add_special_tokens=False
+    )
+
+    input_ids = encoded["input_ids"][0]
+    attention_mask = encoded["attention_mask"][0]
+    offsets = encoded["offset_mapping"][0].tolist()
+
+    token_map = []
+
+    for token_idx, (token_start, token_end) in enumerate(offsets):
+        token_info = {
+            "token_idx": token_idx,
+            "token_id": int(input_ids[token_idx]),
+            "token": tokenizer.convert_ids_to_tokens(
+                int(input_ids[token_idx])
+            ),
+            "start": token_start,
+            "end": token_end,
+            "line_id": None,
+            "row_idx": None,
+            "field": None
+        }
+
+        # 문자 범위가 없는 토큰은 매핑하지 않음
+        if token_start == token_end:
+            token_map.append(token_info)
+            continue
+
+        # 토큰 범위와 필드값 범위를 비교
+        for span in spans:
+            overlap_start = max(
+                token_start,
+                span["start"]
+            )
+
+            overlap_end = min(
+                token_end,
+                span["end"]
+            )
+
+            if overlap_start < overlap_end:
+                token_info["line_id"] = span["line_id"]
+                token_info["row_idx"] = span["row_idx"]
+                token_info["field"] = span["field"]
+                break
+
+        token_map.append(token_info)
+
+    for token_idx, token_info in enumerate(token_map):
+        start = token_info["start"]
+        end = token_info["end"]
+
+        if token_info["line_id"] is None and text[start:end] == " \n":
+            if token_idx > 0:
+                previous = token_map[token_idx - 1]
+                token_info["line_id"] = previous["line_id"]
+                token_info["row_idx"] = previous["row_idx"]
+
+    return {
+        "input_ids": input_ids.tolist(),
+        "attention_mask": attention_mask.tolist(),
+        "token_map": token_map
+    }
+
+
 
 
 if __name__ == "__main__":
