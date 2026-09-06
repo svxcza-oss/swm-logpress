@@ -2,7 +2,7 @@ from transformers import AutoTokenizer
 import json
 from pathlib import Path
 
-MODEL_NAME = "Qwen/Qwen2.5-0.5B-Instruct"
+MODEL_NAME = "Qwen/Qwen2.5-3B-Instruct"
 
 INPUT_FIELDS = [
     "timestamp",
@@ -146,12 +146,18 @@ def main():
             )
 
             result = {
-                "window_idx": window_idx,
-                "text": text,
-                "input_ids": mapped["input_ids"],
-                "attention_mask": mapped["attention_mask"],
-                "token_map": mapped["token_map"]
-            }
+                      "window_idx": window_idx,
+                      "text": text,
+                      "input_ids": mapped["input_ids"],
+                      "attention_mask": mapped["attention_mask"],
+                      "token_map": mapped["token_map"],
+                      "line_labels": [
+                           {
+                             "line_id": int(row["line_id"]),
+                              "label": str(row.get("label", "-"))
+                                }
+                               for row in window
+                              ]}
 
             fout.write(
                 json.dumps(

@@ -45,7 +45,7 @@ def convert_to_line_attention(layer_attentions,token_map):
 
     query_token_counts = member.sum(dim=0)
 
-    query_token_counts = query_token_counts.clamp(min =1 )
+    query_token_counts = query_token_counts.clamp(min =1) #
 
     line_attention_list = []
 
