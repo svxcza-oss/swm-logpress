@@ -26,28 +26,62 @@ def main():
     attn_implementation="eager",
     dtype=torch.float16 if device.type == "xpu" else torch.float32,
      ).to(device)
-    model.eval()
+    
+    model.eval() #평가 모드로 변경
 
     with open(
         input_path,
         "r",
         encoding="utf-8"
     ) as fin:
-        line_score, line_ids = token_attention(
+        line_attentions, line_ids = token_attention(
             fin,
             model,
             device
         )
 
-    if line_score is None:
+    if line_attentions is None:
         print("분석할 데이터가 없습니다.")
         return
+    
+    output_path = input_path.with_name(
+        input_path.stem + "_line_attention.pt"
+    )
+
+    torch.save(
+        {
+            "line_ids": line_ids,
+
+            # [layer, head, query_line, key_line]
+            "line_attentions": line_attentions,
+
+            # [layer, query_line, key_line]
+            "head_mean_attentions": line_attentions.mean(dim=1)
+        },
+        output_path
+    )
+
+    print(f"\nAttention 저장 완료: {output_path}")
 
     print("\nLine ID 순서:")
     print(line_ids)
 
-    print("\nLine attention score:")
-    print(line_score)
+    for layer_idx, layer_attention in enumerate(line_attentions):
+        # layer_attention: [head, query_line, key_line]
+
+        # 출력용 헤드 평균. 원본 line_attentions는 유지됨.
+        mean_attention = layer_attention.mean(dim=0)
+
+        print(f"\nLayer {layer_idx}: 헤드 평균 라인 Attention")
+        print(mean_attention)
+
+        # 각 헤드의 각 query 라인에 대해 행 합 확인
+        row_sums = layer_attention.sum(dim=-1)
+        print(
+            "헤드별 행 합의 최솟값 / 최댓값:",
+            row_sums.min().item(),
+            row_sums.max().item()
+        )
 
 
 def token_attention(fin, model, device):
@@ -103,11 +137,9 @@ def token_attention(fin, model, device):
             line_attentions.shape
         )
 
-        # 마지막 레이어 선택 후 모든 헤드 평균
-        line_score = line_attentions[-1].mean(dim=0)
 
         # 테스트 단계에서는 첫 번째 윈도우만 반환
-        return line_score, line_ids
+        return line_attentions, line_ids
 
     # JSONL 파일이 비어 있는 경우
     return None, []
