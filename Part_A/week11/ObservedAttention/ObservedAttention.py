@@ -1,3 +1,6 @@
+# ============================================================
+# 1. Imports
+# ============================================================
 from transformers import AutoTokenizer, AutoModelForCausalLM
 from pathlib import Path 
 from kvpress import ObservedAttentionPress
@@ -5,6 +8,10 @@ import torch
 import csv
 import json
 import re
+
+# ============================================================
+# 2. ObservedAttention Token Survival Tracking
+# ============================================================
 
 class TrackingObservedAttentionPress(ObservedAttentionPress):
     def compress(self, module, hidden_states, keys, values, attentions, kwargs):
@@ -59,6 +66,9 @@ class TrackingObservedAttentionPress(ObservedAttentionPress):
         
         return keys, values
         
+# ============================================================
+# 3. Model Loading
+# ============================================================
 
 model_name = "Qwen/Qwen2.5-3B-Instruct"
 
@@ -68,6 +78,10 @@ model = AutoModelForCausalLM.from_pretrained(
     attn_implementation="eager",
     dtype=torch.float16
     )
+
+# ============================================================
+# 4. Log / Metadata Loading
+# ============================================================
 
 log_path = (
     Path(__file__).resolve().parents[2]
@@ -98,9 +112,13 @@ if match is None:
 chunk_idx = int(match.group(1))
 sub_idx = int(match.group(2))
 
+# ============================================================
+# 5. Metadata CSV → Subchunk GT Mapping
+# ============================================================
+
 with metadata_path.open(
     "r",
-    encoding="utf-8",
+    encoding="utf-8-sig",
     newline=""
 ) as f:
     reader = csv.DictReader(f)
@@ -137,6 +155,10 @@ for prev_sub_idx in range(sub_idx):
 # metadata의 alert line을 현재 subchunk local line index로 변환
 logs = log_path.read_text(encoding="utf-8")
 lines = logs.splitlines(keepends=True)
+
+# ============================================================
+# 6. Token → Log Line Mapping
+# ============================================================
 
 inputs = tokenizer(
     logs,
@@ -177,12 +199,13 @@ line_to_tokens = [[] for _ in range(len(lines))]
 
 for token_idx, line_idx in enumerate(token_to_line):
     line_to_tokens[line_idx].append(token_idx)
+
     
+# ============================================================
+# 7. Compression Experiment
+# ============================================================
 
 compression = [0.5, 0.7, 0.9]
-
-# 임시 디버깅용 GT
-# 현재 lines는 앞 30줄만 사용하므로 0~29 범위의 line index 사용
 
 subchunk_start_line = (
     chunk_start_line + subchunk_offset
@@ -209,7 +232,11 @@ for compression_ratio in compression:
     with torch.no_grad():
         with press(model):
             outputs = model(**inputs, use_cache=True)
-            
+
+# ============================================================
+# 8. KV Survival → LineScore Evaluation
+# ============================================================   
+ 
     line_scores = [0.0] * len(lines)
     slot_count = 0
 
@@ -275,7 +302,11 @@ for compression_ratio in compression:
         if len(token_indices) > 0
     ) / total_mapped_tokens
 
-    line_keep_ratio = 0.5
+    line_keep_ratio = 1 - compression_ratio
+
+# ============================================================
+# 10. LineScore Ranking → Top-K Lines
+# ============================================================
 
     # token이 실제로 존재하는 line만 ranking 대상으로 사용
     valid_line_indices = [
@@ -299,7 +330,11 @@ for compression_ratio in compression:
     )
 
     top_k_lines = ranked_lines[:num_lines_to_keep]
-    
+
+# ============================================================
+# 11. GT Retention Evaluation
+# ============================================================
+
     selected_lines = set(top_k_lines)
     
     invalid_gt_lines = [
@@ -319,7 +354,11 @@ for compression_ratio in compression:
         retention = None
     else:
         retention = len(retained_gt_lines) / len(gt_lines)
-    
+
+# ============================================================
+# 12. Result Output
+# ============================================================
+
     print("\n" + "=" * 80)
     print(f"압축률: {compression_ratio}")
     print("=" * 80)
