@@ -2,6 +2,9 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 from pathlib import Path 
 from kvpress import ObservedAttentionPress
 import torch
+import csv
+import json
+import re
 
 class TrackingObservedAttentionPress(ObservedAttentionPress):
     def compress(self, module, hidden_states, keys, values, attentions, kwargs):
@@ -71,16 +74,69 @@ log_path = (
     / "week6"
     / "thunderbird"
     / "subchunks"
-    / "window_314927_chunk13_sub3.txt"
+    / "window_314927_chunk13_sub0.txt"
 )
+
+metadata_path = (
+    Path(__file__).resolve().parents[2]
+    / "week6"
+    / "thunderbird"
+    / "chunks"
+    / "window_314927_metadata.csv"
+)
+
+match = re.search(
+    r"_chunk(\d+)_sub(\d+)\.txt$",
+    log_path.name
+)
+
+if match is None:
+    raise ValueError(
+        f"subchunk 파일명 형식을 인식할 수 없습니다: {log_path.name}"
+    )
+
+chunk_idx = int(match.group(1))
+sub_idx = int(match.group(2))
+
+with metadata_path.open(
+    "r",
+    encoding="utf-8",
+    newline=""
+) as f:
+    reader = csv.DictReader(f)
+
+    chunk_row = next(
+        (
+            row
+            for row in reader
+            if row["chunk"] == f"chunk{chunk_idx}"
+        ),
+        None
+    )
+    
+if chunk_row is None:
+    raise ValueError(
+        f"metadata에서 chunk{chunk_idx}를 찾지 못했습니다."
+    )
+chunk_start_line = int(chunk_row["start_line"])
+alerts = json.loads(chunk_row["alerts"])
+
+subchunk_offset = 0
+
+for prev_sub_idx in range(sub_idx):
+    prev_sub_path = log_path.with_name(
+        f"window_314927_chunk{chunk_idx}_sub{prev_sub_idx}.txt"
+    )
+
+    prev_lines = prev_sub_path.read_text(
+        encoding="utf-8"
+    ).splitlines()
+
+    subchunk_offset += len(prev_lines)
+
+# metadata의 alert line을 현재 subchunk local line index로 변환
 logs = log_path.read_text(encoding="utf-8")
-all_lines = logs.splitlines(keepends=True)
-cursor = 0
-
-# 디버깅용: 앞 30줄만 사용
-lines = all_lines[:30]
-
-logs = "".join(lines)
+lines = logs.splitlines(keepends=True)
 
 inputs = tokenizer(
     logs,
@@ -89,12 +145,11 @@ inputs = tokenizer(
     )
 offset_mapping = inputs.pop("offset_mapping")
 
-print("입력 토큰 수:", inputs["input_ids"].shape[1])
-
 model.to("cuda")
 inputs.to("cuda")
 model.eval()
 
+cursor = 0
 line_spans = []
 
 for line_no, line in enumerate(lines):
@@ -126,11 +181,28 @@ for token_idx, line_idx in enumerate(token_to_line):
 
 compression = [0.5, 0.7, 0.9]
 
+# 임시 디버깅용 GT
+# 현재 lines는 앞 30줄만 사용하므로 0~29 범위의 line index 사용
+
+subchunk_start_line = (
+    chunk_start_line + subchunk_offset
+)
+
+full_gt_lines = set()
+
+for alert_line_str in alerts:
+    alert_line = int(alert_line_str)
+
+    local_line_idx = (
+        alert_line - subchunk_start_line
+    )
+
+    if 0 <= local_line_idx < len(lines):
+        full_gt_lines.add(local_line_idx)
+
+gt_lines = full_gt_lines
+        
 for compression_ratio in compression:
-    print("\n" + "=" * 80)
-    print(f"Compression Ratio: {compression_ratio}")
-    print("=" * 80)
-    
     press = TrackingObservedAttentionPress(compression_ratio)
     press.layers = {}
     
@@ -203,11 +275,6 @@ for compression_ratio in compression:
         if len(token_indices) > 0
     ) / total_mapped_tokens
 
-    print(
-        f"Token-weighted average LineScore: "
-        f"{weighted_line_score:.4f}"
-    )
-
     line_keep_ratio = 0.5
 
     # token이 실제로 존재하는 line만 ranking 대상으로 사용
@@ -233,128 +300,48 @@ for compression_ratio in compression:
 
     top_k_lines = ranked_lines[:num_lines_to_keep]
     
-    print("\n--- Top-K Line Debug ---")
+    selected_lines = set(top_k_lines)
+    
+    invalid_gt_lines = [
+        gt_line
+        for gt_line in gt_lines
+        if gt_line < 0 or gt_line >= len(lines)
+    ]
 
-    print(
-        f"valid lines: {len(valid_line_indices)}"
-    )
+    if invalid_gt_lines:
+        raise ValueError(
+            f"현재 입력 범위를 벗어난 GT line: {invalid_gt_lines}"
+        )
+        
+    retained_gt_lines = gt_lines & selected_lines
+    
+    if len(gt_lines) == 0:
+        retention = None
+    else:
+        retention = len(retained_gt_lines) / len(gt_lines)
+    
+    print("\n" + "=" * 80)
+    print(f"압축률: {compression_ratio}")
+    print("=" * 80)
 
-    print(
-        f"line keep ratio: {line_keep_ratio}"
-    )
+    print("\n생존 라인:")
 
-    print(
-        f"selected lines: {num_lines_to_keep}"
-    )
-
-    for rank, line_idx in enumerate(top_k_lines, start=1):
+    for line_idx in sorted(top_k_lines):
         print(
-            f"Rank {rank:02d} | "
             f"Line {line_idx:02d} | "
-            f"Score={line_scores[line_idx]:.4f} | "
             f"{lines[line_idx].strip()}"
         )
-    # --------------------------------------------------
-    # LineScore 출력
-    # --------------------------------------------------
 
-    print("\n--- LineScore Debug ---")
+    print()
 
-    print(f"slot count: {slot_count}")
-
-    for line_idx in range(min(5, len(lines))):
-
-        if len(line_to_tokens[line_idx]) == 0:
-            print(
-                f"Line {line_idx}: NO_TOKEN"
-            )
-            continue
-
+    if retention is None:
         print(
-            f"Line {line_idx}: "
-            f"tokens={len(line_to_tokens[line_idx])}, "
-            f"LineScore={line_scores[line_idx]:.4f}"
+            "Cause/Evidence Line Retention: "
+            "N/A (GT line 없음)"
         )
-
-
-    # --------------------------------------------------
-    # Line 0 수동 검증
-    # --------------------------------------------------
-
-    debug_line_idx = 0
-    debug_tokens = line_to_tokens[debug_line_idx]
-
-    print("\n--- Manual Line Debug ---")
-
-    print(
-        f"Line {debug_line_idx} "
-        f"total tokens: {len(debug_tokens)}"
-    )
-
-    first_layer_idx = sorted(press.layers.keys())[0]
-    first_layer_indices = press.layers[first_layer_idx]
-
-    num_kv_heads = first_layer_indices.shape[1]
-
-    for kv_head_idx in range(num_kv_heads):
-
-        kept_tokens = set(
-            first_layer_indices[0, kv_head_idx].tolist()
-        )
-
-        kept_count = sum(
-            token_idx in kept_tokens
-            for token_idx in debug_tokens
-        )
-
-        ratio = (
-            kept_count / len(debug_tokens)
-        )
-
+    else:
         print(
-            f"Layer {first_layer_idx}, "
-            f"Head {kv_head_idx}: "
-            f"{kept_count}/{len(debug_tokens)} "
-            f"= {ratio:.4f}"
+            f"Anomaly Line Retention: "
+            f"{len(retained_gt_lines)}/{len(gt_lines)} "
+            f"= {retention:.4f}"
         )
-
-    print(
-        f"Final LineScore: "
-        f"{line_scores[debug_line_idx]:.4f}"
-    )
-            
-    
-    print("\n--- Tracking Debug ---")
-
-    print(
-        f"tracked layers: {len(press.layers)}"
-    )
-
-    first_layer_idx = sorted(press.layers.keys())[0]
-
-    first_layer_indices = press.layers[first_layer_idx]
-
-    print(
-        f"first layer: {first_layer_idx}"
-    )
-
-    print(
-        f"indices shape: {first_layer_indices.shape}"
-    )
-
-    print(
-        f"num kv heads: {first_layer_indices.shape[1]}"
-    )
-    
-    print("\n--- Line Mapping Debug ---")
-
-    for line_idx in range(min(5, len(lines))):
-        print(
-            f"Line {line_idx}: "
-            f"{line_to_tokens[line_idx]}"
-        )
-    
-    num_layers = len(outputs.past_key_values.layers)
-    original_tokens = inputs["input_ids"].shape[1]
-    compressed_tokens = outputs.past_key_values.layers[0].keys.shape[2]
-    
