@@ -1,13 +1,13 @@
 # ============================================================
 # 1. Imports
 # ============================================================
+from Part_A.week11.common.line_mapping import build_token_line_mapping
+from Part_A.week11.common.gt_loader import load_thunderbird_gt
 from transformers import AutoTokenizer, AutoModelForCausalLM
+from Part_A.week11.common.evaluator import evaluate_line_retention
 from pathlib import Path 
 from kvpress import ObservedAttentionPress
 import torch
-import csv
-import json
-import re
 
 # ============================================================
 # 2. ObservedAttention Token Survival Tracking
@@ -99,62 +99,18 @@ metadata_path = (
     / "window_314927_metadata.csv"
 )
 
-match = re.search(
-    r"_chunk(\d+)_sub(\d+)\.txt$",
-    log_path.name
-)
-
-if match is None:
-    raise ValueError(
-        f"subchunk 파일명 형식을 인식할 수 없습니다: {log_path.name}"
-    )
-
-chunk_idx = int(match.group(1))
-sub_idx = int(match.group(2))
+logs = log_path.read_text(encoding="utf-8")
+lines = logs.splitlines(keepends=True)
 
 # ============================================================
 # 5. Metadata CSV → Subchunk GT Mapping
 # ============================================================
 
-with metadata_path.open(
-    "r",
-    encoding="utf-8-sig",
-    newline=""
-) as f:
-    reader = csv.DictReader(f)
-
-    chunk_row = next(
-        (
-            row
-            for row in reader
-            if row["chunk"] == f"chunk{chunk_idx}"
-        ),
-        None
-    )
-    
-if chunk_row is None:
-    raise ValueError(
-        f"metadata에서 chunk{chunk_idx}를 찾지 못했습니다."
-    )
-chunk_start_line = int(chunk_row["start_line"])
-alerts = json.loads(chunk_row["alerts"])
-
-subchunk_offset = 0
-
-for prev_sub_idx in range(sub_idx):
-    prev_sub_path = log_path.with_name(
-        f"window_314927_chunk{chunk_idx}_sub{prev_sub_idx}.txt"
-    )
-
-    prev_lines = prev_sub_path.read_text(
-        encoding="utf-8"
-    ).splitlines()
-
-    subchunk_offset += len(prev_lines)
-
-# metadata의 alert line을 현재 subchunk local line index로 변환
-logs = log_path.read_text(encoding="utf-8")
-lines = logs.splitlines(keepends=True)
+gt_lines = load_thunderbird_gt(
+    log_path,
+    metadata_path,
+    len(lines)
+)
 
 # ============================================================
 # 6. Token → Log Line Mapping
@@ -165,40 +121,16 @@ inputs = tokenizer(
     return_tensors="pt",
     return_offsets_mapping=True
     )
+
 offset_mapping = inputs.pop("offset_mapping")
 
 model.to("cuda")
 inputs.to("cuda")
 model.eval()
 
-cursor = 0
-line_spans = []
-
-for line_no, line in enumerate(lines):
-    line_start = cursor
-    cursor += len(line)
-    line_end = cursor
-    
-    line_spans.append([line_start, line_end])
-
-token_to_line = []
-line_chk = 0
-
-
-for token_no, token in enumerate(offset_mapping[0]):
-    token_start = token[0].item()
-    token_end = token[1].item()
-    
-    while(token_start >= line_spans[line_chk][1]):
-        line_chk += 1
-        
-    token_to_line.append(line_chk)
-    
-
-line_to_tokens = [[] for _ in range(len(lines))]
-
-for token_idx, line_idx in enumerate(token_to_line):
-    line_to_tokens[line_idx].append(token_idx)
+token_to_line, line_to_tokens = build_token_line_mapping(
+    lines, offset_mapping
+)
 
     
 # ============================================================
@@ -206,24 +138,6 @@ for token_idx, line_idx in enumerate(token_to_line):
 # ============================================================
 
 compression = [0.5, 0.7, 0.9]
-
-subchunk_start_line = (
-    chunk_start_line + subchunk_offset
-)
-
-full_gt_lines = set()
-
-for alert_line_str in alerts:
-    alert_line = int(alert_line_str)
-
-    local_line_idx = (
-        alert_line - subchunk_start_line
-    )
-
-    if 0 <= local_line_idx < len(lines):
-        full_gt_lines.add(local_line_idx)
-
-gt_lines = full_gt_lines
         
 for compression_ratio in compression:
     press = TrackingObservedAttentionPress(compression_ratio)
@@ -233,130 +147,22 @@ for compression_ratio in compression:
         with press(model):
             outputs = model(**inputs, use_cache=True)
 
-# ============================================================
-# 8. KV Survival → LineScore Evaluation
-# ============================================================   
- 
-    line_scores = [0.0] * len(lines)
-    slot_count = 0
-
-    # 모든 layer 순회
-    for layer_idx, layer_indices in press.layers.items():
-
-        # layer_indices shape:
-        # [batch_size, num_kv_heads, n_kept]
-        num_kv_heads = layer_indices.shape[1]
-
-        # 현재 layer의 모든 KV head 순회
-        for kv_head_idx in range(num_kv_heads):
-
-            kept_tokens = set(
-                layer_indices[0, kv_head_idx].tolist()
-            )
-
-            # 모든 line에 대해 survival ratio 계산
-            for line_idx, token_indices in enumerate(line_to_tokens):
-
-                if len(token_indices) == 0:
-                    continue
-
-                kept_count = sum(
-                    token_idx in kept_tokens
-                    for token_idx in token_indices
-                )
-
-                survival_ratio = (
-                    kept_count / len(token_indices)
-                )
-
-                line_scores[line_idx] += survival_ratio
-
-            # layer × kv_head 한 slot 처리 완료
-            slot_count += 1
-
-
-    # 모든 layer × KV head를 다 돈 뒤 검사
-    if slot_count == 0:
-        raise RuntimeError(
-            "압축된 layer x KV head slot이 없습니다."
-        )
-
-
-    # 지금까지 누적한 survival ratio를
-    # 전체 slot 개수로 딱 한 번 나눔
-    for line_idx, token_indices in enumerate(line_to_tokens):
-
-        if len(token_indices) == 0:
-            continue
-
-        line_scores[line_idx] /= slot_count
-
-    total_mapped_tokens = sum(
-        len(token_indices)
-        for token_indices in line_to_tokens
-    )
-
-    weighted_line_score = sum(
-        line_scores[line_idx] * len(token_indices)
-        for line_idx, token_indices in enumerate(line_to_tokens)
-        if len(token_indices) > 0
-    ) / total_mapped_tokens
-
+    # 공통 평가
     line_keep_ratio = 1 - compression_ratio
 
-# ============================================================
-# 10. LineScore Ranking → Top-K Lines
-# ============================================================
-
-    # token이 실제로 존재하는 line만 ranking 대상으로 사용
-    valid_line_indices = [
-        line_idx
-        for line_idx, token_indices in enumerate(line_to_tokens)
-        if len(token_indices) > 0
-    ]
-
-    num_lines_to_keep = int(
-        len(valid_line_indices) * line_keep_ratio
+    (
+        line_scores,
+        top_k_lines,
+        retained_gt_lines,
+        retention
+    ) = evaluate_line_retention(
+        press.layers,
+        line_to_tokens,
+        gt_lines,
+        line_keep_ratio
     )
-
-    # LineScore 내림차순
-    # 점수가 같으면 원래 line 번호가 작은 것을 먼저 선택
-    ranked_lines = sorted(
-        valid_line_indices,
-        key=lambda line_idx: (
-            -line_scores[line_idx],
-            line_idx
-        )
-    )
-
-    top_k_lines = ranked_lines[:num_lines_to_keep]
-
 # ============================================================
-# 11. GT Retention Evaluation
-# ============================================================
-
-    selected_lines = set(top_k_lines)
-    
-    invalid_gt_lines = [
-        gt_line
-        for gt_line in gt_lines
-        if gt_line < 0 or gt_line >= len(lines)
-    ]
-
-    if invalid_gt_lines:
-        raise ValueError(
-            f"현재 입력 범위를 벗어난 GT line: {invalid_gt_lines}"
-        )
-        
-    retained_gt_lines = gt_lines & selected_lines
-    
-    if len(gt_lines) == 0:
-        retention = None
-    else:
-        retention = len(retained_gt_lines) / len(gt_lines)
-
-# ============================================================
-# 12. Result Output
+# 8. Result Output
 # ============================================================
 
     print("\n" + "=" * 80)
