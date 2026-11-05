@@ -1,0 +1,1091 @@
+{
+  "dataset_name": "Nezha Exception Evidence Candidates",
+  "label_status": "candidate_unverified",
+  "incident_count": 3,
+  "candidate_count": 116,
+  "incidents": [
+    {
+      "incident_id": "2022-08-22_041835_frontend_exception",
+      "incident": {
+        "inject_time": "2022-08-22 04:18:35",
+        "inject_timestamp": "1661141915",
+        "inject_pod": "frontend-579b9bff58-t2dbm",
+        "inject_type": "exception"
+      },
+      "candidate_count": 42,
+      "trace_count": 21,
+      "evidence_candidates": [
+        {
+          "timestamp_ns": "1661141917542499697",
+          "trace_id": "5356c9d8419d7be31857f90d5bdc755a",
+          "csv_file": "04_19_log.csv",
+          "csv_row_index": 9391,
+          "message_pattern": "Failed to complete the order",
+          "evidence_role": "injected_service_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661141917542572436",
+          "trace_id": "5356c9d8419d7be31857f90d5bdc755a",
+          "csv_file": "04_19_log.csv",
+          "csv_row_index": 9390,
+          "message_pattern": "Request error",
+          "evidence_role": "injected_service_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661141919928397489",
+          "trace_id": "1ddca32f3f221d427ea8fecfdff102ea",
+          "csv_file": "04_19_log.csv",
+          "csv_row_index": 3518,
+          "message_pattern": "Failed to complete the order",
+          "evidence_role": "injected_service_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661141919928450960",
+          "trace_id": "1ddca32f3f221d427ea8fecfdff102ea",
+          "csv_file": "04_19_log.csv",
+          "csv_row_index": 3517,
+          "message_pattern": "Request error",
+          "evidence_role": "injected_service_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661141925416176321",
+          "trace_id": "4776ad817df7040d81d461212c263b06",
+          "csv_file": "04_19_log.csv",
+          "csv_row_index": 8494,
+          "message_pattern": "Failed to complete the order",
+          "evidence_role": "injected_service_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661141925416249548",
+          "trace_id": "4776ad817df7040d81d461212c263b06",
+          "csv_file": "04_19_log.csv",
+          "csv_row_index": 8493,
+          "message_pattern": "Request error",
+          "evidence_role": "injected_service_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661141926434409147",
+          "trace_id": "f8e9f3ec988d398b545caf5d25fc7687",
+          "csv_file": "04_19_log.csv",
+          "csv_row_index": 24565,
+          "message_pattern": "Failed to complete the order",
+          "evidence_role": "injected_service_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661141926434475918",
+          "trace_id": "f8e9f3ec988d398b545caf5d25fc7687",
+          "csv_file": "04_19_log.csv",
+          "csv_row_index": 24564,
+          "message_pattern": "Request error",
+          "evidence_role": "injected_service_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661141930636956312",
+          "trace_id": "2c7b5bfd189a05f0a35c195caa7e16aa",
+          "csv_file": "04_19_log.csv",
+          "csv_row_index": 5537,
+          "message_pattern": "Failed to complete the order",
+          "evidence_role": "injected_service_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661141930636997962",
+          "trace_id": "2c7b5bfd189a05f0a35c195caa7e16aa",
+          "csv_file": "04_19_log.csv",
+          "csv_row_index": 5536,
+          "message_pattern": "Request error",
+          "evidence_role": "injected_service_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661141933528312414",
+          "trace_id": "0143db45945a682b95860a59ff5a931d",
+          "csv_file": "04_19_log.csv",
+          "csv_row_index": 72,
+          "message_pattern": "Failed to complete the order",
+          "evidence_role": "injected_service_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661141933528374534",
+          "trace_id": "0143db45945a682b95860a59ff5a931d",
+          "csv_file": "04_19_log.csv",
+          "csv_row_index": 71,
+          "message_pattern": "Request error",
+          "evidence_role": "injected_service_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661141937112045676",
+          "trace_id": "b1dc9c9dbe1f450bd8120390886755a2",
+          "csv_file": "04_19_log.csv",
+          "csv_row_index": 18569,
+          "message_pattern": "Failed to complete the order",
+          "evidence_role": "injected_service_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661141937112125638",
+          "trace_id": "b1dc9c9dbe1f450bd8120390886755a2",
+          "csv_file": "04_19_log.csv",
+          "csv_row_index": 18568,
+          "message_pattern": "Request error",
+          "evidence_role": "injected_service_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661141938388663982",
+          "trace_id": "39dcba2bf391801bec354c85e7c652c8",
+          "csv_file": "04_19_log.csv",
+          "csv_row_index": 6821,
+          "message_pattern": "Failed to complete the order",
+          "evidence_role": "injected_service_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661141938388736553",
+          "trace_id": "39dcba2bf391801bec354c85e7c652c8",
+          "csv_file": "04_19_log.csv",
+          "csv_row_index": 6820,
+          "message_pattern": "Request error",
+          "evidence_role": "injected_service_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661141941621696576",
+          "trace_id": "ea4fd4560c83bd3c5a26d7653de4ecd8",
+          "csv_file": "04_19_log.csv",
+          "csv_row_index": 23446,
+          "message_pattern": "Failed to complete the order",
+          "evidence_role": "injected_service_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661141941621749760",
+          "trace_id": "ea4fd4560c83bd3c5a26d7653de4ecd8",
+          "csv_file": "04_19_log.csv",
+          "csv_row_index": 23445,
+          "message_pattern": "Request error",
+          "evidence_role": "injected_service_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661141941832897014",
+          "trace_id": "02cc49bc1e7d750f027e1cef9b4c46d0",
+          "csv_file": "04_19_log.csv",
+          "csv_row_index": 291,
+          "message_pattern": "Failed to complete the order",
+          "evidence_role": "injected_service_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661141941832961287",
+          "trace_id": "02cc49bc1e7d750f027e1cef9b4c46d0",
+          "csv_file": "04_19_log.csv",
+          "csv_row_index": 290,
+          "message_pattern": "Request error",
+          "evidence_role": "injected_service_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661141945296597168",
+          "trace_id": "ac0aa843576af3f7336d92e00003221d",
+          "csv_file": "04_19_log.csv",
+          "csv_row_index": 17688,
+          "message_pattern": "Failed to complete the order",
+          "evidence_role": "injected_service_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661141945296663845",
+          "trace_id": "ac0aa843576af3f7336d92e00003221d",
+          "csv_file": "04_19_log.csv",
+          "csv_row_index": 17687,
+          "message_pattern": "Request error",
+          "evidence_role": "injected_service_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661141947635064900",
+          "trace_id": "0922e76a26fa2c9029ab290eda8d2540",
+          "csv_file": "04_19_log.csv",
+          "csv_row_index": 1084,
+          "message_pattern": "Failed to complete the order",
+          "evidence_role": "injected_service_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661141947635126546",
+          "trace_id": "0922e76a26fa2c9029ab290eda8d2540",
+          "csv_file": "04_19_log.csv",
+          "csv_row_index": 1083,
+          "message_pattern": "Request error",
+          "evidence_role": "injected_service_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661141960423588708",
+          "trace_id": "4b176d683d19a31890d0c8bec9d86307",
+          "csv_file": "04_20_log.csv",
+          "csv_row_index": 7312,
+          "message_pattern": "Failed to complete the order",
+          "evidence_role": "injected_service_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661141960423664650",
+          "trace_id": "4b176d683d19a31890d0c8bec9d86307",
+          "csv_file": "04_20_log.csv",
+          "csv_row_index": 7311,
+          "message_pattern": "Request error",
+          "evidence_role": "injected_service_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661141963327461811",
+          "trace_id": "3e21e17e9f44f4e46a45f6b5ab2ecdd1",
+          "csv_file": "04_20_log.csv",
+          "csv_row_index": 6669,
+          "message_pattern": "Failed to complete the order",
+          "evidence_role": "injected_service_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661141963327517930",
+          "trace_id": "3e21e17e9f44f4e46a45f6b5ab2ecdd1",
+          "csv_file": "04_20_log.csv",
+          "csv_row_index": 6668,
+          "message_pattern": "Request error",
+          "evidence_role": "injected_service_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661141965119758936",
+          "trace_id": "9ca6e3d2fb947bf63f6e3a7702d8296d",
+          "csv_file": "04_20_log.csv",
+          "csv_row_index": 15893,
+          "message_pattern": "Failed to complete the order",
+          "evidence_role": "injected_service_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661141965119846181",
+          "trace_id": "9ca6e3d2fb947bf63f6e3a7702d8296d",
+          "csv_file": "04_20_log.csv",
+          "csv_row_index": 15892,
+          "message_pattern": "Request error",
+          "evidence_role": "injected_service_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661141966630627094",
+          "trace_id": "f4f13d5f18d0afb751b9119fe79a4d13",
+          "csv_file": "04_20_log.csv",
+          "csv_row_index": 24168,
+          "message_pattern": "Failed to complete the order",
+          "evidence_role": "injected_service_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661141966630696891",
+          "trace_id": "f4f13d5f18d0afb751b9119fe79a4d13",
+          "csv_file": "04_20_log.csv",
+          "csv_row_index": 24167,
+          "message_pattern": "Request error",
+          "evidence_role": "injected_service_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661141967234521466",
+          "trace_id": "949572fdd312cb5428f9e09db79fa261",
+          "csv_file": "04_20_log.csv",
+          "csv_row_index": 15473,
+          "message_pattern": "Failed to complete the order",
+          "evidence_role": "injected_service_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661141967234598505",
+          "trace_id": "949572fdd312cb5428f9e09db79fa261",
+          "csv_file": "04_20_log.csv",
+          "csv_row_index": 15472,
+          "message_pattern": "Request error",
+          "evidence_role": "injected_service_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661141971346711338",
+          "trace_id": "8386c374dbcc020676e175bc50dbdbc5",
+          "csv_file": "04_20_log.csv",
+          "csv_row_index": 13613,
+          "message_pattern": "Failed to complete the order",
+          "evidence_role": "injected_service_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661141971346778290",
+          "trace_id": "8386c374dbcc020676e175bc50dbdbc5",
+          "csv_file": "04_20_log.csv",
+          "csv_row_index": 13612,
+          "message_pattern": "Request error",
+          "evidence_role": "injected_service_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661141972928302942",
+          "trace_id": "1528959b6a5f8b27b1def37b93f1c113",
+          "csv_file": "04_20_log.csv",
+          "csv_row_index": 2027,
+          "message_pattern": "Failed to complete the order",
+          "evidence_role": "injected_service_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661141972928393720",
+          "trace_id": "1528959b6a5f8b27b1def37b93f1c113",
+          "csv_file": "04_20_log.csv",
+          "csv_row_index": 2026,
+          "message_pattern": "Request error",
+          "evidence_role": "injected_service_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661141973296264017",
+          "trace_id": "5f76b96b85259fe90c4526d4d8598e7c",
+          "csv_file": "04_20_log.csv",
+          "csv_row_index": 9753,
+          "message_pattern": "Failed to complete the order",
+          "evidence_role": "injected_service_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661141973296323101",
+          "trace_id": "5f76b96b85259fe90c4526d4d8598e7c",
+          "csv_file": "04_20_log.csv",
+          "csv_row_index": 9752,
+          "message_pattern": "Request error",
+          "evidence_role": "injected_service_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661141974245758112",
+          "trace_id": "39eb026b4324da96b1c2e805c2451340",
+          "csv_file": "04_20_log.csv",
+          "csv_row_index": 6274,
+          "message_pattern": "Failed to complete the order",
+          "evidence_role": "injected_service_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661141974245809965",
+          "trace_id": "39eb026b4324da96b1c2e805c2451340",
+          "csv_file": "04_20_log.csv",
+          "csv_row_index": 6273,
+          "message_pattern": "Request error",
+          "evidence_role": "injected_service_error_candidate",
+          "evidence_status": "candidate_unverified"
+        }
+      ]
+    },
+    {
+      "incident_id": "2022-08-22_050113_checkout_exception",
+      "incident": {
+        "inject_time": "2022-08-22 05:01:13",
+        "inject_timestamp": "1661144473",
+        "inject_pod": "checkoutservice-578fcf4766-9csqn",
+        "inject_type": "exception"
+      },
+      "candidate_count": 27,
+      "trace_count": 27,
+      "evidence_candidates": [
+        {
+          "timestamp_ns": "1661144475116060614",
+          "trace_id": "d9dda648d9d21b19f2140c3768f9da23",
+          "csv_file": "05_01_log.csv",
+          "csv_row_index": 21954,
+          "message_pattern": "Failed to connect payment service: connect error.",
+          "evidence_role": "injected_service_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661144476289826896",
+          "trace_id": "76ccf586b4f36f16e080b226408a5d2b",
+          "csv_file": "05_01_log.csv",
+          "csv_row_index": 12794,
+          "message_pattern": "Failed to connect payment service: connect error.",
+          "evidence_role": "injected_service_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661144477802893012",
+          "trace_id": "1d9ae39b364b1305577f3cf96b5fa086",
+          "csv_file": "05_01_log.csv",
+          "csv_row_index": 3379,
+          "message_pattern": "Failed to connect payment service: connect error.",
+          "evidence_role": "injected_service_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661144478182131518",
+          "trace_id": "4c930e4b18390a88504174249cfcaa01",
+          "csv_file": "05_01_log.csv",
+          "csv_row_index": 8369,
+          "message_pattern": "Failed to connect payment service: connect error.",
+          "evidence_role": "injected_service_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661144478487096347",
+          "trace_id": "a1240155dae239858a4f1fcb62d5ccf7",
+          "csv_file": "05_01_log.csv",
+          "csv_row_index": 16468,
+          "message_pattern": "Failed to connect payment service: connect error.",
+          "evidence_role": "injected_service_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661144479214305534",
+          "trace_id": "a7443d6b20826d1826fb75333a929c73",
+          "csv_file": "05_01_log.csv",
+          "csv_row_index": 16747,
+          "message_pattern": "Failed to connect payment service: connect error.",
+          "evidence_role": "injected_service_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661144482588636570",
+          "trace_id": "adf22d964ca5078d755ab592fcae3f43",
+          "csv_file": "05_02_log.csv",
+          "csv_row_index": 17916,
+          "message_pattern": "Failed to connect payment service: connect error.",
+          "evidence_role": "injected_service_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661144488702397732",
+          "trace_id": "aa70f5b0acd85fd7f2d46671ae76959e",
+          "csv_file": "05_02_log.csv",
+          "csv_row_index": 17278,
+          "message_pattern": "Failed to connect payment service: connect error.",
+          "evidence_role": "injected_service_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661144489986152570",
+          "trace_id": "782a30c7534bbe5a16769e4f9f6bacf7",
+          "csv_file": "05_02_log.csv",
+          "csv_row_index": 11986,
+          "message_pattern": "Failed to connect payment service: connect error.",
+          "evidence_role": "injected_service_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661144492097835598",
+          "trace_id": "c8499ced9a6297fec820615846ba55ac",
+          "csv_file": "05_02_log.csv",
+          "csv_row_index": 20295,
+          "message_pattern": "Failed to connect payment service: connect error.",
+          "evidence_role": "injected_service_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661144493233939854",
+          "trace_id": "90459a167c23ce4d5360f598624d16dd",
+          "csv_file": "05_02_log.csv",
+          "csv_row_index": 14257,
+          "message_pattern": "Failed to connect payment service: connect error.",
+          "evidence_role": "injected_service_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661144494798806733",
+          "trace_id": "7f4050f8103b6c7a463d8d42a5e17d52",
+          "csv_file": "05_02_log.csv",
+          "csv_row_index": 12910,
+          "message_pattern": "Failed to connect payment service: connect error.",
+          "evidence_role": "injected_service_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661144498818086949",
+          "trace_id": "69ccbed4e1936023c22a6fa309f41603",
+          "csv_file": "05_02_log.csv",
+          "csv_row_index": 10381,
+          "message_pattern": "Failed to connect payment service: connect error.",
+          "evidence_role": "injected_service_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661144504292996842",
+          "trace_id": "0ad7ff4612984082708b2d8dbee7ff37",
+          "csv_file": "05_02_log.csv",
+          "csv_row_index": 965,
+          "message_pattern": "Failed to connect payment service: connect error.",
+          "evidence_role": "injected_service_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661144506705705283",
+          "trace_id": "bc58b79c30c7e7ba41cc8dd5a6371397",
+          "csv_file": "05_02_log.csv",
+          "csv_row_index": 19000,
+          "message_pattern": "Failed to connect payment service: connect error.",
+          "evidence_role": "injected_service_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661144511195840761",
+          "trace_id": "d58a8b2ae396f5bcd6b4d5272aa11890",
+          "csv_file": "05_02_log.csv",
+          "csv_row_index": 21511,
+          "message_pattern": "Failed to connect payment service: connect error.",
+          "evidence_role": "injected_service_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661144514818216389",
+          "trace_id": "041925b48b1430a5bb8fbce2955f5dc9",
+          "csv_file": "05_02_log.csv",
+          "csv_row_index": 120,
+          "message_pattern": "Failed to connect payment service: connect error.",
+          "evidence_role": "injected_service_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661144516796744464",
+          "trace_id": "f1bf1c93476424c4f1d85b581641433f",
+          "csv_file": "05_02_log.csv",
+          "csv_row_index": 25286,
+          "message_pattern": "Failed to connect payment service: connect error.",
+          "evidence_role": "injected_service_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661144517824017401",
+          "trace_id": "db55cd49907a4ab7f8e1b17814d24667",
+          "csv_file": "05_02_log.csv",
+          "csv_row_index": 22547,
+          "message_pattern": "Failed to connect payment service: connect error.",
+          "evidence_role": "injected_service_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661144518196568897",
+          "trace_id": "faa5276718b1771878876c935d2200e4",
+          "csv_file": "05_02_log.csv",
+          "csv_row_index": 26434,
+          "message_pattern": "Failed to connect payment service: connect error.",
+          "evidence_role": "injected_service_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661144518812802510",
+          "trace_id": "8c02bbe3a263616f84130e78c3e7f342",
+          "csv_file": "05_02_log.csv",
+          "csv_row_index": 14038,
+          "message_pattern": "Failed to connect payment service: connect error.",
+          "evidence_role": "injected_service_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661144519889318213",
+          "trace_id": "f1ee63b05c098f4bd5f537ceffbb6d33",
+          "csv_file": "05_02_log.csv",
+          "csv_row_index": 25090,
+          "message_pattern": "Failed to connect payment service: connect error.",
+          "evidence_role": "injected_service_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661144520042805256",
+          "trace_id": "9ffc433c30b3dffd4e0340af34e70c0f",
+          "csv_file": "05_02_log.csv",
+          "csv_row_index": 16363,
+          "message_pattern": "Failed to connect payment service: connect error.",
+          "evidence_role": "injected_service_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661144521492125675",
+          "trace_id": "979358d2f75a02b04795eecee68edfed",
+          "csv_file": "05_02_log.csv",
+          "csv_row_index": 14807,
+          "message_pattern": "Failed to connect payment service: connect error.",
+          "evidence_role": "injected_service_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661144525503056394",
+          "trace_id": "57d0dfb7fbe019a390aefe1a3b21adbf",
+          "csv_file": "05_02_log.csv",
+          "csv_row_index": 8483,
+          "message_pattern": "Failed to connect payment service: connect error.",
+          "evidence_role": "injected_service_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661144530397137566",
+          "trace_id": "4012dba6c3fc6ece85718325e977b0e1",
+          "csv_file": "05_02_log.csv",
+          "csv_row_index": 6683,
+          "message_pattern": "Failed to connect payment service: connect error.",
+          "evidence_role": "injected_service_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661144531500826609",
+          "trace_id": "374c498d3a5e27123222995b031d4097",
+          "csv_file": "05_02_log.csv",
+          "csv_row_index": 5977,
+          "message_pattern": "Failed to connect payment service: connect error.",
+          "evidence_role": "injected_service_error_candidate",
+          "evidence_status": "candidate_unverified"
+        }
+      ]
+    },
+    {
+      "incident_id": "2022-08-22_075333_adservice_exception",
+      "incident": {
+        "inject_time": "2022-08-22 07:53:33",
+        "inject_timestamp": "1661154813",
+        "inject_pod": "adservice-5f6585d649-fnmft",
+        "inject_type": "exception"
+      },
+      "candidate_count": 47,
+      "trace_count": 46,
+      "evidence_candidates": [
+        {
+          "timestamp_ns": "1661154818536220010",
+          "trace_id": "836c1defd473f3b2a2aee492ff7d8dc9",
+          "csv_file": "07_54_log.csv",
+          "csv_row_index": 13149,
+          "message_pattern": "Failed to retrieve ads",
+          "evidence_role": "downstream_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661154818598083940",
+          "trace_id": "50ae726397608188a26d1df007698f78",
+          "csv_file": "07_54_log.csv",
+          "csv_row_index": 8344,
+          "message_pattern": "Failed to retrieve ads",
+          "evidence_role": "downstream_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661154819202611110",
+          "trace_id": "04199ba50587e258aff337bd0fa2de66",
+          "csv_file": "07_54_log.csv",
+          "csv_row_index": 372,
+          "message_pattern": "Failed to retrieve ads",
+          "evidence_role": "downstream_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661154819990302412",
+          "trace_id": "bc19e3797359bc2b772576fefc8f3022",
+          "csv_file": "07_54_log.csv",
+          "csv_row_index": 19185,
+          "message_pattern": "Failed to retrieve ads",
+          "evidence_role": "downstream_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661154820986670444",
+          "trace_id": "ad75d3812e2e3f65d7b2f045d71f2af7",
+          "csv_file": "07_54_log.csv",
+          "csv_row_index": 17585,
+          "message_pattern": "Failed to retrieve ads",
+          "evidence_role": "downstream_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661154822090860930",
+          "trace_id": "16d32997ad90ecdabf3d923629a3c606",
+          "csv_file": "07_54_log.csv",
+          "csv_row_index": 2428,
+          "message_pattern": "Failed to retrieve ads",
+          "evidence_role": "downstream_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661154823101481358",
+          "trace_id": "e29bcfc5269424b6a1d24eac8fe3505b",
+          "csv_file": "07_54_log.csv",
+          "csv_row_index": 22702,
+          "message_pattern": "Failed to retrieve ads",
+          "evidence_role": "downstream_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661154824688896736",
+          "trace_id": "30a1d0a7c35dd0d3d0035fb292e2ce98",
+          "csv_file": "07_54_log.csv",
+          "csv_row_index": 5655,
+          "message_pattern": "Failed to retrieve ads",
+          "evidence_role": "downstream_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661154825202830771",
+          "trace_id": "bb7e83cc1cd541dd6b97cfe5a83189a3",
+          "csv_file": "07_54_log.csv",
+          "csv_row_index": 19369,
+          "message_pattern": "Failed to retrieve ads",
+          "evidence_role": "downstream_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661154825387943439",
+          "trace_id": "27478a197aee86b5e75f7293dde5de0b",
+          "csv_file": "07_54_log.csv",
+          "csv_row_index": 4566,
+          "message_pattern": "Failed to retrieve ads",
+          "evidence_role": "downstream_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661154825793261800",
+          "trace_id": "84014d2ccccb809fa4b64742e0d7714a",
+          "csv_file": "07_54_log.csv",
+          "csv_row_index": 13277,
+          "message_pattern": "Failed to retrieve ads",
+          "evidence_role": "downstream_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661154826296944516",
+          "trace_id": "e1fcd5f5a54c7a5904ca6976c045064b",
+          "csv_file": "07_54_log.csv",
+          "csv_row_index": 22622,
+          "message_pattern": "Failed to retrieve ads",
+          "evidence_role": "downstream_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661154827504936799",
+          "trace_id": "d1b9f16be122a79ba86b7828718e9e6b",
+          "csv_file": "07_54_log.csv",
+          "csv_row_index": 21279,
+          "message_pattern": "Failed to retrieve ads",
+          "evidence_role": "downstream_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661154832388257192",
+          "trace_id": "124c230d9543a1f3419904d4f2ecaf05",
+          "csv_file": "07_54_log.csv",
+          "csv_row_index": 2217,
+          "message_pattern": "Failed to retrieve ads",
+          "evidence_role": "downstream_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661154832988918206",
+          "trace_id": "b12b576b777cbad197987dcbab3c37a9",
+          "csv_file": "07_54_log.csv",
+          "csv_row_index": 17820,
+          "message_pattern": "Failed to retrieve ads",
+          "evidence_role": "downstream_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661154836693662149",
+          "trace_id": "dceefc3173799669f14556ee31df9b1e",
+          "csv_file": "07_54_log.csv",
+          "csv_row_index": 22104,
+          "message_pattern": "Failed to retrieve ads",
+          "evidence_role": "downstream_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661154838007129565",
+          "trace_id": "6da5df09a1817cf29952547fe743d78a",
+          "csv_file": "07_54_log.csv",
+          "csv_row_index": 10939,
+          "message_pattern": "Failed to retrieve ads",
+          "evidence_role": "downstream_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661154839487961503",
+          "trace_id": "0ca3e532ed0d7b6f51a3600682d1c590",
+          "csv_file": "07_54_log.csv",
+          "csv_row_index": 1288,
+          "message_pattern": "Failed to retrieve ads",
+          "evidence_role": "downstream_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661154839797310254",
+          "trace_id": "c0f9063445d308fd40ee0b672049aca1",
+          "csv_file": "07_54_log.csv",
+          "csv_row_index": 19702,
+          "message_pattern": "Failed to retrieve ads",
+          "evidence_role": "downstream_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661154840105203526",
+          "trace_id": "7882d56aa70beeb4aa687066be5ba0e8",
+          "csv_file": "07_54_log.csv",
+          "csv_row_index": 11923,
+          "message_pattern": "Failed to retrieve ads",
+          "evidence_role": "downstream_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661154841500212835",
+          "trace_id": "175f192b768b2ad704cdbe0fad9f7fd1",
+          "csv_file": "07_54_log.csv",
+          "csv_row_index": 2849,
+          "message_pattern": "Failed to retrieve ads",
+          "evidence_role": "downstream_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661154842090542796",
+          "trace_id": "a6ebc3b380788b6a75e21398124663e3",
+          "csv_file": "07_54_log.csv",
+          "csv_row_index": 17055,
+          "message_pattern": "Failed to retrieve ads",
+          "evidence_role": "downstream_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661154842704267772",
+          "trace_id": "35f2fabc4d344ca7401180452ec8515c",
+          "csv_file": "07_54_log.csv",
+          "csv_row_index": 6287,
+          "message_pattern": "Failed to retrieve ads",
+          "evidence_role": "downstream_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661154846587776389",
+          "trace_id": "b77bc6c71a0c8ac04be13c87e00b5bbc",
+          "csv_file": "07_54_log.csv",
+          "csv_row_index": 18996,
+          "message_pattern": "Failed to retrieve ads",
+          "evidence_role": "downstream_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661154847002801390",
+          "trace_id": "7d61395f812651b3e6d9953e28d9dbe4",
+          "csv_file": "07_54_log.csv",
+          "csv_row_index": 12666,
+          "message_pattern": "Failed to retrieve ads",
+          "evidence_role": "downstream_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661154847801607184",
+          "trace_id": "350a2edfbde340db54037e2c8bddc727",
+          "csv_file": "07_54_log.csv",
+          "csv_row_index": 5997,
+          "message_pattern": "Failed to retrieve ads",
+          "evidence_role": "downstream_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661154848489613927",
+          "trace_id": "7046e0777df54fc611274e02a0c59a7e",
+          "csv_file": "07_54_log.csv",
+          "csv_row_index": 10859,
+          "message_pattern": "Failed to retrieve ads",
+          "evidence_role": "downstream_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661154849014050500",
+          "trace_id": "85f3bf9e6e995eaec2c7fd76fca02a29",
+          "csv_file": "07_54_log.csv",
+          "csv_row_index": 13376,
+          "message_pattern": "Failed to retrieve ads",
+          "evidence_role": "downstream_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661154849922151767",
+          "trace_id": "293ef1e84672e4e7c37bcb2137c00ad0",
+          "csv_file": "07_54_log.csv",
+          "csv_row_index": 4857,
+          "message_pattern": "Failed to retrieve ads",
+          "evidence_role": "downstream_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661154850309627561",
+          "trace_id": "ed299cde14425129d3eb421a221afeac",
+          "csv_file": "07_54_log.csv",
+          "csv_row_index": 23364,
+          "message_pattern": "Failed to retrieve ads",
+          "evidence_role": "downstream_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661154851801719918",
+          "trace_id": "cb138d28adc08f64b5e3b8268fdd32d9",
+          "csv_file": "07_54_log.csv",
+          "csv_row_index": 20668,
+          "message_pattern": "Failed to retrieve ads",
+          "evidence_role": "downstream_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661154852408586141",
+          "trace_id": "2c271b3fef6f10d42f5458f8d1523df4",
+          "csv_file": "07_54_log.csv",
+          "csv_row_index": 5177,
+          "message_pattern": "Failed to retrieve ads",
+          "evidence_role": "downstream_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661154853094851124",
+          "trace_id": "d9095b81306c4494906520ad1599f70f",
+          "csv_file": "07_54_log.csv",
+          "csv_row_index": 21780,
+          "message_pattern": "Failed to retrieve ads",
+          "evidence_role": "downstream_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661154854891305619",
+          "trace_id": "03cbcf7797a0672299c6cc3b60f4c96b",
+          "csv_file": "07_54_log.csv",
+          "csv_row_index": 292,
+          "message_pattern": "Failed to retrieve ads",
+          "evidence_role": "downstream_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661154856990264806",
+          "trace_id": "0c940cb017e0040de4b9a221177a2d7f",
+          "csv_file": "07_54_log.csv",
+          "csv_row_index": 1416,
+          "message_pattern": "Failed to retrieve ads",
+          "evidence_role": "downstream_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661154860097388822",
+          "trace_id": "f38004a5531a46e9d1a0890f7fc5824e",
+          "csv_file": "07_54_log.csv",
+          "csv_row_index": 24098,
+          "message_pattern": "Failed to retrieve ads",
+          "evidence_role": "downstream_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661154860097388822",
+          "trace_id": "f38004a5531a46e9d1a0890f7fc5824e",
+          "csv_file": "07_55_log.csv",
+          "csv_row_index": 23078,
+          "message_pattern": "Failed to retrieve ads",
+          "evidence_role": "downstream_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661154861289545082",
+          "trace_id": "ce45e1e6e8c2a78c8c8b94f76dd9edf7",
+          "csv_file": "07_55_log.csv",
+          "csv_row_index": 19062,
+          "message_pattern": "Failed to retrieve ads",
+          "evidence_role": "downstream_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661154862293605119",
+          "trace_id": "e91df54cdd5dc6c5fc75eb9907af2c91",
+          "csv_file": "07_55_log.csv",
+          "csv_row_index": 21817,
+          "message_pattern": "Failed to retrieve ads",
+          "evidence_role": "downstream_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661154862589672604",
+          "trace_id": "45fc54230c34820c7384ce35834e7635",
+          "csv_file": "07_55_log.csv",
+          "csv_row_index": 6534,
+          "message_pattern": "Failed to retrieve ads",
+          "evidence_role": "downstream_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661154863000297800",
+          "trace_id": "91478cd61c2f334d6f5066af44a1464f",
+          "csv_file": "07_55_log.csv",
+          "csv_row_index": 13029,
+          "message_pattern": "Failed to retrieve ads",
+          "evidence_role": "downstream_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661154865303408486",
+          "trace_id": "ea4f1182ffa6813da39fa6434d6724ed",
+          "csv_file": "07_55_log.csv",
+          "csv_row_index": 22076,
+          "message_pattern": "Failed to retrieve ads",
+          "evidence_role": "downstream_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661154866297496184",
+          "trace_id": "9ef0f73f3a1c1452fba0ec046607f740",
+          "csv_file": "07_55_log.csv",
+          "csv_row_index": 14604,
+          "message_pattern": "Failed to retrieve ads",
+          "evidence_role": "downstream_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661154868501137855",
+          "trace_id": "dd7fd727595b15d9a3fa4c0c75e57846",
+          "csv_file": "07_55_log.csv",
+          "csv_row_index": 20722,
+          "message_pattern": "Failed to retrieve ads",
+          "evidence_role": "downstream_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661154868799937909",
+          "trace_id": "fb68432a9677c93f91c3e82b8fc84fe1",
+          "csv_file": "07_55_log.csv",
+          "csv_row_index": 24417,
+          "message_pattern": "Failed to retrieve ads",
+          "evidence_role": "downstream_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661154870604467491",
+          "trace_id": "25d339ed4e1af63deac1d819e175c935",
+          "csv_file": "07_55_log.csv",
+          "csv_row_index": 3668,
+          "message_pattern": "Failed to retrieve ads",
+          "evidence_role": "downstream_error_candidate",
+          "evidence_status": "candidate_unverified"
+        },
+        {
+          "timestamp_ns": "1661154871891913763",
+          "trace_id": "1213084192430cee3a3cdbe251226904",
+          "csv_file": "07_55_log.csv",
+          "csv_row_index": 1809,
+          "message_pattern": "Failed to retrieve ads",
+          "evidence_role": "downstream_error_candidate",
+          "evidence_status": "candidate_unverified"
+        }
+      ]
+    }
+  ]
+}

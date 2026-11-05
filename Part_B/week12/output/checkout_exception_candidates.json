@@ -1,0 +1,259 @@
+{
+  "incident_id": "2022-08-22_050113_checkout_exception",
+  "incident": {
+    "inject_time": "2022-08-22 05:01:13",
+    "inject_timestamp": "1661144473",
+    "inject_pod": "checkoutservice-578fcf4766-9csqn",
+    "inject_type": "exception"
+  },
+  "investigation_window_seconds": 60,
+  "evidence_status": "candidate_unverified",
+  "label_basis": "injected pod, time window, severity, message",
+  "candidate_count": 27,
+  "trace_count": 27,
+  "evidence_candidates": [
+    {
+      "timestamp_ns": "1661144475116060614",
+      "trace_id": "d9dda648d9d21b19f2140c3768f9da23",
+      "csv_file": "05_01_log.csv",
+      "csv_row_index": 21954,
+      "message_pattern": "Failed to connect payment service: connect error.",
+      "evidence_role": "injected_service_error_candidate",
+      "evidence_status": "candidate_unverified"
+    },
+    {
+      "timestamp_ns": "1661144476289826896",
+      "trace_id": "76ccf586b4f36f16e080b226408a5d2b",
+      "csv_file": "05_01_log.csv",
+      "csv_row_index": 12794,
+      "message_pattern": "Failed to connect payment service: connect error.",
+      "evidence_role": "injected_service_error_candidate",
+      "evidence_status": "candidate_unverified"
+    },
+    {
+      "timestamp_ns": "1661144477802893012",
+      "trace_id": "1d9ae39b364b1305577f3cf96b5fa086",
+      "csv_file": "05_01_log.csv",
+      "csv_row_index": 3379,
+      "message_pattern": "Failed to connect payment service: connect error.",
+      "evidence_role": "injected_service_error_candidate",
+      "evidence_status": "candidate_unverified"
+    },
+    {
+      "timestamp_ns": "1661144478182131518",
+      "trace_id": "4c930e4b18390a88504174249cfcaa01",
+      "csv_file": "05_01_log.csv",
+      "csv_row_index": 8369,
+      "message_pattern": "Failed to connect payment service: connect error.",
+      "evidence_role": "injected_service_error_candidate",
+      "evidence_status": "candidate_unverified"
+    },
+    {
+      "timestamp_ns": "1661144478487096347",
+      "trace_id": "a1240155dae239858a4f1fcb62d5ccf7",
+      "csv_file": "05_01_log.csv",
+      "csv_row_index": 16468,
+      "message_pattern": "Failed to connect payment service: connect error.",
+      "evidence_role": "injected_service_error_candidate",
+      "evidence_status": "candidate_unverified"
+    },
+    {
+      "timestamp_ns": "1661144479214305534",
+      "trace_id": "a7443d6b20826d1826fb75333a929c73",
+      "csv_file": "05_01_log.csv",
+      "csv_row_index": 16747,
+      "message_pattern": "Failed to connect payment service: connect error.",
+      "evidence_role": "injected_service_error_candidate",
+      "evidence_status": "candidate_unverified"
+    },
+    {
+      "timestamp_ns": "1661144482588636570",
+      "trace_id": "adf22d964ca5078d755ab592fcae3f43",
+      "csv_file": "05_02_log.csv",
+      "csv_row_index": 17916,
+      "message_pattern": "Failed to connect payment service: connect error.",
+      "evidence_role": "injected_service_error_candidate",
+      "evidence_status": "candidate_unverified"
+    },
+    {
+      "timestamp_ns": "1661144488702397732",
+      "trace_id": "aa70f5b0acd85fd7f2d46671ae76959e",
+      "csv_file": "05_02_log.csv",
+      "csv_row_index": 17278,
+      "message_pattern": "Failed to connect payment service: connect error.",
+      "evidence_role": "injected_service_error_candidate",
+      "evidence_status": "candidate_unverified"
+    },
+    {
+      "timestamp_ns": "1661144489986152570",
+      "trace_id": "782a30c7534bbe5a16769e4f9f6bacf7",
+      "csv_file": "05_02_log.csv",
+      "csv_row_index": 11986,
+      "message_pattern": "Failed to connect payment service: connect error.",
+      "evidence_role": "injected_service_error_candidate",
+      "evidence_status": "candidate_unverified"
+    },
+    {
+      "timestamp_ns": "1661144492097835598",
+      "trace_id": "c8499ced9a6297fec820615846ba55ac",
+      "csv_file": "05_02_log.csv",
+      "csv_row_index": 20295,
+      "message_pattern": "Failed to connect payment service: connect error.",
+      "evidence_role": "injected_service_error_candidate",
+      "evidence_status": "candidate_unverified"
+    },
+    {
+      "timestamp_ns": "1661144493233939854",
+      "trace_id": "90459a167c23ce4d5360f598624d16dd",
+      "csv_file": "05_02_log.csv",
+      "csv_row_index": 14257,
+      "message_pattern": "Failed to connect payment service: connect error.",
+      "evidence_role": "injected_service_error_candidate",
+      "evidence_status": "candidate_unverified"
+    },
+    {
+      "timestamp_ns": "1661144494798806733",
+      "trace_id": "7f4050f8103b6c7a463d8d42a5e17d52",
+      "csv_file": "05_02_log.csv",
+      "csv_row_index": 12910,
+      "message_pattern": "Failed to connect payment service: connect error.",
+      "evidence_role": "injected_service_error_candidate",
+      "evidence_status": "candidate_unverified"
+    },
+    {
+      "timestamp_ns": "1661144498818086949",
+      "trace_id": "69ccbed4e1936023c22a6fa309f41603",
+      "csv_file": "05_02_log.csv",
+      "csv_row_index": 10381,
+      "message_pattern": "Failed to connect payment service: connect error.",
+      "evidence_role": "injected_service_error_candidate",
+      "evidence_status": "candidate_unverified"
+    },
+    {
+      "timestamp_ns": "1661144504292996842",
+      "trace_id": "0ad7ff4612984082708b2d8dbee7ff37",
+      "csv_file": "05_02_log.csv",
+      "csv_row_index": 965,
+      "message_pattern": "Failed to connect payment service: connect error.",
+      "evidence_role": "injected_service_error_candidate",
+      "evidence_status": "candidate_unverified"
+    },
+    {
+      "timestamp_ns": "1661144506705705283",
+      "trace_id": "bc58b79c30c7e7ba41cc8dd5a6371397",
+      "csv_file": "05_02_log.csv",
+      "csv_row_index": 19000,
+      "message_pattern": "Failed to connect payment service: connect error.",
+      "evidence_role": "injected_service_error_candidate",
+      "evidence_status": "candidate_unverified"
+    },
+    {
+      "timestamp_ns": "1661144511195840761",
+      "trace_id": "d58a8b2ae396f5bcd6b4d5272aa11890",
+      "csv_file": "05_02_log.csv",
+      "csv_row_index": 21511,
+      "message_pattern": "Failed to connect payment service: connect error.",
+      "evidence_role": "injected_service_error_candidate",
+      "evidence_status": "candidate_unverified"
+    },
+    {
+      "timestamp_ns": "1661144514818216389",
+      "trace_id": "041925b48b1430a5bb8fbce2955f5dc9",
+      "csv_file": "05_02_log.csv",
+      "csv_row_index": 120,
+      "message_pattern": "Failed to connect payment service: connect error.",
+      "evidence_role": "injected_service_error_candidate",
+      "evidence_status": "candidate_unverified"
+    },
+    {
+      "timestamp_ns": "1661144516796744464",
+      "trace_id": "f1bf1c93476424c4f1d85b581641433f",
+      "csv_file": "05_02_log.csv",
+      "csv_row_index": 25286,
+      "message_pattern": "Failed to connect payment service: connect error.",
+      "evidence_role": "injected_service_error_candidate",
+      "evidence_status": "candidate_unverified"
+    },
+    {
+      "timestamp_ns": "1661144517824017401",
+      "trace_id": "db55cd49907a4ab7f8e1b17814d24667",
+      "csv_file": "05_02_log.csv",
+      "csv_row_index": 22547,
+      "message_pattern": "Failed to connect payment service: connect error.",
+      "evidence_role": "injected_service_error_candidate",
+      "evidence_status": "candidate_unverified"
+    },
+    {
+      "timestamp_ns": "1661144518196568897",
+      "trace_id": "faa5276718b1771878876c935d2200e4",
+      "csv_file": "05_02_log.csv",
+      "csv_row_index": 26434,
+      "message_pattern": "Failed to connect payment service: connect error.",
+      "evidence_role": "injected_service_error_candidate",
+      "evidence_status": "candidate_unverified"
+    },
+    {
+      "timestamp_ns": "1661144518812802510",
+      "trace_id": "8c02bbe3a263616f84130e78c3e7f342",
+      "csv_file": "05_02_log.csv",
+      "csv_row_index": 14038,
+      "message_pattern": "Failed to connect payment service: connect error.",
+      "evidence_role": "injected_service_error_candidate",
+      "evidence_status": "candidate_unverified"
+    },
+    {
+      "timestamp_ns": "1661144519889318213",
+      "trace_id": "f1ee63b05c098f4bd5f537ceffbb6d33",
+      "csv_file": "05_02_log.csv",
+      "csv_row_index": 25090,
+      "message_pattern": "Failed to connect payment service: connect error.",
+      "evidence_role": "injected_service_error_candidate",
+      "evidence_status": "candidate_unverified"
+    },
+    {
+      "timestamp_ns": "1661144520042805256",
+      "trace_id": "9ffc433c30b3dffd4e0340af34e70c0f",
+      "csv_file": "05_02_log.csv",
+      "csv_row_index": 16363,
+      "message_pattern": "Failed to connect payment service: connect error.",
+      "evidence_role": "injected_service_error_candidate",
+      "evidence_status": "candidate_unverified"
+    },
+    {
+      "timestamp_ns": "1661144521492125675",
+      "trace_id": "979358d2f75a02b04795eecee68edfed",
+      "csv_file": "05_02_log.csv",
+      "csv_row_index": 14807,
+      "message_pattern": "Failed to connect payment service: connect error.",
+      "evidence_role": "injected_service_error_candidate",
+      "evidence_status": "candidate_unverified"
+    },
+    {
+      "timestamp_ns": "1661144525503056394",
+      "trace_id": "57d0dfb7fbe019a390aefe1a3b21adbf",
+      "csv_file": "05_02_log.csv",
+      "csv_row_index": 8483,
+      "message_pattern": "Failed to connect payment service: connect error.",
+      "evidence_role": "injected_service_error_candidate",
+      "evidence_status": "candidate_unverified"
+    },
+    {
+      "timestamp_ns": "1661144530397137566",
+      "trace_id": "4012dba6c3fc6ece85718325e977b0e1",
+      "csv_file": "05_02_log.csv",
+      "csv_row_index": 6683,
+      "message_pattern": "Failed to connect payment service: connect error.",
+      "evidence_role": "injected_service_error_candidate",
+      "evidence_status": "candidate_unverified"
+    },
+    {
+      "timestamp_ns": "1661144531500826609",
+      "trace_id": "374c498d3a5e27123222995b031d4097",
+      "csv_file": "05_02_log.csv",
+      "csv_row_index": 5977,
+      "message_pattern": "Failed to connect payment service: connect error.",
+      "evidence_role": "injected_service_error_candidate",
+      "evidence_status": "candidate_unverified"
+    }
+  ]
+}
