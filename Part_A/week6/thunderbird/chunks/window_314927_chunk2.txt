@@ -1,0 +1,489 @@
+1133737261 2005.12.04 bn675 Dec 4 15:01:01 bn675/bn675 crond[29151]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 bn68 Dec 4 15:01:01 bn68/bn68 crond[29045]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 bn690 Dec 4 15:01:01 bn690/bn690 crond(pam_unix)[29186]: session opened for user root by (uid=0)
+1133737261 2005.12.04 bn691 Dec 4 15:01:01 bn691/bn691 crond(pam_unix)[29184]: session closed for user root
+1133737261 2005.12.04 bn696 Dec 4 15:01:01 bn696/bn696 crond(pam_unix)[29179]: session closed for user root
+1133737261 2005.12.04 bn699 Dec 4 15:01:01 bn699/bn699 crond(pam_unix)[29178]: session opened for user root by (uid=0)
+1133737261 2005.12.04 bn7 Dec 4 15:01:01 bn7/bn7 crond(pam_unix)[29184]: session closed for user root
+1133737261 2005.12.04 bn7 Dec 4 15:01:01 bn7/bn7 crond(pam_unix)[29184]: session opened for user root by (uid=0)
+1133737261 2005.12.04 bn7 Dec 4 15:01:01 bn7/bn7 crond[29185]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 bn70 Dec 4 15:01:01 bn70/bn70 crond(pam_unix)[29192]: session closed for user root
+1133737261 2005.12.04 bn70 Dec 4 15:01:01 bn70/bn70 crond(pam_unix)[29192]: session opened for user root by (uid=0)
+1133737261 2005.12.04 bn70 Dec 4 15:01:01 bn70/bn70 crond[29193]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 bn705 Dec 4 15:01:01 bn705/bn705 crond(pam_unix)[29320]: session closed for user root
+1133737261 2005.12.04 bn705 Dec 4 15:01:01 bn705/bn705 crond(pam_unix)[29320]: session opened for user root by (uid=0)
+1133737261 2005.12.04 bn705 Dec 4 15:01:01 bn705/bn705 crond[29321]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 bn715 Dec 4 15:01:01 bn715/bn715 crond(pam_unix)[28355]: session opened for user root by (uid=0)
+1133737261 2005.12.04 bn719 Dec 4 15:01:01 bn719/bn719 crond(pam_unix)[29329]: session closed for user root
+1133737261 2005.12.04 bn719 Dec 4 15:01:01 bn719/bn719 crond(pam_unix)[29329]: session opened for user root by (uid=0)
+1133737261 2005.12.04 bn720 Dec 4 15:01:01 bn720/bn720 crond(pam_unix)[29321]: session opened for user root by (uid=0)
+1133737261 2005.12.04 bn722 Dec 4 15:01:01 bn722/bn722 crond(pam_unix)[29327]: session closed for user root
+1133737261 2005.12.04 bn722 Dec 4 15:01:01 bn722/bn722 crond[29328]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 bn723 Dec 4 15:01:01 bn723/bn723 crond(pam_unix)[29327]: session opened for user root by (uid=0)
+1133737261 2005.12.04 bn723 Dec 4 15:01:01 bn723/bn723 crond[29328]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 bn726 Dec 4 15:01:01 bn726/bn726 crond(pam_unix)[29327]: session opened for user root by (uid=0)
+1133737261 2005.12.04 bn726 Dec 4 15:01:01 bn726/bn726 crond[29328]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 bn727 Dec 4 15:01:01 bn727/bn727 crond(pam_unix)[29326]: session opened for user root by (uid=0)
+1133737261 2005.12.04 bn728 Dec 4 15:01:01 bn728/bn728 crond(pam_unix)[29319]: session opened for user root by (uid=0)
+1133737261 2005.12.04 bn729 Dec 4 15:01:01 bn729/bn729 crond(pam_unix)[29316]: session opened for user root by (uid=0)
+1133737261 2005.12.04 bn729 Dec 4 15:01:01 bn729/bn729 crond[29317]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 bn730 Dec 4 15:01:01 bn730/bn730 crond(pam_unix)[29328]: session closed for user root
+1133737261 2005.12.04 bn731 Dec 4 15:01:01 bn731/bn731 crond(pam_unix)[29328]: session opened for user root by (uid=0)
+1133737261 2005.12.04 bn735 Dec 4 15:01:01 bn735/bn735 crond(pam_unix)[29330]: session closed for user root
+1133737261 2005.12.04 bn735 Dec 4 15:01:01 bn735/bn735 crond(pam_unix)[29330]: session opened for user root by (uid=0)
+1133737261 2005.12.04 bn738 Dec 4 15:01:01 bn738/bn738 crond[29327]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 bn739 Dec 4 15:01:01 bn739/bn739 crond(pam_unix)[29325]: session closed for user root
+1133737261 2005.12.04 bn741 Dec 4 15:01:01 bn741/bn741 crond(pam_unix)[28338]: session closed for user root
+1133737261 2005.12.04 bn742 Dec 4 15:01:01 bn742/bn742 crond(pam_unix)[29326]: session opened for user root by (uid=0)
+1133737261 2005.12.04 bn745 Dec 4 15:01:01 bn745/bn745 crond(pam_unix)[28324]: session opened for user root by (uid=0)
+1133737261 2005.12.04 bn749 Dec 4 15:01:01 bn749/bn749 crond(pam_unix)[29317]: session closed for user root
+1133737261 2005.12.04 bn749 Dec 4 15:01:01 bn749/bn749 crond(pam_unix)[29317]: session opened for user root by (uid=0)
+1133737261 2005.12.04 bn75 Dec 4 15:01:01 bn75/bn75 crond(pam_unix)[29197]: session opened for user root by (uid=0)
+1133737261 2005.12.04 bn751 Dec 4 15:01:01 bn751/bn751 crond(pam_unix)[29319]: session closed for user root
+1133737261 2005.12.04 bn751 Dec 4 15:01:01 bn751/bn751 crond(pam_unix)[29319]: session opened for user root by (uid=0)
+1133737261 2005.12.04 bn752 Dec 4 15:01:01 bn752/bn752 crond(pam_unix)[29325]: session closed for user root
+1133737261 2005.12.04 bn752 Dec 4 15:01:01 bn752/bn752 crond(pam_unix)[29325]: session opened for user root by (uid=0)
+1133737261 2005.12.04 bn752 Dec 4 15:01:01 bn752/bn752 crond[29326]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 bn757 Dec 4 15:01:01 bn757/bn757 crond(pam_unix)[28327]: session closed for user root
+1133737261 2005.12.04 bn757 Dec 4 15:01:01 bn757/bn757 crond(pam_unix)[28327]: session opened for user root by (uid=0)
+1133737261 2005.12.04 bn76 Dec 4 15:01:01 bn76/bn76 crond(pam_unix)[28386]: session closed for user root
+1133737261 2005.12.04 bn76 Dec 4 15:01:01 bn76/bn76 crond[28387]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 bn771 Dec 4 15:01:01 bn771/bn771 crond[29288]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 bn772 Dec 4 15:01:01 bn772/bn772 crond(pam_unix)[29091]: session opened for user root by (uid=0)
+1133737261 2005.12.04 bn775 Dec 4 15:01:01 bn775/bn775 crond(pam_unix)[28341]: session opened for user root by (uid=0)
+1133737261 2005.12.04 bn777 Dec 4 15:01:01 bn777/bn777 crond(pam_unix)[29301]: session closed for user root
+1133737261 2005.12.04 bn779 Dec 4 15:01:01 bn779/bn779 crond(pam_unix)[29307]: session opened for user root by (uid=0)
+1133737261 2005.12.04 bn779 Dec 4 15:01:01 bn779/bn779 crond[29308]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 bn781 Dec 4 15:01:01 bn781/bn781 crond[31311]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 bn783 Dec 4 15:01:01 bn783/bn783 crond(pam_unix)[29275]: session closed for user root
+1133737261 2005.12.04 bn784 Dec 4 15:01:01 bn784/bn784 crond(pam_unix)[29276]: session closed for user root
+1133737261 2005.12.04 bn79 Dec 4 15:01:01 bn79/bn79 crond[29191]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 bn791 Dec 4 15:01:01 bn791/bn791 crond(pam_unix)[29280]: session closed for user root
+1133737261 2005.12.04 bn793 Dec 4 15:01:01 bn793/bn793 crond[28339]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 bn794 Dec 4 15:01:01 bn794/bn794 crond(pam_unix)[28324]: session closed for user root
+1133737261 2005.12.04 bn794 Dec 4 15:01:01 bn794/bn794 crond(pam_unix)[28324]: session opened for user root by (uid=0)
+1133737261 2005.12.04 bn794 Dec 4 15:01:01 bn794/bn794 crond[28325]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 bn796 Dec 4 15:01:01 bn796/bn796 crond(pam_unix)[29314]: session opened for user root by (uid=0)
+1133737261 2005.12.04 bn798 Dec 4 15:01:01 bn798/bn798 crond[29314]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 bn805 Dec 4 15:01:01 bn805/bn805 crond(pam_unix)[29311]: session closed for user root
+1133737261 2005.12.04 bn806 Dec 4 15:01:01 bn806/bn806 crond(pam_unix)[28340]: session opened for user root by (uid=0)
+1133737261 2005.12.04 bn809 Dec 4 15:01:01 bn809/bn809 crond[29318]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 bn81 Dec 4 15:01:01 bn81/bn81 crond(pam_unix)[29186]: session opened for user root by (uid=0)
+1133737261 2005.12.04 bn81 Dec 4 15:01:01 bn81/bn81 crond[29187]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 bn810 Dec 4 15:01:01 bn810/bn810 crond(pam_unix)[29323]: session closed for user root
+1133737261 2005.12.04 bn810 Dec 4 15:01:01 bn810/bn810 crond(pam_unix)[29323]: session opened for user root by (uid=0)
+1133737261 2005.12.04 bn810 Dec 4 15:01:01 bn810/bn810 crond[29324]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 bn813 Dec 4 15:01:01 bn813/bn813 crond(pam_unix)[29305]: session closed for user root
+1133737261 2005.12.04 bn813 Dec 4 15:01:01 bn813/bn813 crond(pam_unix)[29305]: session opened for user root by (uid=0)
+1133737261 2005.12.04 bn813 Dec 4 15:01:01 bn813/bn813 crond[29306]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 bn816 Dec 4 15:01:01 bn816/bn816 crond[29327]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 bn817 Dec 4 15:01:01 bn817/bn817 crond[29334]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 bn820 Dec 4 15:01:01 bn820/bn820 crond(pam_unix)[29327]: session closed for user root
+1133737261 2005.12.04 bn820 Dec 4 15:01:01 bn820/bn820 crond(pam_unix)[29327]: session opened for user root by (uid=0)
+1133737261 2005.12.04 bn820 Dec 4 15:01:01 bn820/bn820 crond[29328]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 bn822 Dec 4 15:01:01 bn822/bn822 crond(pam_unix)[29342]: session closed for user root
+1133737261 2005.12.04 bn822 Dec 4 15:01:01 bn822/bn822 crond(pam_unix)[29342]: session opened for user root by (uid=0)
+1133737261 2005.12.04 bn822 Dec 4 15:01:01 bn822/bn822 crond[29343]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 bn823 Dec 4 15:01:01 bn823/bn823 crond(pam_unix)[29342]: session closed for user root
+1133737261 2005.12.04 bn823 Dec 4 15:01:01 bn823/bn823 crond(pam_unix)[29342]: session opened for user root by (uid=0)
+1133737261 2005.12.04 bn823 Dec 4 15:01:01 bn823/bn823 crond[29343]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 bn824 Dec 4 15:01:01 bn824/bn824 crond(pam_unix)[29347]: session closed for user root
+1133737261 2005.12.04 bn824 Dec 4 15:01:01 bn824/bn824 crond[29348]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 bn827 Dec 4 15:01:01 bn827/bn827 crond(pam_unix)[29343]: session opened for user root by (uid=0)
+1133737261 2005.12.04 bn830 Dec 4 15:01:01 bn830/bn830 crond(pam_unix)[29529]: session closed for user root
+1133737261 2005.12.04 bn831 Dec 4 15:01:01 bn831/bn831 crond(pam_unix)[29538]: session opened for user root by (uid=0)
+1133737261 2005.12.04 bn832 Dec 4 15:01:01 bn832/bn832 crond(pam_unix)[29539]: session closed for user root
+1133737261 2005.12.04 bn833 Dec 4 15:01:01 bn833/bn833 crond[29540]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 bn837 Dec 4 15:01:01 bn837/bn837 crond(pam_unix)[29596]: session closed for user root
+1133737261 2005.12.04 bn840 Dec 4 15:01:01 bn840/bn840 crond(pam_unix)[29530]: session opened for user root by (uid=0)
+1133737261 2005.12.04 bn840 Dec 4 15:01:01 bn840/bn840 crond[29531]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 bn844 Dec 4 15:01:01 bn844/bn844 crond(pam_unix)[28340]: session closed for user root
+1133737261 2005.12.04 bn845 Dec 4 15:01:01 bn845/bn845 crond(pam_unix)[29528]: session opened for user root by (uid=0)
+1133737261 2005.12.04 bn847 Dec 4 15:01:01 bn847/bn847 crond[29538]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 bn849 Dec 4 15:01:01 bn849/bn849 crond(pam_unix)[29535]: session closed for user root
+1133737261 2005.12.04 bn85 Dec 4 15:01:01 bn85/bn85 crond(pam_unix)[29195]: session closed for user root
+1133737261 2005.12.04 bn85 Dec 4 15:01:01 bn85/bn85 crond(pam_unix)[29195]: session opened for user root by (uid=0)
+1133737261 2005.12.04 bn850 Dec 4 15:01:01 bn850/bn850 crond(pam_unix)[29542]: session closed for user root
+1133737261 2005.12.04 bn850 Dec 4 15:01:01 bn850/bn850 crond(pam_unix)[29542]: session opened for user root by (uid=0)
+1133737261 2005.12.04 bn850 Dec 4 15:01:01 bn850/bn850 crond[29543]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 bn851 Dec 4 15:01:01 bn851/bn851 crond[29544]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 bn852 Dec 4 15:01:01 bn852/bn852 crond(pam_unix)[29542]: session opened for user root by (uid=0)
+1133737261 2005.12.04 bn862 Dec 4 15:01:01 bn862/bn862 crond(pam_unix)[29543]: session opened for user root by (uid=0)
+1133737261 2005.12.04 bn864 Dec 4 15:01:01 bn864/bn864 crond(pam_unix)[29634]: session closed for user root
+1133737261 2005.12.04 bn867 Dec 4 15:01:01 bn867/bn867 crond[29739]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 bn868 Dec 4 15:01:01 bn868/bn868 crond(pam_unix)[29907]: session closed for user root
+1133737261 2005.12.04 bn871 Dec 4 15:01:01 bn871/bn871 crond(pam_unix)[29923]: session closed for user root
+1133737261 2005.12.04 bn873 Dec 4 15:01:01 bn873/bn873 crond(pam_unix)[28356]: session opened for user root by (uid=0)
+1133737261 2005.12.04 bn882 Dec 4 15:01:01 bn882/bn882 crond(pam_unix)[31861]: session closed for user root
+1133737261 2005.12.04 bn882 Dec 4 15:01:01 bn882/bn882 crond(pam_unix)[31861]: session opened for user root by (uid=0)
+1133737261 2005.12.04 bn882 Dec 4 15:01:01 bn882/bn882 crond[31862]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 bn884 Dec 4 15:01:01 bn884/bn884 crond(pam_unix)[32083]: session closed for user root
+1133737261 2005.12.04 bn886 Dec 4 15:01:01 bn886/bn886 crond(pam_unix)[423]: session closed for user root
+1133737261 2005.12.04 bn886 Dec 4 15:01:01 bn886/bn886 crond(pam_unix)[423]: session opened for user root by (uid=0)
+1133737261 2005.12.04 bn886 Dec 4 15:01:01 bn886/bn886 crond[424]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 bn887 Dec 4 15:01:01 bn887/bn887 crond(pam_unix)[31496]: session closed for user root
+1133737261 2005.12.04 bn887 Dec 4 15:01:01 bn887/bn887 crond[31497]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 bn891 Dec 4 15:01:01 bn891/bn891 crond[29436]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 bn892 Dec 4 15:01:01 bn892/bn892 crond(pam_unix)[29436]: session opened for user root by (uid=0)
+1133737261 2005.12.04 bn898 Dec 4 15:01:01 bn898/bn898 crond(pam_unix)[29431]: session opened for user root by (uid=0)
+1133737261 2005.12.04 bn9 Dec 4 15:01:01 bn9/bn9 crond(pam_unix)[29185]: session closed for user root
+1133737261 2005.12.04 bn905 Dec 4 15:01:01 bn905/bn905 crond[29479]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 bn906 Dec 4 15:01:01 bn906/bn906 crond(pam_unix)[28333]: session closed for user root
+1133737261 2005.12.04 bn906 Dec 4 15:01:01 bn906/bn906 crond(pam_unix)[28333]: session opened for user root by (uid=0)
+1133737261 2005.12.04 bn906 Dec 4 15:01:01 bn906/bn906 crond[28334]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 bn909 Dec 4 15:01:01 bn909/bn909 crond(pam_unix)[28343]: session closed for user root
+1133737261 2005.12.04 bn909 Dec 4 15:01:01 bn909/bn909 crond[28344]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 bn91 Dec 4 15:01:01 bn91/bn91 crond(pam_unix)[28403]: session closed for user root
+1133737261 2005.12.04 bn91 Dec 4 15:01:01 bn91/bn91 crond[28404]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 bn916 Dec 4 15:01:01 bn916/bn916 crond(pam_unix)[29445]: session closed for user root
+1133737261 2005.12.04 bn917 Dec 4 15:01:01 bn917/bn917 crond(pam_unix)[29431]: session closed for user root
+1133737261 2005.12.04 bn917 Dec 4 15:01:01 bn917/bn917 crond(pam_unix)[29431]: session opened for user root by (uid=0)
+1133737261 2005.12.04 bn918 Dec 4 15:01:01 bn918/bn918 crond[29504]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 bn923 Dec 4 15:01:01 bn923/bn923 crond(pam_unix)[29446]: session opened for user root by (uid=0)
+1133737261 2005.12.04 bn925 Dec 4 15:01:01 bn925/bn925 crond(pam_unix)[29445]: session closed for user root
+1133737261 2005.12.04 bn927 Dec 4 15:01:01 bn927/bn927 crond[29459]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 bn93 Dec 4 15:01:01 bn93/bn93 crond(pam_unix)[29197]: session opened for user root by (uid=0)
+1133737261 2005.12.04 bn932 Dec 4 15:01:01 bn932/bn932 crond(pam_unix)[29453]: session opened for user root by (uid=0)
+1133737261 2005.12.04 bn932 Dec 4 15:01:01 bn932/bn932 crond[29454]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 bn934 Dec 4 15:01:01 bn934/bn934 crond(pam_unix)[29455]: session closed for user root
+1133737261 2005.12.04 bn934 Dec 4 15:01:01 bn934/bn934 crond(pam_unix)[29455]: session opened for user root by (uid=0)
+1133737261 2005.12.04 bn936 Dec 4 15:01:01 bn936/bn936 crond(pam_unix)[29463]: session closed for user root
+1133737261 2005.12.04 bn940 Dec 4 15:01:01 bn940/bn940 crond(pam_unix)[29462]: session opened for user root by (uid=0)
+1133737261 2005.12.04 bn943 Dec 4 15:01:01 bn943/bn943 crond(pam_unix)[29460]: session closed for user root
+1133737261 2005.12.04 bn945 Dec 4 15:01:01 bn945/bn945 crond(pam_unix)[28334]: session closed for user root
+1133737261 2005.12.04 bn945 Dec 4 15:01:01 bn945/bn945 crond(pam_unix)[28334]: session opened for user root by (uid=0)
+1133737261 2005.12.04 bn945 Dec 4 15:01:01 bn945/bn945 crond[28335]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 bn949 Dec 4 15:01:01 bn949/bn949 crond(pam_unix)[29448]: session opened for user root by (uid=0)
+1133737261 2005.12.04 bn950 Dec 4 15:01:01 bn950/bn950 crond(pam_unix)[29530]: session closed for user root
+1133737261 2005.12.04 bn951 Dec 4 15:01:01 bn951/bn951 crond(pam_unix)[29459]: session closed for user root
+1133737261 2005.12.04 bn953 Dec 4 15:01:01 bn953/bn953 crond(pam_unix)[29460]: session closed for user root
+1133737261 2005.12.04 bn955 Dec 4 15:01:01 bn955/bn955 crond(pam_unix)[29461]: session closed for user root
+1133737261 2005.12.04 bn955 Dec 4 15:01:01 bn955/bn955 crond[29462]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 bn956 Dec 4 15:01:01 bn956/bn956 crond(pam_unix)[29458]: session opened for user root by (uid=0)
+1133737261 2005.12.04 bn958 Dec 4 15:01:01 bn958/bn958 crond[29466]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 bn959 Dec 4 15:01:01 bn959/bn959 crond(pam_unix)[29453]: session opened for user root by (uid=0)
+1133737261 2005.12.04 bn96 Dec 4 15:01:01 bn96/bn96 crond[29200]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 bn964 Dec 4 15:01:01 bn964/bn964 crond(pam_unix)[29461]: session closed for user root
+1133737261 2005.12.04 bn964 Dec 4 15:01:01 bn964/bn964 crond(pam_unix)[29461]: session opened for user root by (uid=0)
+1133737261 2005.12.04 bn964 Dec 4 15:01:01 bn964/bn964 crond[29462]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 bn965 Dec 4 15:01:01 bn965/bn965 crond(pam_unix)[28337]: session opened for user root by (uid=0)
+1133737261 2005.12.04 bn967 Dec 4 15:01:01 bn967/bn967 crond(pam_unix)[29459]: session closed for user root
+1133737261 2005.12.04 bn967 Dec 4 15:01:01 bn967/bn967 crond[29460]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 bn969 Dec 4 15:01:01 bn969/bn969 crond(pam_unix)[29447]: session closed for user root
+1133737261 2005.12.04 bn969 Dec 4 15:01:01 bn969/bn969 crond[29448]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 bn97 Dec 4 15:01:01 bn97/bn97 crond(pam_unix)[28384]: session closed for user root
+1133737261 2005.12.04 bn97 Dec 4 15:01:01 bn97/bn97 crond(pam_unix)[28384]: session opened for user root by (uid=0)
+1133737261 2005.12.04 bn970 Dec 4 15:01:01 bn970/bn970 crond[29528]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 bn977 Dec 4 15:01:01 bn977/bn977 crond[29467]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 bn980 Dec 4 15:01:01 bn980/bn980 crond(pam_unix)[29267]: session opened for user root by (uid=0)
+1133737261 2005.12.04 bn980 Dec 4 15:01:01 bn980/bn980 crond[29268]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 bn981 Dec 4 15:01:01 bn981/bn981 crond(pam_unix)[29453]: session opened for user root by (uid=0)
+1133737261 2005.12.04 bn983 Dec 4 15:01:01 bn983/bn983 crond(pam_unix)[29463]: session opened for user root by (uid=0)
+1133737261 2005.12.04 bn983 Dec 4 15:01:01 bn983/bn983 crond[29464]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 bn986 Dec 4 15:01:01 bn986/bn986 crond(pam_unix)[28338]: session opened for user root by (uid=0)
+1133737261 2005.12.04 bn989 Dec 4 15:01:01 bn989/bn989 crond(pam_unix)[29485]: session closed for user root
+1133737261 2005.12.04 bn99 Dec 4 15:01:01 bn99/bn99 crond(pam_unix)[29182]: session closed for user root
+1133737261 2005.12.04 bn99 Dec 4 15:01:01 bn99/bn99 crond(pam_unix)[29182]: session opened for user root by (uid=0)
+1133737261 2005.12.04 bn99 Dec 4 15:01:01 bn99/bn99 crond[29183]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 bn995 Dec 4 15:01:01 bn995/bn995 crond(pam_unix)[29483]: session closed for user root
+1133737261 2005.12.04 bn995 Dec 4 15:01:01 bn995/bn995 crond[29484]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 bn996 Dec 4 15:01:01 bn996/bn996 crond(pam_unix)[29493]: session closed for user root
+1133737261 2005.12.04 bn996 Dec 4 15:01:01 bn996/bn996 crond(pam_unix)[29493]: session opened for user root by (uid=0)
+1133737261 2005.12.04 bn996 Dec 4 15:01:01 bn996/bn996 crond[29494]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 bn999 Dec 4 15:01:01 bn999/bn999 crond(pam_unix)[29493]: session closed for user root
+1133737261 2005.12.04 cadmin1 Dec 4 15:01:01 src@cadmin1 crond(pam_unix)[20246]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cadmin2 Dec 4 15:01:01 src@cadmin2 crond(pam_unix)[30750]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cadmin4 Dec 4 15:01:01 src@cadmin4 crond(pam_unix)[6242]: session closed for user root
+1133737261 2005.12.04 cadmin4 Dec 4 15:01:01 src@cadmin4 crond(pam_unix)[6242]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn1000 Dec 4 15:01:01 cn1000/cn1000 crond(pam_unix)[30787]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn1004 Dec 4 15:01:01 cn1004/cn1004 crond(pam_unix)[487]: session closed for user root
+1133737261 2005.12.04 cn1008 Dec 4 15:01:01 cn1008/cn1008 crond(pam_unix)[29858]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn1008 Dec 4 15:01:01 cn1008/cn1008 crond[29859]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 cn1009 Dec 4 15:01:01 cn1009/cn1009 crond(pam_unix)[28391]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn1012 Dec 4 15:01:01 cn1012/cn1012 crond(pam_unix)[28429]: session closed for user root
+1133737261 2005.12.04 cn1020 Dec 4 15:01:01 cn1020/cn1020 crond(pam_unix)[29877]: session closed for user root
+1133737261 2005.12.04 cn1024 Dec 4 15:01:01 cn1024/cn1024 crond(pam_unix)[28403]: session closed for user root
+1133737261 2005.12.04 cn1024 Dec 4 15:01:01 cn1024/cn1024 crond(pam_unix)[28403]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn1024 Dec 4 15:01:01 cn1024/cn1024 crond[28404]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 cn258 Dec 4 15:01:01 cn258/cn258 crond(pam_unix)[29642]: session closed for user root
+1133737261 2005.12.04 cn261 Dec 4 15:01:01 cn261/cn261 crond(pam_unix)[29642]: session closed for user root
+1133737261 2005.12.04 cn261 Dec 4 15:01:01 cn261/cn261 crond(pam_unix)[29642]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn271 Dec 4 15:01:01 cn271/cn271 crond(pam_unix)[29634]: session closed for user root
+1133737261 2005.12.04 cn271 Dec 4 15:01:01 cn271/cn271 crond(pam_unix)[29634]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn274 Dec 4 15:01:01 cn274/cn274 crond[29587]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 cn278 Dec 4 15:01:01 cn278/cn278 crond(pam_unix)[29643]: session closed for user root
+1133737261 2005.12.04 cn278 Dec 4 15:01:01 cn278/cn278 crond(pam_unix)[29643]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn278 Dec 4 15:01:01 cn278/cn278 crond[29644]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 cn280 Dec 4 15:01:01 cn280/cn280 crond(pam_unix)[29643]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn282 Dec 4 15:01:01 cn282/cn282 crond(pam_unix)[29594]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn282 Dec 4 15:01:01 cn282/cn282 crond[29595]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 cn283 Dec 4 15:01:01 cn283/cn283 crond(pam_unix)[29643]: session closed for user root
+1133737261 2005.12.04 cn283 Dec 4 15:01:01 cn283/cn283 crond[29644]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 cn284 Dec 4 15:01:01 cn284/cn284 crond(pam_unix)[29631]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn287 Dec 4 15:01:01 cn287/cn287 crond(pam_unix)[31527]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn288 Dec 4 15:01:01 cn288/cn288 crond(pam_unix)[29580]: session closed for user root
+1133737261 2005.12.04 cn288 Dec 4 15:01:01 cn288/cn288 crond[29581]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 cn292 Dec 4 15:01:01 cn292/cn292 crond(pam_unix)[29581]: session closed for user root
+1133737261 2005.12.04 cn292 Dec 4 15:01:01 cn292/cn292 crond(pam_unix)[29581]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn292 Dec 4 15:01:01 cn292/cn292 crond[29582]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 cn295 Dec 4 15:01:01 cn295/cn295 crond(pam_unix)[29590]: session closed for user root
+1133737261 2005.12.04 cn295 Dec 4 15:01:01 cn295/cn295 crond[29591]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 cn301 Dec 4 15:01:01 cn301/cn301 crond(pam_unix)[29561]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn302 Dec 4 15:01:01 cn302/cn302 crond(pam_unix)[29551]: session closed for user root
+1133737261 2005.12.04 cn303 Dec 4 15:01:01 cn303/cn303 crond(pam_unix)[29563]: session closed for user root
+1133737261 2005.12.04 cn303 Dec 4 15:01:01 cn303/cn303 crond(pam_unix)[29563]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn303 Dec 4 15:01:01 cn303/cn303 crond[29564]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 cn305 Dec 4 15:01:01 cn305/cn305 crond(pam_unix)[29555]: session closed for user root
+1133737261 2005.12.04 cn305 Dec 4 15:01:01 cn305/cn305 crond(pam_unix)[29555]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn305 Dec 4 15:01:01 cn305/cn305 crond[29556]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 cn306 Dec 4 15:01:01 cn306/cn306 crond(pam_unix)[29556]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn308 Dec 4 15:01:01 cn308/cn308 crond(pam_unix)[29699]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn312 Dec 4 15:01:01 cn312/cn312 crond(pam_unix)[28460]: session closed for user root
+1133737261 2005.12.04 cn317 Dec 4 15:01:01 cn317/cn317 crond(pam_unix)[29621]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn318 Dec 4 15:01:01 cn318/cn318 crond(pam_unix)[29611]: session closed for user root
+1133737261 2005.12.04 cn318 Dec 4 15:01:01 cn318/cn318 crond(pam_unix)[29611]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn318 Dec 4 15:01:01 cn318/cn318 crond[29612]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 cn326 Dec 4 15:01:01 cn326/cn326 crond(pam_unix)[29660]: session closed for user root
+1133737261 2005.12.04 cn326 Dec 4 15:01:01 cn326/cn326 crond(pam_unix)[29660]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn326 Dec 4 15:01:01 cn326/cn326 crond[29661]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 cn329 Dec 4 15:01:01 cn329/cn329 crond(pam_unix)[28383]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn330 Dec 4 15:01:01 cn330/cn330 crond(pam_unix)[29703]: session closed for user root
+1133737261 2005.12.04 cn330 Dec 4 15:01:01 cn330/cn330 crond(pam_unix)[29703]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn330 Dec 4 15:01:01 cn330/cn330 crond[29704]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 cn331 Dec 4 15:01:01 cn331/cn331 crond(pam_unix)[29694]: session closed for user root
+1133737261 2005.12.04 cn334 Dec 4 15:01:01 cn334/cn334 crond(pam_unix)[29691]: session closed for user root
+1133737261 2005.12.04 cn334 Dec 4 15:01:01 cn334/cn334 crond(pam_unix)[29691]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn334 Dec 4 15:01:01 cn334/cn334 crond[29692]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 cn335 Dec 4 15:01:01 cn335/cn335 crond[28386]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 cn336 Dec 4 15:01:01 cn336/cn336 crond(pam_unix)[29618]: session closed for user root
+1133737261 2005.12.04 cn336 Dec 4 15:01:01 cn336/cn336 crond(pam_unix)[29618]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn336 Dec 4 15:01:01 cn336/cn336 crond[29619]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 cn338 Dec 4 15:01:01 cn338/cn338 crond(pam_unix)[29625]: session closed for user root
+1133737261 2005.12.04 cn338 Dec 4 15:01:01 cn338/cn338 crond[29626]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 cn339 Dec 4 15:01:01 cn339/cn339 crond[29624]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 cn340 Dec 4 15:01:01 cn340/cn340 crond(pam_unix)[29613]: session closed for user root
+1133737261 2005.12.04 cn345 Dec 4 15:01:01 cn345/cn345 crond(pam_unix)[29628]: session closed for user root
+1133737261 2005.12.04 cn348 Dec 4 15:01:01 cn348/cn348 crond(pam_unix)[28401]: session closed for user root
+1133737261 2005.12.04 cn348 Dec 4 15:01:01 cn348/cn348 crond(pam_unix)[28401]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn349 Dec 4 15:01:01 cn349/cn349 crond(pam_unix)[29621]: session closed for user root
+1133737261 2005.12.04 cn349 Dec 4 15:01:01 cn349/cn349 crond(pam_unix)[29621]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn350 Dec 4 15:01:01 cn350/cn350 crond(pam_unix)[29623]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn351 Dec 4 15:01:01 cn351/cn351 crond[29623]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 cn353 Dec 4 15:01:01 cn353/cn353 crond(pam_unix)[29621]: session closed for user root
+1133737261 2005.12.04 cn359 Dec 4 15:01:01 cn359/cn359 crond[29638]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 cn362 Dec 4 15:01:01 cn362/cn362 crond(pam_unix)[29636]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn363 Dec 4 15:01:01 cn363/cn363 crond(pam_unix)[29637]: session closed for user root
+1133737261 2005.12.04 cn365 Dec 4 15:01:01 cn365/cn365 crond(pam_unix)[29638]: session closed for user root
+1133737261 2005.12.04 cn366 Dec 4 15:01:01 cn366/cn366 crond(pam_unix)[29635]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn367 Dec 4 15:01:01 cn367/cn367 crond(pam_unix)[29636]: session closed for user root
+1133737261 2005.12.04 cn367 Dec 4 15:01:01 cn367/cn367 crond[29637]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 cn368 Dec 4 15:01:01 cn368/cn368 crond(pam_unix)[29414]: session closed for user root
+1133737261 2005.12.04 cn368 Dec 4 15:01:01 cn368/cn368 crond(pam_unix)[29414]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn368 Dec 4 15:01:01 cn368/cn368 crond[29415]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 cn369 Dec 4 15:01:01 cn369/cn369 crond(pam_unix)[29628]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn372 Dec 4 15:01:01 cn372/cn372 crond(pam_unix)[29641]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn374 Dec 4 15:01:01 cn374/cn374 crond(pam_unix)[29628]: session closed for user root
+1133737261 2005.12.04 cn374 Dec 4 15:01:01 cn374/cn374 crond(pam_unix)[29628]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn374 Dec 4 15:01:01 cn374/cn374 crond[29629]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 cn378 Dec 4 15:01:01 cn378/cn378 crond(pam_unix)[29682]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn379 Dec 4 15:01:01 cn379/cn379 crond(pam_unix)[29683]: session closed for user root
+1133737261 2005.12.04 cn384 Dec 4 15:01:01 cn384/cn384 crond[29684]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 cn387 Dec 4 15:01:01 cn387/cn387 crond(pam_unix)[29743]: session closed for user root
+1133737261 2005.12.04 cn387 Dec 4 15:01:01 cn387/cn387 crond(pam_unix)[29743]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn392 Dec 4 15:01:01 cn392/cn392 crond(pam_unix)[28385]: session closed for user root
+1133737261 2005.12.04 cn392 Dec 4 15:01:01 cn392/cn392 crond(pam_unix)[28385]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn392 Dec 4 15:01:01 cn392/cn392 crond[28386]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 cn397 Dec 4 15:01:01 cn397/cn397 crond(pam_unix)[29736]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn398 Dec 4 15:01:01 cn398/cn398 crond[29741]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 cn403 Dec 4 15:01:01 cn403/cn403 crond(pam_unix)[29722]: session closed for user root
+1133737261 2005.12.04 cn408 Dec 4 15:01:01 cn408/cn408 crond(pam_unix)[29722]: session closed for user root
+1133737261 2005.12.04 cn409 Dec 4 15:01:01 cn409/cn409 crond(pam_unix)[29718]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn410 Dec 4 15:01:01 cn410/cn410 crond(pam_unix)[29706]: session closed for user root
+1133737261 2005.12.04 cn410 Dec 4 15:01:01 cn410/cn410 crond(pam_unix)[29706]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn413 Dec 4 15:01:01 cn413/cn413 crond(pam_unix)[29704]: session closed for user root
+1133737261 2005.12.04 cn413 Dec 4 15:01:01 cn413/cn413 crond(pam_unix)[29704]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn413 Dec 4 15:01:01 cn413/cn413 crond[29705]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 cn417 Dec 4 15:01:01 cn417/cn417 crond(pam_unix)[29717]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn419 Dec 4 15:01:01 cn419/cn419 crond(pam_unix)[29708]: session closed for user root
+1133737261 2005.12.04 cn421 Dec 4 15:01:01 cn421/cn421 crond(pam_unix)[29719]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn434 Dec 4 15:01:01 cn434/cn434 crond(pam_unix)[29760]: session closed for user root
+1133737261 2005.12.04 cn434 Dec 4 15:01:01 cn434/cn434 crond(pam_unix)[29760]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn434 Dec 4 15:01:01 cn434/cn434 crond[29761]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 cn445 Dec 4 15:01:01 cn445/cn445 crond(pam_unix)[29813]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn447 Dec 4 15:01:01 cn447/cn447 crond(pam_unix)[29883]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn448 Dec 4 15:01:01 cn448/cn448 crond(pam_unix)[29817]: session closed for user root
+1133737261 2005.12.04 cn452 Dec 4 15:01:01 cn452/cn452 crond(pam_unix)[29814]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn453 Dec 4 15:01:01 cn453/cn453 crond(pam_unix)[29808]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn454 Dec 4 15:01:01 cn454/cn454 crond(pam_unix)[29806]: session closed for user root
+1133737261 2005.12.04 cn454 Dec 4 15:01:01 cn454/cn454 crond(pam_unix)[29806]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn454 Dec 4 15:01:01 cn454/cn454 crond[29807]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 cn456 Dec 4 15:01:01 cn456/cn456 crond(pam_unix)[29811]: session closed for user root
+1133737261 2005.12.04 cn459 Dec 4 15:01:01 cn459/cn459 crond(pam_unix)[29806]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn461 Dec 4 15:01:01 cn461/cn461 crond(pam_unix)[29806]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn467 Dec 4 15:01:01 cn467/cn467 crond(pam_unix)[29771]: session closed for user root
+1133737261 2005.12.04 cn467 Dec 4 15:01:01 cn467/cn467 crond(pam_unix)[29771]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn467 Dec 4 15:01:01 cn467/cn467 crond[29772]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 cn468 Dec 4 15:01:01 cn468/cn468 crond(pam_unix)[29773]: session closed for user root
+1133737261 2005.12.04 cn468 Dec 4 15:01:01 cn468/cn468 crond(pam_unix)[29773]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn472 Dec 4 15:01:01 cn472/cn472 crond(pam_unix)[29779]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn473 Dec 4 15:01:01 cn473/cn473 crond(pam_unix)[29781]: session closed for user root
+1133737261 2005.12.04 cn475 Dec 4 15:01:01 cn475/cn475 crond(pam_unix)[28393]: session closed for user root
+1133737261 2005.12.04 cn479 Dec 4 15:01:01 cn479/cn479 crond(pam_unix)[29783]: session closed for user root
+1133737261 2005.12.04 cn481 Dec 4 15:01:01 cn481/cn481 crond(pam_unix)[29768]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn481 Dec 4 15:01:01 cn481/cn481 crond[29769]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 cn483 Dec 4 15:01:01 cn483/cn483 crond(pam_unix)[29778]: session closed for user root
+1133737261 2005.12.04 cn483 Dec 4 15:01:01 cn483/cn483 crond(pam_unix)[29778]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn483 Dec 4 15:01:01 cn483/cn483 crond[29779]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 cn484 Dec 4 15:01:01 cn484/cn484 crond(pam_unix)[29763]: session closed for user root
+1133737261 2005.12.04 cn484 Dec 4 15:01:01 cn484/cn484 crond[29764]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 cn489 Dec 4 15:01:01 cn489/cn489 crond(pam_unix)[29784]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn490 Dec 4 15:01:01 cn490/cn490 crond(pam_unix)[29781]: session closed for user root
+1133737261 2005.12.04 cn494 Dec 4 15:01:01 cn494/cn494 crond(pam_unix)[29780]: session closed for user root
+1133737261 2005.12.04 cn494 Dec 4 15:01:01 cn494/cn494 crond[29781]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 cn499 Dec 4 15:01:01 cn499/cn499 crond(pam_unix)[29794]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn499 Dec 4 15:01:01 cn499/cn499 crond[29795]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 cn504 Dec 4 15:01:01 cn504/cn504 crond(pam_unix)[29713]: session closed for user root
+1133737261 2005.12.04 cn505 Dec 4 15:01:01 cn505/cn505 crond(pam_unix)[29658]: session closed for user root
+1133737261 2005.12.04 cn505 Dec 4 15:01:01 cn505/cn505 crond(pam_unix)[29658]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn505 Dec 4 15:01:01 cn505/cn505 crond[29659]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 cn509 Dec 4 15:01:01 cn509/cn509 crond(pam_unix)[29715]: session closed for user root
+1133737261 2005.12.04 cn509 Dec 4 15:01:01 cn509/cn509 crond(pam_unix)[29715]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn509 Dec 4 15:01:01 cn509/cn509 crond[29716]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 cn510 Dec 4 15:01:01 cn510/cn510 crond(pam_unix)[29516]: session closed for user root
+1133737261 2005.12.04 cn510 Dec 4 15:01:01 cn510/cn510 crond(pam_unix)[29516]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn510 Dec 4 15:01:01 cn510/cn510 crond[29517]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 cn516 Dec 4 15:01:01 cn516/cn516 crond(pam_unix)[29751]: session closed for user root
+1133737261 2005.12.04 cn516 Dec 4 15:01:01 cn516/cn516 crond(pam_unix)[29751]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn516 Dec 4 15:01:01 cn516/cn516 crond[29752]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 cn519 Dec 4 15:01:01 cn519/cn519 crond(pam_unix)[29746]: session closed for user root
+1133737261 2005.12.04 cn519 Dec 4 15:01:01 cn519/cn519 crond(pam_unix)[29746]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn521 Dec 4 15:01:01 cn521/cn521 crond(pam_unix)[29744]: session closed for user root
+1133737261 2005.12.04 cn521 Dec 4 15:01:01 cn521/cn521 crond[29745]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 cn525 Dec 4 15:01:01 cn525/cn525 crond(pam_unix)[29754]: session closed for user root
+1133737261 2005.12.04 cn525 Dec 4 15:01:01 cn525/cn525 crond(pam_unix)[29754]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn525 Dec 4 15:01:01 cn525/cn525 crond[29755]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 cn526 Dec 4 15:01:01 cn526/cn526 crond(pam_unix)[29745]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn527 Dec 4 15:01:01 cn527/cn527 crond(pam_unix)[29757]: session closed for user root
+1133737261 2005.12.04 cn530 Dec 4 15:01:01 cn530/cn530 crond(pam_unix)[29743]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn531 Dec 4 15:01:01 cn531/cn531 crond(pam_unix)[29746]: session closed for user root
+1133737261 2005.12.04 cn533 Dec 4 15:01:01 cn533/cn533 crond(pam_unix)[29744]: session closed for user root
+1133737261 2005.12.04 cn533 Dec 4 15:01:01 cn533/cn533 crond(pam_unix)[29744]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn533 Dec 4 15:01:01 cn533/cn533 crond[29745]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 cn535 Dec 4 15:01:01 cn535/cn535 crond(pam_unix)[29744]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn535 Dec 4 15:01:01 cn535/cn535 crond[29745]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 cn537 Dec 4 15:01:01 cn537/cn537 crond(pam_unix)[29745]: session closed for user root
+1133737261 2005.12.04 cn544 Dec 4 15:01:01 cn544/cn544 crond(pam_unix)[29762]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn545 Dec 4 15:01:01 cn545/cn545 crond(pam_unix)[29774]: session closed for user root
+1133737261 2005.12.04 cn548 Dec 4 15:01:01 cn548/cn548 crond(pam_unix)[29594]: session closed for user root
+1133737261 2005.12.04 cn548 Dec 4 15:01:01 cn548/cn548 crond(pam_unix)[29594]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn548 Dec 4 15:01:01 cn548/cn548 crond[29595]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 cn551 Dec 4 15:01:01 cn551/cn551 crond(pam_unix)[29770]: session closed for user root
+1133737261 2005.12.04 cn552 Dec 4 15:01:01 cn552/cn552 crond(pam_unix)[29762]: session closed for user root
+1133737261 2005.12.04 cn555 Dec 4 15:01:01 cn555/cn555 crond[29763]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 cn559 Dec 4 15:01:01 cn559/cn559 crond(pam_unix)[29773]: session closed for user root
+1133737261 2005.12.04 cn560 Dec 4 15:01:01 cn560/cn560 crond[29784]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 cn561 Dec 4 15:01:01 cn561/cn561 crond(pam_unix)[29783]: session closed for user root
+1133737261 2005.12.04 cn561 Dec 4 15:01:01 cn561/cn561 crond(pam_unix)[29783]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn567 Dec 4 15:01:01 cn567/cn567 crond(pam_unix)[29786]: session closed for user root
+1133737261 2005.12.04 cn567 Dec 4 15:01:01 cn567/cn567 crond(pam_unix)[29786]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn570 Dec 4 15:01:01 cn570/cn570 crond(pam_unix)[29781]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn571 Dec 4 15:01:01 cn571/cn571 crond(pam_unix)[29786]: session closed for user root
+1133737261 2005.12.04 cn571 Dec 4 15:01:01 cn571/cn571 crond(pam_unix)[29786]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn571 Dec 4 15:01:01 cn571/cn571 crond[29787]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 cn575 Dec 4 15:01:01 cn575/cn575 crond(pam_unix)[29785]: session closed for user root
+1133737261 2005.12.04 cn577 Dec 4 15:01:01 cn577/cn577 crond(pam_unix)[29771]: session closed for user root
+1133737261 2005.12.04 cn577 Dec 4 15:01:01 cn577/cn577 crond(pam_unix)[29771]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn577 Dec 4 15:01:01 cn577/cn577 crond[29772]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 cn580 Dec 4 15:01:01 cn580/cn580 crond(pam_unix)[29784]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn581 Dec 4 15:01:01 cn581/cn581 crond(pam_unix)[29785]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn583 Dec 4 15:01:01 cn583/cn583 crond(pam_unix)[29781]: session closed for user root
+1133737261 2005.12.04 cn584 Dec 4 15:01:01 cn584/cn584 crond(pam_unix)[29910]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn585 Dec 4 15:01:01 cn585/cn585 crond(pam_unix)[29776]: session closed for user root
+1133737261 2005.12.04 cn590 Dec 4 15:01:01 cn590/cn590 crond(pam_unix)[29818]: session closed for user root
+1133737261 2005.12.04 cn593 Dec 4 15:01:01 cn593/cn593 crond(pam_unix)[29821]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn596 Dec 4 15:01:01 cn596/cn596 crond(pam_unix)[29820]: session closed for user root
+1133737261 2005.12.04 cn596 Dec 4 15:01:01 cn596/cn596 crond(pam_unix)[29820]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn597 Dec 4 15:01:01 cn597/cn597 crond(pam_unix)[29811]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn597 Dec 4 15:01:01 cn597/cn597 crond[29812]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 cn598 Dec 4 15:01:01 cn598/cn598 crond(pam_unix)[29813]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn600 Dec 4 15:01:01 cn600/cn600 crond(pam_unix)[28437]: session closed for user root
+1133737261 2005.12.04 cn602 Dec 4 15:01:01 cn602/cn602 crond(pam_unix)[29883]: session closed for user root
+1133737261 2005.12.04 cn602 Dec 4 15:01:01 cn602/cn602 crond(pam_unix)[29883]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn604 Dec 4 15:01:01 cn604/cn604 crond(pam_unix)[29815]: session closed for user root
+1133737261 2005.12.04 cn604 Dec 4 15:01:01 cn604/cn604 crond(pam_unix)[29815]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn604 Dec 4 15:01:01 cn604/cn604 crond[29816]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 cn605 Dec 4 15:01:01 cn605/cn605 crond(pam_unix)[29815]: session closed for user root
+1133737261 2005.12.04 cn605 Dec 4 15:01:01 cn605/cn605 crond(pam_unix)[29815]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn605 Dec 4 15:01:01 cn605/cn605 crond[29816]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 cn609 Dec 4 15:01:01 cn609/cn609 crond(pam_unix)[28354]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn609 Dec 4 15:01:01 cn609/cn609 crond[28355]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 cn610 Dec 4 15:01:01 cn610/cn610 crond(pam_unix)[29777]: session closed for user root
+1133737261 2005.12.04 cn610 Dec 4 15:01:01 cn610/cn610 crond(pam_unix)[29777]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn612 Dec 4 15:01:01 cn612/cn612 crond(pam_unix)[29777]: session closed for user root
+1133737261 2005.12.04 cn616 Dec 4 15:01:01 cn616/cn616 crond(pam_unix)[29778]: session closed for user root
+1133737261 2005.12.04 cn618 Dec 4 15:01:01 cn618/cn618 crond(pam_unix)[29766]: session closed for user root
+1133737261 2005.12.04 cn618 Dec 4 15:01:01 cn618/cn618 crond(pam_unix)[29766]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn618 Dec 4 15:01:01 cn618/cn618 crond[29767]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 cn619 Dec 4 15:01:01 cn619/cn619 crond(pam_unix)[29778]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn622 Dec 4 15:01:01 cn622/cn622 crond(pam_unix)[29777]: session closed for user root
+1133737261 2005.12.04 cn622 Dec 4 15:01:01 cn622/cn622 crond(pam_unix)[29777]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn623 Dec 4 15:01:01 cn623/cn623 crond(pam_unix)[29777]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn624 Dec 4 15:01:01 cn624/cn624 crond(pam_unix)[29917]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn624 Dec 4 15:01:01 cn624/cn624 crond[29918]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 cn628 Dec 4 15:01:01 cn628/cn628 crond(pam_unix)[29778]: session closed for user root
+1133737261 2005.12.04 cn628 Dec 4 15:01:01 cn628/cn628 crond(pam_unix)[29778]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn628 Dec 4 15:01:01 cn628/cn628 crond[29779]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 cn629 Dec 4 15:01:01 cn629/cn629 crond(pam_unix)[29769]: session closed for user root
+1133737261 2005.12.04 cn629 Dec 4 15:01:01 cn629/cn629 crond(pam_unix)[29769]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn629 Dec 4 15:01:01 cn629/cn629 crond[29770]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 cn632 Dec 4 15:01:01 cn632/cn632 crond(pam_unix)[29767]: session closed for user root
+1133737261 2005.12.04 cn632 Dec 4 15:01:01 cn632/cn632 crond(pam_unix)[29767]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn634 Dec 4 15:01:01 cn634/cn634 crond(pam_unix)[29779]: session closed for user root
+1133737261 2005.12.04 cn634 Dec 4 15:01:01 cn634/cn634 crond[29780]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 cn636 Dec 4 15:01:01 cn636/cn636 crond(pam_unix)[29919]: session closed for user root
+1133737261 2005.12.04 cn638 Dec 4 15:01:01 cn638/cn638 crond(pam_unix)[29819]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn638 Dec 4 15:01:01 cn638/cn638 crond[29820]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 cn640 Dec 4 15:01:01 cn640/cn640 crond(pam_unix)[29814]: session closed for user root
+1133737261 2005.12.04 cn648 Dec 4 15:01:01 cn648/cn648 crond(pam_unix)[29810]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn648 Dec 4 15:01:01 cn648/cn648 crond[29811]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 cn649 Dec 4 15:01:01 cn649/cn649 crond[29815]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 cn656 Dec 4 15:01:01 cn656/cn656 crond(pam_unix)[29809]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn656 Dec 4 15:01:01 cn656/cn656 crond[29810]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 cn658 Dec 4 15:01:01 cn658/cn658 crond(pam_unix)[29810]: session closed for user root
+1133737261 2005.12.04 cn658 Dec 4 15:01:01 cn658/cn658 crond(pam_unix)[29810]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn659 Dec 4 15:01:01 cn659/cn659 crond(pam_unix)[29809]: session closed for user root
+1133737261 2005.12.04 cn661 Dec 4 15:01:01 cn661/cn661 crond(pam_unix)[29809]: session closed for user root
+1133737261 2005.12.04 cn662 Dec 4 15:01:01 cn662/cn662 crond(pam_unix)[29810]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn662 Dec 4 15:01:01 cn662/cn662 crond[29811]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 cn663 Dec 4 15:01:01 cn663/cn663 crond(pam_unix)[29810]: session closed for user root
+1133737261 2005.12.04 cn664 Dec 4 15:01:01 cn664/cn664 crond(pam_unix)[29811]: session closed for user root
+1133737261 2005.12.04 cn668 Dec 4 15:01:01 cn668/cn668 crond(pam_unix)[29818]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn668 Dec 4 15:01:01 cn668/cn668 crond[29819]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 cn673 Dec 4 15:01:01 cn673/cn673 crond(pam_unix)[29751]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn679 Dec 4 15:01:01 cn679/cn679 crond(pam_unix)[29742]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn680 Dec 4 15:01:01 cn680/cn680 crond(pam_unix)[29750]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn680 Dec 4 15:01:01 cn680/cn680 crond[29751]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 cn683 Dec 4 15:01:01 cn683/cn683 crond(pam_unix)[29811]: session closed for user root
+1133737261 2005.12.04 cn683 Dec 4 15:01:01 cn683/cn683 crond(pam_unix)[29811]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn683 Dec 4 15:01:01 cn683/cn683 crond[29812]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 cn688 Dec 4 15:01:01 cn688/cn688 crond(pam_unix)[29766]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn688 Dec 4 15:01:01 cn688/cn688 crond[29767]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 cn689 Dec 4 15:01:01 cn689/cn689 crond(pam_unix)[29760]: session closed for user root
+1133737261 2005.12.04 cn691 Dec 4 15:01:01 cn691/cn691 crond(pam_unix)[29759]: session closed for user root
+1133737261 2005.12.04 cn691 Dec 4 15:01:01 cn691/cn691 crond(pam_unix)[29759]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn691 Dec 4 15:01:01 cn691/cn691 crond[29760]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 cn693 Dec 4 15:01:01 cn693/cn693 crond(pam_unix)[29282]: session closed for user root
+1133737261 2005.12.04 cn693 Dec 4 15:01:01 cn693/cn693 crond(pam_unix)[29282]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn699 Dec 4 15:01:01 cn699/cn699 crond(pam_unix)[29833]: session closed for user root
+1133737261 2005.12.04 cn700 Dec 4 15:01:01 cn700/cn700 crond(pam_unix)[29808]: session closed for user root
+1133737261 2005.12.04 cn700 Dec 4 15:01:01 cn700/cn700 crond(pam_unix)[29808]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn700 Dec 4 15:01:01 cn700/cn700 crond[29809]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 cn702 Dec 4 15:01:01 cn702/cn702 crond(pam_unix)[29894]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn703 Dec 4 15:01:01 cn703/cn703 crond(pam_unix)[29869]: session closed for user root
+1133737261 2005.12.04 cn707 Dec 4 15:01:01 cn707/cn707 crond(pam_unix)[29854]: session closed for user root
+1133737261 2005.12.04 cn708 Dec 4 15:01:01 cn708/cn708 crond(pam_unix)[28375]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn710 Dec 4 15:01:01 cn710/cn710 crond(pam_unix)[29854]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn715 Dec 4 15:01:01 cn715/cn715 crond(pam_unix)[29862]: session closed for user root
+1133737261 2005.12.04 cn715 Dec 4 15:01:01 cn715/cn715 crond(pam_unix)[29862]: session opened for user root by (uid=0)
+1133737261 2005.12.04 cn715 Dec 4 15:01:01 cn715/cn715 crond[29863]: (root) CMD (run-parts /etc/cron.hourly)
+1133737261 2005.12.04 cn716 Dec 4 15:01:01 cn716/cn716 crond(pam_unix)[28388]: session closed for user root
