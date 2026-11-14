@@ -1,0 +1,2 @@
+1133740717 2005.12.04 bn171 Dec 4 15:58:37 bn171/bn171 snmpd[7944]: Got trap from peer on fd 13
+1133740718 2005.12.04 dn700 Dec 4 15:58:38 dn700/dn700 ntpd[2235]: synchronized to 10.100.28.250, stratum 3
