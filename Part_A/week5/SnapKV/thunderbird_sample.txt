@@ -1,0 +1,30 @@
+content
+session closed for user root
+session opened for user root by (uid=0)
+(root) CMD (run-parts /etc/cron.hourly)
+session closed for user root
+session opened for user root by (uid=0)
+(root) CMD (run-parts /etc/cron.hourly)
+session closed for user root
+session opened for user root by (uid=0)
+(root) CMD (run-parts /etc/cron.hourly)
+session closed for user root
+session opened for user root by (uid=0)
+(root) CMD (run-parts /etc/cron.hourly)
+session closed for user root
+session opened for user root by (uid=0)
+(root) CMD (run-parts /etc/cron.hourly)
+session closed for user root
+session opened for user root by (uid=0)
+(root) CMD (run-parts /etc/cron.hourly)
+session closed for user root
+session opened for user root by (uid=0)
+(root) CMD (run-parts /etc/cron.hourly)
+session closed for user root
+session opened for user root by (uid=0)
+(root) CMD (run-parts /etc/cron.hourly)
+session closed for user root
+session opened for user root by (uid=0)
+(root) CMD (run-parts /etc/cron.hourly)
+session closed for user root
+session opened for user root by (uid=0)
