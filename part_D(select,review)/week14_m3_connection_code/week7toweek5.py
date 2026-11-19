@@ -4,7 +4,7 @@ import pandas as pd, json, re, glob, os
 from collections import defaultdict
 
 # ---------------- 설정 ----------------
-BASE_DIR    = "/Users/mac/무제 폴더/swm-logpress/part_D(select,review)/week7_logpress_evaluation/chunk_library"        # ★빈칸A: chunk_library 폴더 경로 (네 환경/대여 서버에 맞게)
+BASE_DIR    = "/Users/mac/무제 폴더/swm-logpress/part_D(select,review)/week7_logpress_evaluation/chunk_library"       
 CHUNK_NAME  = "chunk13"
 COMPRESSION = 0.6           # 압축률(= 버리는 비율) 0.5 / 0.7 / 0.9 중 하나
 KEEP_RATIO  = 1 - COMPRESSION   # 보존비(= 남길 라인 비율) = top-k의 k   
