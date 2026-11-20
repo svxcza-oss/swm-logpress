@@ -2,6 +2,14 @@
 
 **[압축기 사용 가이드](LINE_KV_COMPRESSOR_GUIDE.md)** · **[PDF 보고서 목록](output/pdf/README.md)** · **[Part C 전체 안내](../README.md)**
 
+## 2026-11-20 · 32K 청크 비교
+
+- [설계 수정과 실험 결과 PDF](output/pdf/LogPress_32K청크_설계수정과_실험결과_20261120.pdf)
+- [다중 Anchor 선택기](chunk_line_selector.py): 마지막 줄 고정 없이 청크 전체를 평가
+- [비교 실행기](run_chunk_comparison.py) · [결과 요약 JSON](output/chunk_comparison_20261120_summary.json)
+- 기존 방식은 `--mode legacy`, 새 비교 방식은 `--mode chunk`로 실행합니다.
+- 실제 32K 비교는 비Attention 조건입니다. Attention 조건은 저장된 소형 표본에서 별도로 검증했습니다.
+
 ## 현재 압축기와 실험
 
 | 파일 | 역할 |

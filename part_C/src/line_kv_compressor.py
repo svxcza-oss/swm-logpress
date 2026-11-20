@@ -172,17 +172,22 @@ def main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--token-map',required=True)
     parser.add_argument('--source-csv',required=True)
-    parser.add_argument('--line-attention',required=True)
+    parser.add_argument('--line-attention',help='실제 Line Attention .pt. chunk 모드의 비Attention 조건에서는 생략 가능')
+    parser.add_argument('--mode',choices=['legacy','chunk'],default='legacy',help='legacy는 기존 마지막 Anchor, chunk는 다중 Anchor')
+    parser.add_argument('--recency-mode',choices=['end','anchor'],default='end')
+    parser.add_argument('--distance-scale',type=float,default=1024)
+    parser.add_argument('--seed',type=int,default=0)
     parser.add_argument('--window-id',required=True,type=int)
     parser.add_argument('--keep-ratio',type=float,default=.5)
-    parser.add_argument('--weights',nargs=4,type=float,default=[.6,.2,.05,.15],metavar=('RECENT','STRUCTURE','IDENTIFIER','ATTENTION'))
+    parser.add_argument('--weights',nargs=4,type=float,metavar=('RECENT','STRUCTURE','IDENTIFIER','ATTENTION'))
     parser.add_argument('--output',required=True,help='선택 결과 JSON 경로')
     parser.add_argument('--kv-cache',help='선택 사항: legacy (K,V) 목록을 저장한 신뢰하는 .pt 파일')
     parser.add_argument('--kv-output',help='실제 압축 K/V와 원본 위치를 저장할 .pt 경로')
     args=parser.parse_args()
     if bool(args.kv_cache)!=bool(args.kv_output):
         parser.error('--kv-cache와 --kv-output은 함께 지정해야 합니다.')
-    import torch
+    if args.line_attention or args.kv_cache:
+        import torch
     windows=[json.loads(l) for l in Path(args.token_map).read_text(encoding='utf-8').splitlines() if l.strip()]
     matching=[w for w in windows if w.get('window_idx')==args.window_id]
     if len(matching)!=1:
@@ -192,15 +197,30 @@ def main():
         raise ValueError('입력과 토큰 매핑 길이가 다릅니다.')
     with open(args.source_csv,encoding='utf-8-sig',newline='') as f:
         source={int(r['line_id']):{k:v for k,v in r.items() if k!='label'} for r in csv.DictReader(f)}
-    attn=torch.load(args.line_attention,map_location='cpu',weights_only=True)
     ids=list(dict.fromkeys(t['line_id'] for t in window['token_map']))
-    if attn.get('window_idx')!=args.window_id or attn['line_ids']!=ids:
-        raise ValueError('다른 윈도우의 Attention 파일입니다.')
-    scores=anchor_scores(attn['line_attentions'],ids,ids[-1])
-    weights=Weights(*args.weights)
-    selection=select_lines(window['token_map'],source,ids[-1],scores,keep_ratio=args.keep_ratio,weights=weights)
+    attn=None
+    if args.line_attention:
+        attn=torch.load(args.line_attention,map_location='cpu',weights_only=True)
+        if attn.get('window_idx')!=args.window_id or attn['line_ids']!=ids:
+            raise ValueError('다른 윈도우의 Attention 파일입니다.')
+    if args.mode=='legacy':
+        if attn is None: parser.error('legacy 모드는 --line-attention이 필요합니다.')
+        scores=anchor_scores(attn['line_attentions'],ids,ids[-1])
+        weights=Weights(*(args.weights or [.6,.2,.05,.15]))
+        selection=select_lines(window['token_map'],source,ids[-1],scores,keep_ratio=args.keep_ratio,weights=weights)
+        anchor_ids=[ids[-1]]
+    else:
+        from chunk_line_selector import find_anchors,prepare_chunk_features,select_prepared_chunk
+        anchor_ids=find_anchors(ids,source)
+        rows={a:anchor_scores(attn['line_attentions'],ids,a) for a in anchor_ids} if attn is not None else None
+        weights=Weights(*(args.weights or ([0,.25,.25,.5] if attn is not None else [0,.5,.5,0])))
+        prepared=prepare_chunk_features(window['token_map'],source,rows,distance_scale=args.distance_scale)
+        selection=select_prepared_chunk(prepared,keep_ratio=args.keep_ratio,weights=weights,
+                                        recency_mode=args.recency_mode,seed=args.seed)
     result=asdict(selection)
-    result.update(window_id=args.window_id,weights=asdict(weights),used_tokens=selection.used_tokens,
+    result.update(window_id=args.window_id,mode=args.mode,anchor_ids=anchor_ids,
+                  recency_mode=args.recency_mode,distance_scale=args.distance_scale,seed=args.seed,
+                  weights=asdict(weights),used_tokens=selection.used_tokens,
                   original_positions=selection.kept_token_indices,next_position=len(window['input_ids']),
                   note='원본 토큰 위치 기준. 생성용 cache_position/마스크 어댑터는 별도로 필요합니다.')
     if args.kv_cache:
