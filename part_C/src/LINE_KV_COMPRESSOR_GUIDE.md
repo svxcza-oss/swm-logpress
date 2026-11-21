@@ -1,5 +1,47 @@
 # 라인 매핑 기반 KV 압축기
 
+## 2026-11-20: 32K 청크 비교 모드 추가
+
+기존 동작은 `--mode legacy`(기본값)로 유지하고, 마지막 줄 고정이 없는
+`--mode chunk`를 추가했다. 관련 구현은 `chunk_line_selector.py`, 재현 실행기는
+`run_chunk_comparison.py`다. 아래의 기존 기본 가중치/첫 줄 보호 설명은 legacy 모드에 해당한다.
+
+chunk 모드는 본문 키워드로 청크 안의 모든 WARN/ERROR를 찾는다. 각 Anchor는 자기
+이전 줄에만 구조·식별자·Attention 점수를 준다. 후보마다 실제 관측 가능한 이후
+Anchor 수로 나눈다. 자기 자신과 미래 Key는 집계하지 않으며, 모든 Anchor를 자동
+보호하지 않는다. 완료된 청크 전체를 분석하는 오프라인 정책이며 온라인 정책은 아니다.
+
+- 모든 줄을 보존 후보와 Alert 평가 대상으로 삼는다. 첫 줄/마지막 줄 보호는 없다.
+- 구조/식별자는 Anchor별 일치 점수 평균이다. Attention은 Anchor마다 이전 후보
+  범위에서 min-max 정규화한 뒤 후보별 유효 Anchor에 대해 평균한다.
+- 이후 Anchor가 없는 줄은 Anchor 기반 점수가 0이다. 마지막 Alert를 놓칠 수 있어
+  후속 평가가 필요하다. Anchor가 없는 청크의 비최근성 조건은 고정 해시 순서로 선택한다.
+- 동점은 seed와 line_id의 SHA-256 순서로 처리한다. 최근성 0 조건에 숨은 최근성
+  우선순위가 들어가지 않게 한 비교용 규칙이며 hash 순서 자체가 의미 중요도는 아니다.
+- chunk 기본 가중치: Attention이 없으면 `[0,.5,.5,0]`, 있으면 `[0,.25,.25,.5]`.
+  둘 다 최적값이 아니라 비교 조건이다. Attention을 생략했는데 해당 가중치를 양수로
+  지정하면 오류를 낸다. 없는 Attention을 가짜 값으로 대신하지 않는다.
+- `--recency-mode anchor`: 후보와 이후 Anchor 사이 토큰 거리 d에 대해
+  exp(-d/1024)를 계산하고 유효 Anchor 평균을 사용한다. 1024는 탐색 설정이며
+  `--distance-scale`로 바꿀 수 있다. end 모드는 기존 청크 끝 기준 순번이다.
+
+```powershell
+python run_chunk_comparison.py
+python run_chunk_comparison.py --small-attention
+python line_kv_compressor.py --mode chunk --token-map examples/chunk_comparison_20261120/chunk12_token_map.jsonl --source-csv examples/thunderbird_pilot_20261114_135108/source.csv --window-id 12 --keep-ratio .5 --output output/chunk12_selection.json
+python -m pytest test/test_chunk_line_selector.py test/test_line_kv_compressor.py -q
+```
+
+재현에는 기존 로컬 원본 스냅샷, source.csv, Qwen tokenizer 캐시가 필요하며 소형
+Attention 비교에는 저장된 line_attention 파일과 PyTorch가 추가로 필요하다.
+32K 모델 Attention 추론은 실행하지 않았다. 실제 32K 청크 14개 중 정답이 있는
+2개(91 Alert)의 50% 예산 macro recall은 최근성 73.15%, 다중 Anchor 구조·식별자
+97.72%였다. 마지막 짧은 청크는 이 평균에서 제외했다. 테스트는 18개 통과했다.
+소형 표본의 다중 Anchor Attention은 최근성보다 우수하지 않았다. 평가 대상과
+보호 정책이 이전 실험과 달라 이전 7개/12 Alert 수치와 직접 비교하지 않는다.
+
+이 모드는 비교 실험용이다. 실제 32K Attention 추론과 압축 후 모델 생성은 검증하지 않았다.
+
 ## 구현 범위
 
 `line_kv_compressor.py`는 최근성, 호스트·컴포넌트, 오류 코드·식별자,
