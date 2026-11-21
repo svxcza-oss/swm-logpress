@@ -25,7 +25,7 @@ import torch
 # ① 블록와이즈용 추가 import ----------------------------------
 import math
 from transformers.models.llama.modeling_llama import repeat_kv
-from kvpress.utils import get_query_states
+from kvpress.utils import get_query_states 
 
 
 # ============================================================
@@ -63,32 +63,33 @@ class TrackingObservedAttentionPress(ObservedAttentionPress):
     #    원본 ObservedAttentionPress.score 는 attentions(N×N) 전체를 씀.
     #    여기선 attentions 없이, query를 블록으로 나눠 '각 key가 받은 어텐션 합'을 누적.
     #    최종 정규화(÷ n_tokens_in_sum, 헤드그룹 평균)는 원본과 '똑같이' 맞춤.
-    def score(self, module, hidden_states, keys, values, attentions, kwargs):
-        bsz, num_kv_heads, k_len, head_dim = keys.shape
-        num_heads = module.config.num_attention_heads
-        groups = num_heads // num_kv_heads
+    def score(self, module, hidden_states, keys, values, attentions, kwargs): 
+        bsz, num_kv_heads, k_len, head_dim = keys.shape #keys 모양에서 숫자 꺼냄
+        num_heads = module.config.num_attention_heads # 쿼리 헤드 수 
+        groups = num_heads // num_kv_heads # 쿼리헤드가 kv헤드 몇개씩 공유(GQA)
 
-        cos, sin = kwargs["position_embeddings"]
+        cos, sin = kwargs["position_embeddings"] # RoPE용 위치정보
         q = get_query_states(module, hidden_states, (cos, sin))   # [B, H, N, d] (RoPE 적용됨)
         k = repeat_kv(keys, groups)                               # [B, H, k_len, d] (GQA 복제)
-        N = q.shape[2]
-        scale = 1.0 / math.sqrt(head_dim)
+        N = q.shape[2]                                             # query 개수(= 토큰수)
+        scale = 1.0 / math.sqrt(head_dim)                          # 어텐션 스케일
 
         # 각 key가 '모든 query'로부터 받은 어텐션 합 = eager의 attentions.sum(2)
-        acc = torch.zeros(bsz, num_heads, k_len, device=keys.device, dtype=torch.float32)
-        k_pos = torch.arange(k_len, device=keys.device).view(1, 1, 1, -1)
+        acc = torch.zeros(bsz, num_heads, k_len, device=keys.device, dtype=torch.float32) #결과를 담을 곳
+        k_pos = torch.arange(k_len, device=keys.device).view(1, 1, 1, -1)                 # 각 key의 위치번호
 
         for s in range(0, N, self.block_size):                   # ← query 블록 루프
             e = min(s + self.block_size, N)
             qb = q[:, :, s:e, :]
-            logits = torch.matmul(qb, k.transpose(2, 3)) * scale # [B, H, bq, k_len]
+            logits = torch.matmul(qb, k.transpose(2, 3)) * scale # [B, H, bq, k_len] 이 쿼리들이 각 키를 얼마나 보나?(원점수)
             q_pos = torch.arange(s, e, device=keys.device).view(1, 1, -1, 1)
-            logits = logits.masked_fill(k_pos > q_pos, float("-inf"))   # causal mask
+            logits = logits.masked_fill(k_pos > q_pos, float("-inf"))   # causal mask (미래키는 못보게 막음)
             probs = torch.softmax(logits, dim=-1, dtype=torch.float32)  # fp32
             acc += probs.sum(dim=2)                              # query축 합 누적
-            del logits, probs
+            del logits, probs                                   # 메모리 해제
 
         # --- 원본 ObservedAttentionPress.score 와 '동일한' 정규화 ---
+        #kvpress 원본 observedattentionpress.score 그대로 복사
         n_tokens_in_sum = torch.arange(k_len, 0, -1, device=acc.device, dtype=acc.dtype)
         scores = acc / n_tokens_in_sum
         scores = scores.view(bsz, num_kv_heads, -1, k_len).mean(2)   # 헤드그룹 평균
